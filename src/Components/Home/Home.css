@@ -1,0 +1,189 @@
+/* Home.css */
+
+.Home-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  padding: 100px;
+  position: relative;
+  left: 20px;
+}
+
+.about-me {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  gap: 0; /* Set gap to 0 to remove gaps between child elements */
+  display: flex;
+  flex-direction: column; /* Ensure it's a column layout */
+  align-items: start; /* Center items horizontally */
+}
+
+.highlight {
+  color: rgb(18, 197, 202);
+}
+
+.Head-About {
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Profession {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Adjust the spacing between profession items */
+}
+
+.Profession p {
+  padding: 3px;
+  font-size: 17px;
+  background-color: rgb(91 194 213 / 50%);
+  border-radius: 2px;
+}
+
+.My-Thought {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.Chat {
+  margin-top: 20px;
+}
+
+.My-Profile {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column; /* Ensure it's a column layout */
+  align-items: center; /* Center items horizontally */
+  max-width: 400px; /* Set a max-width for better control */
+  width: 100%; /* Ensure it takes the full width of its parent */
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+}
+
+.My-Images img {
+  max-width: 100%;
+  /* Make sure the image doesn't exceed its container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+}
+
+.button {
+  font-size: 15px;
+  position: relative;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(47 110 145);
+  transition: all 0.2s ease;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.button:before,
+.button:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+.button:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, rgb(18, 197, 202) 20%, transparent 30%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, rgb(18, 197, 202) 15%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.button:hover::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, rgb(18, 197, 202) 15%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: greenbottomBubbles 0.6s ease;
+}
+
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .Home-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+    padding-top: 35px;
+
+  }
+
+  .about-me {
+    align-items: start;
+  }
+
+  .My-Profile {
+    position: relative;
+    top: 80px;
+    left: 0;
+    padding: 60px;
+  }
+  
+}

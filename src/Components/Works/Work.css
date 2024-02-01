@@ -1,0 +1,63 @@
+.Work-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.Work{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.Work-Head {
+  padding: 10px;
+}
+
+.Work-Head .Text-description{
+  font-size: 15px;
+}
+
+.Text{
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Text span{
+  color: rgb(18, 197, 202);
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 912px;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 990px) {
+  .Work-Container {
+    padding: 10px; /* Adjust padding for mobile view */
+    position: relative;
+    top: 325px;
+  }
+
+  .Work-Head {
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+
+  .Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Cards > .card {
+    width: 100%;
+    margin-bottom: 10px; /* Adjust margin for mobile view */
+  }
+}
