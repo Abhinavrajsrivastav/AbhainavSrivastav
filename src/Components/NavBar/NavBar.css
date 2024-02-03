@@ -2,10 +2,12 @@
 
 body.dark-mode {
     background-color: #0a1d2df7;
+    color: white;
 }
 
 body.light-mode {
     background-color: white;
+    color: black;
 }
 
 .dark-mode .Container {
@@ -26,13 +28,13 @@ body.light-mode {
     font-family: 'El Messiri', sans-serif;
     background-color: #0b2133f7;
     color: white;
-    padding: 10px;
+    padding: 0px;
     box-shadow: 0px 0px 10px 0px rgba(39, 41, 41, 0.75);
 }
 
 .Name {
-    margin-left: 5px;
-    font-size: 29px;
+    margin-left: 0px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -41,8 +43,8 @@ body.light-mode {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
-    font-size: 15px;
+    gap: 18px;
+    font-size: 18px;
     font-weight: bold;
 }
 
