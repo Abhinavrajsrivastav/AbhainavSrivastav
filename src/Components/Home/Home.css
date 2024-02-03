@@ -1,9 +1,11 @@
 /* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 
 .Home-Container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; 
+  font-family: 'El Messiri', sans-serif;
   padding: 100px;
   position: relative;
   left: 20px;
@@ -165,25 +167,35 @@
 }
 
 /* Media Query for Mobile View */
-@media (max-width: 768px) {
+@media(max-width: 600px) {
   .Home-Container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 10px;
-    padding-top: 35px;
-
+    padding: 0px;
+    padding-top: 15px;
   }
 
-  .about-me {
-    align-items: start;
+  .highlight {
+     font-size: 2.5rem;
   }
+
 
   .My-Profile {
     position: relative;
-    top: 80px;
-    left: 0;
-    padding: 60px;
+    top: 60px;
+    left:  0px;
+    padding-bottom: 70px;
   }
   
+}
+
+@media (min-width: 600px) and (max-width: 1005px){
+  .Home-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-top: 60px;
+  }
 }

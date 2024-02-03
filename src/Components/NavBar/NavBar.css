@@ -24,12 +24,13 @@ body.light-mode {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+
     font-family: 'El Messiri', sans-serif;
     background-color: #0b2133f7;
     color: white;
-    padding: 0px;
+    padding: 10px;
     box-shadow: 0px 0px 10px 0px rgba(39, 41, 41, 0.75);
+    width: 103%;
 }
 
 .Name {
@@ -42,7 +43,7 @@ body.light-mode {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     gap: 18px;
     font-size: 18px;
     font-weight: bold;
@@ -56,6 +57,12 @@ body.light-mode {
     cursor: pointer;
     opacity: 0.7;
     transition: 0.1s ease-in-out;
+}
+
+.N p {
+  position: relative;
+  top: 6px;
+  left: 2px;
 }
 
 .N:hover {
@@ -72,13 +79,111 @@ body.light-mode {
 }
 
 .Theme {
-    align-items: center;
+    align-items: start;
     margin-left: 0px;
 }
 
 .Theme img {
-    height: 15px;
-    width: 15px;
+    height: 17px;
+    width: 17px;
     margin-top: 8px;
 }
 
+/* Existing styles */
+
+body.menu-open .Container {
+  display: flex;
+}
+
+body.menu-open .Navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+body.menu-open .Theme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Additional styles for the menu toggle icon */
+.ToggleMenu {
+  cursor: pointer;
+  display: none; /* Initially hide the toggle button on larger screens */
+}
+
+@media (max-width: 1005px) {
+  .ToggleMenu {
+    display: flex;
+    position:relative;
+    left: 0px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 110%;
+    align-items: start;
+    padding: 10px;
+  }
+
+  .Name span {
+    margin-left: 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.Navigation{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0px;
+    font-size: 10px;
+    position:relative;
+    left: 10px;
+}
+
+
+.Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Center the content vertically */
+    padding: 5px 10px 0px 8px;
+    width: 100%;
+}
+
+.Name div {
+    margin-right: 10px; /* Adjust the margin value as needed */
+}
+
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px; /* Adjust the gap value as needed */
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+}
+
+.N p {
+   position: relative;
+   top: 10px;
+}
+
+.Theme img {
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    position: relative;
+    top: -10px;
+}
+
+}

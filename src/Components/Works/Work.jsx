@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Cards/Card';
 import './Work.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Work = () => {
   return (
@@ -15,6 +16,7 @@ const Work = () => {
         <Card />
         <Card />
       </div>
+      <button className="btn btn-dark border-0 " style={{ backgroundColor: '#24ad9d' }}>View All Projects</button>
       </div>
     </div>
   );

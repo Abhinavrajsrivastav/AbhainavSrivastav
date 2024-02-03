@@ -3,42 +3,92 @@
   border: 1px solid #e1e1e1;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: rgba(40, 78, 78, 0.639);
+  background-color: rgba(255, 255, 255, 0.639);
   padding: 20px;
   margin: 10px;
   width: 270px;
-  height: auto;
+  height: 300px;
   flex: 3;
   overflow: hidden;
   position: relative;
-  max-width: 400px; /* Maximum width on desktop */
+  max-width: 1000px; /* Maximum width on desktop */
+  max-height: 400px;
   min-width: 200px;
 }
 
 .Work-Img {
-  width: auto;
-  height: 220px;
-  object-fit: cover;
-  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: relative;
   overflow: hidden;
+  background: fixed;
 }
 
-img {
-  height: auto;
-  width: auto;
+.Work-Img .Projects-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Projects-img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   transition: transform 0.2s ease-in-out;
   z-index: -1000;
 }
 
-img:hover {
+.Projects-img:hover {
   transform: scale(1.1);
 }
 
+.Tools-img {
+  position: absolute;
+  bottom: -19px;
+  right: -16px;
+  margin: 25px;
+  height: 60px;
+  width: 60px;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px;
+}
+
 /* Media Query for Mobile View */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .card {
-    width: 400px;
-    height: 310px;
+    width: 100%; /* Full width in mobile view */
+    height: 400px; /* Adjust the height as needed */
+  }
+
+  .Tools-img {
+    margin: 10px; /* Adjust margin as needed */
+    position: absolute;
+    bottom: 0px;
+    right: 4px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .Work-Img {
+    height: 600px; /* Increase the height of the parent container */
+    width: auto; /* Auto width to maintain aspect ratio */
+    object-fit: contain; /* Ensure entire image is shown */
+  }
+
+  .card-content {
+    padding-top: 10px; /* Add some padding for better spacing */
+  }
+
+  span {
+    font-size: 16px; /* Adjust font size as needed */
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1005px){
+  .card {
+    width: 270px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
   }
 }

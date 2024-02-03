@@ -18,12 +18,10 @@ const Home = () => {
     <div className="Home-Container">
       <div className="about-me">
         <div className="Head-About">
-          <>
             <span className="highlight">Coding</span> &amp;
             <br className="break-line" />
             <span className="highlight">Storytelling</span>:
             <br /> That's what I do!
-          </>
         </div>
         <div className="Profession">
           <p>Engineering</p>
