@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
       <div className="My-Profile">
-        <p className="">🎉🎉</p>
+        <p className="wooo">🎉🎉</p>
         {Deck && <Deck />}
       </div>
     </div>

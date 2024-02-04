@@ -4,9 +4,7 @@ import { useDrag } from "react-use-gesture";
 import styles from "./styles.module.css";
 
 const cards = [
-  "/images/Traveler.jpg",
-  "/images/Engineers.jpg",
-  "/images/Teacher.jpg"
+  "/images/About-Me/meet-me.png"
 ];
 
 const to = (i) => ({
