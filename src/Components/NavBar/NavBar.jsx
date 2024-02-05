@@ -4,6 +4,7 @@ import './NavBar.css';
 const NavBar = () => {
   const [Theme, setTheme] = useState(true);
   const [toggle, setToggle] = useState(false);
+  const [menu, setMenu] = useState(false);
   const name = "Abhinav";
   const OpenC = "<";
   const CloseC = "/>";
@@ -20,6 +21,7 @@ const NavBar = () => {
   };
 
   const toggleMenu = () => {
+    setMenu(!menu);
     setToggle(!toggle);
     document.body.classList.toggle('menu-open');
   };
@@ -33,7 +35,7 @@ const NavBar = () => {
         <span style={{ color: 'rgb(18, 197, 202)' }}>{CloseC}</span>
         </div>
         <div className="ToggleMenu" onClick={toggleMenu}>
-        <img src="./images/menu.png" alt="Toggle Menu" />
+        <img src={menu?"./images/cross.png":"./images/menu.png"} alt="Toggle Menu" />
         </div>
       </div>
       {window.screen.width <= 1005 ? (

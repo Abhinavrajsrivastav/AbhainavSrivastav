@@ -1,0 +1,42 @@
+.Card-Container{
+  position: relative;
+  left: -16px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #315b7edb;
+  padding: 12px;
+  margin: 10px;
+  width: 270px;
+  height: auto;
+  max-width: 1000px; /* Maximum width on desktop */
+  max-height: 400px;
+  min-width: 200px;
+}
+
+.Card-Head{
+    padding: 10px 0px 10px 0px;
+}
+
+.Card-Head span{
+    font-size: 20px;
+}
+
+.Card-Body{
+
+}
+
+.Card-Bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+
+@media (max-width: 1000px){
+    .Card-Container{
+        width: 100%;
+        max-width: 100%;
+        left: 20px;
+    }
+}

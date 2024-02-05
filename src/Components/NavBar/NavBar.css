@@ -114,6 +114,8 @@ body.menu-open .Theme {
   display: none; /* Initially hide the toggle button on larger screens */
 }
 
+
+
 @media (max-width: 1005px) {
   .ToggleMenu {
     display: flex;
@@ -146,6 +148,7 @@ body.menu-open .Theme {
     gap: 0px;
     font-size: 10px;
     position:relative;
+    top: 5px;
     left: 10px;
 }
 

@@ -6,7 +6,7 @@
   justify-content: flex-start;
   font-family: 'El Messiri', sans-serif;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .Work{
@@ -18,7 +18,7 @@
 
 .Work-Head {
   position: relative;
-  left: -115px;
+  left: -133px;
   padding: 10px;
   justify-content: flex-start;
 }
@@ -40,13 +40,17 @@
 .Cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 912px;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  left: -18px;
+  max-width: 1000px;
 }
 
 .cta {
   position: relative;
+  left: -4px;
+  top: -20px;
   margin: 45px;
   padding: 15px 18px;
   transition: all 0.2s ease;
@@ -103,7 +107,11 @@
 
 
 /* Media Query for Mobile View */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+
+  .cta{
+    left: 20px;
+  }
   .Work-Container {
     padding: 10px; /* Adjust padding for mobile view */
     position: relative;
@@ -120,6 +128,8 @@
   .Cards {
     flex-direction: column;
     align-items: center;
+    width: 105%;
+    left: 0px;
   }
 
   .Cards > .card {
