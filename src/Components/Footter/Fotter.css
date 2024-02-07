@@ -16,7 +16,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 20px; /* Add padding for better spacing */
+    padding: 30px 10px 30px 0px; /* Add padding for better spacing */
     gap: 0px;
 }
 
@@ -61,8 +61,8 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
-    gap: 40px;
-    padding-right: 30px
+    gap: 50px;
+    padding-right: 70px
 }
 
 .FC {
@@ -77,6 +77,7 @@
 
 .FC p{
     font-size: 15px;
+    width: auto;
 }
 
 .Fotter-Licence {
@@ -84,7 +85,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 110%;
     padding: 20px;
     margin-top: 20px;
     border-top: 1px solid #7c7474ac;
@@ -132,14 +133,18 @@
 /* Fotter.css */
 @media (max-width: 1005px) {
     .Fotter-Container {
+        display: flex;
+        flex-wrap: wrap;
         margin-top: 250px;
-        width: 110%; 
+        width: 105%; 
         align-items: center;
+        overflow-x: hidden;
     }
 
     .Fotter {
         gap: 35px;
     }
+
 
     .Brand span {
         font-size: 20px;
@@ -149,11 +154,13 @@
 
     .FC{
         position: relative;
-        left: -22px;
+        left:  0px;
     }
 
     .Fotter-Licence {
         align-items: center;
         text-align: center;
+        position: relative;
+        right: 20px;
     }
 }

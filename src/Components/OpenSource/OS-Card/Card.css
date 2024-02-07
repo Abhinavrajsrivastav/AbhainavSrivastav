@@ -1,6 +1,6 @@
 .Card-Container{
   position: relative;
-  left: -16px;
+  left: 0px;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #315b7edb;
@@ -11,6 +11,11 @@
   max-width: 1000px; /* Maximum width on desktop */
   max-height: 400px;
   min-width: 200px;
+  transition: box-shadow 0.3s ease-in-out; /* Add transition for smoother effect */
+}
+
+.Card-Container:hover{
+  box-shadow: 0 0 10px rgb(1, 114, 167); /* Adjust the values as needed */
 }
 
 .Card-Head{
@@ -21,9 +26,6 @@
     font-size: 20px;
 }
 
-.Card-Body{
-
-}
 
 .Card-Bottom{
     display: flex;
@@ -37,6 +39,6 @@
     .Card-Container{
         width: 100%;
         max-width: 100%;
-        left: 20px;
+        left: 0px;
     }
 }

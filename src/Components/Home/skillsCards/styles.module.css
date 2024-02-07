@@ -20,7 +20,7 @@
   max-height: 450px; /* Set a maximum height */
   will-change: transform;
   border-radius: 10px;
-  box-shadow: 0 12.5px 60px -10px rgba(50, 50, 73, 0.4),
+  box-shadow: 0 12.5px 60px -10px rgba(3, 157, 253, 0.497),
     0 10px 20px -10px rgba(50, 50, 73, 0.3);
 }
 

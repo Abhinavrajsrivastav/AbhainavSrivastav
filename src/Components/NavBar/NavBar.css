@@ -7,7 +7,11 @@ body.dark-mode {
 
 body.light-mode {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+
+document.body.bg-video{
+    opacity: 0;
 }
 
 .dark-mode .Container {
@@ -24,13 +28,22 @@ body.light-mode {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
     font-family: 'El Messiri', sans-serif;
     background-color: #0b2133f7;
     color: white;
     padding: 10px;
     box-shadow: 0px 0px 10px 0px rgba(39, 41, 41, 0.75);
-    width: 103%;
+    width: 105%;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    right: 30px;
 }
 
 .Name {
@@ -114,7 +127,15 @@ body.menu-open .Theme {
   display: none; /* Initially hide the toggle button on larger screens */
 }
 
+.Navigation a {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
 
+.Navigation a:hover {
+  color: inherit;
+}
 
 @media (max-width: 1005px) {
   .ToggleMenu {
@@ -129,9 +150,12 @@ body.menu-open .Theme {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 110%;
+    width: 105%;
     align-items: start;
     padding: 10px;
+    overflow-x: hidden;
+    position: relative;
+    right:  0px;
   }
 
   .Name span {
@@ -139,18 +163,7 @@ body.menu-open .Theme {
     font-size: 30px;
     font-weight: bolder;
     margin-top: 5px;
-}
-
-.Navigation{
-    display:flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 0px;
-    font-size: 10px;
-    position:relative;
-    top: 5px;
-    left: 10px;
-}
+  }
 
 
 .Name {

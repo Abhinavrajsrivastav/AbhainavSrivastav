@@ -3,12 +3,20 @@
 
 .Home-Container {
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  font-family: 'El Messiri', sans-serif;
+  gap: 90px;
+  position: relative;
+  left: 20px;
+}
+
+.Home-Head{
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; 
   font-family: 'El Messiri', sans-serif;
-  padding: 100px;
-  position: relative;
-  left: 20px;
+  margin: 80px 0px 0px 0px;
 }
 
 .about-me {
@@ -19,6 +27,11 @@
   display: flex;
   flex-direction: column; /* Ensure it's a column layout */
   align-items: start; /* Center items horizontally */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left: 40px;
 }
 
 .highlight {
@@ -33,12 +46,36 @@
 
 .Profession {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10px; /* Adjust the spacing between profession items */
 }
 
+.element-1{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.element-2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.element-2 img{
+  height: 25px;
+  width: 25px;
+}
+
+.Astronomy{
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  Left: 5px;
+}
+
 .Profession p {
-  padding: 3px;
+  padding: 4px;
   font-size: 17px;
   background-color: rgb(91 194 213 / 50%);
   border-radius: 2px;
@@ -46,7 +83,7 @@
 
 .My-Thought {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .Chat {
@@ -54,13 +91,15 @@
 }
 
 .My-Profile {
-  padding-top: 65px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column; /* Ensure it's a column layout */
   align-items: center; /* Center items horizontally */
   max-width: 400px; /* Set a max-width for better control */
   width: 100%; /* Ensure it takes the full width of its parent */
   box-sizing: border-box; /* Include padding and border in the total width/height */
+  position: relative;
+  right: 35px;
 }
 
 .My-Images img {
@@ -171,13 +210,24 @@
 }
 
 /* Media Query for Mobile View */
-@media(max-width: 600px) {
+@media(max-width: 1005px) {
   .Home-Container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 0px;
     padding-top: 15px;
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    gap: 20px;
+  }
+
+  .about-me {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 350px;
   }
 
   .highlight {
@@ -188,18 +238,31 @@
   .My-Profile {
     position: relative;
     top: 60px;
-    left:  0px;
+    left:  10px;
     padding-bottom: 70px;
+  }
+
+  .Home-Head{
+    margin: 0px;
   }
   
 }
 
-@media (min-width: 600px) and (max-width: 1005px){
+@media (max-width: 1000px) and (min-width: 800px){
   .Home-Container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 40px;
-    padding-top: 60px;
+    padding: 50px;
+    padding-top: 25px;
   }
+
+  .My-Profile{
+    padding-top: 70px;
+    padding-left: 180px;
+  }
+
+  .about-me{
+    position: relative;
+    top: 70px;
+    left: 35px;
+  }
+
 }

@@ -16,6 +16,8 @@ const Work = () => {
         <Card />
         <Card />
       </div>
+      
+      </div>
       <button className="cta">
        <span className="Text" style={{}} >View All Talks</span>
        <svg width="15px" height="10px" viewBox="0 0 13 10">
@@ -23,7 +25,6 @@ const Work = () => {
        <polyline points="8 1 12 5 8 9"></polyline>
        </svg>
       </button>
-      </div>
     </div>
   );
 }
