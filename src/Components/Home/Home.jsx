@@ -52,7 +52,7 @@ const Home = () => {
         {Deck && <Deck />}
       </div>
       </div>
-    <div classNane="Home-Body">
+    <div className="Home-Body">
     <Work />
     <Work />
     <OpenSource />

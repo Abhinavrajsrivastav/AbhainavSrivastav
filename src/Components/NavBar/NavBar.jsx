@@ -55,7 +55,7 @@ const NavBar = () => {
               <p>.</p>
             </div>
             <div className="Works N">
-              <Link to="/Works">
+              <Link to="/WorkPage">
                 <span>Works</span>
                 </Link>
               <p>.</p>
@@ -95,7 +95,7 @@ const NavBar = () => {
             <p>.</p>
           </div>
           <div className="Works N">
-            <Link to="/Works">
+            <Link to="/WorkPage">
               <span>Works</span>
             </Link>
             <p>.</p>
