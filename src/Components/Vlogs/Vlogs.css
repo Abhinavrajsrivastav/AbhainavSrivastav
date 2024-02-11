@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+.Work-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'El Messiri', sans-serif;
+  align-items:  center;
+  padding: 30px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: 0px;
+  right: 12px;
+}
+
+.Work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Work-Head {
+  position: relative;
+  justify-content: flex-start;
+  align-self: flex-start;
+  right: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+.Work-Head .Text-description{
+  font-size: 15px;
+}
+
+.Text{
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Text span{
+  color: rgb(18, 197, 202);
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  left: -18px;
+  max-width: 1000px;
+}
+
+.cta {
+  position: relative;
+  left: -4px;
+  top: -20px;
+  margin: 45px;
+  padding: 15px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: rgb(47 110 145);
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: rgb(47 110 145);
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+
+/* Media Query for Mobile View */
+@media (max-width: 1000px) {
+
+  .cta{
+    left: 20px;
+  }
+  .Work-Container {
+    padding: 10px; /* Adjust padding for mobile view */
+    position: relative;
+    top: 325px;
+    align-self: start;
+    left: 0px;
+  }
+
+  .Work-Head {
+    margin-bottom: 0px; /* Add margin for spacing */
+    position: relative;
+    right: 0px;
+  }
+
+  .Cards {
+    flex-direction: column;
+    align-items: center;
+    width: 105%;
+    left: 0px;
+  }
+
+  .Cards > .card {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px; /* Adjust margin for mobile view */
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 800px){
+  .Work-Container{
+    top: 100px;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+}

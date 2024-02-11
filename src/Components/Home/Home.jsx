@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import Work from '../Works/Work';
 import OpenSource from '../OpenSource/OpenSource'
+import Vlogs from '../Vlogs/Vlogs';
 
 const Home = () => {
   const [Deck, setDeck] = useState(null);
@@ -53,8 +54,8 @@ const Home = () => {
       </div>
       </div>
     <div className="Home-Body">
-    <Work />
-    <Work />
+    <Work  heading={"Feature Works"} subHeading={"Here are some of the projects I've worked on, utilizing a variety of technologies and frameworks."}/>
+    <Vlogs heading={"Vlogs"} subHeading={"Here are some of the Vlogs I have written."}/>
     <OpenSource />
     </div>
     </div>

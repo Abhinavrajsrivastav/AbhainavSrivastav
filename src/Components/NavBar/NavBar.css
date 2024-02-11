@@ -72,6 +72,14 @@ document.body.bg-video{
     transition: 0.1s ease-in-out;
 }
 
+.N:active {
+    opacity: 1;
+}
+
+.N::after{
+  opacity: 1;
+}
+
 .N p {
   position: relative;
   top: 6px;
