@@ -65,7 +65,9 @@ const NavBar = () => {
               <p>.</p>
             </div>
             <div className="Blogs N">
-              <span>Blogs</span>
+              <Link to="/Achievements">
+                <span>Achievements</span>
+              </Link>
               <p>.</p>
             </div>
             <div className="Contacts N">

@@ -21,7 +21,7 @@ const Card = ({
       </div>
       <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
         {src !== "" && (
-          <a href="https://5b9b53e8-7b60-47db-b04f-9246cbc3696f.e1-us-east-azure.choreoapps.dev" target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: '#091224c4' }}>
+          <a href={link} target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: '#091224c4' }}>
             <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
             View
           </a>

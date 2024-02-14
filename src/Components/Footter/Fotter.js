@@ -28,7 +28,7 @@ const Fotter = () => {
                         <a href="">About</a>
                         <a href="">Resume</a>
                         <a href="/contact">Contact</a>
-                        <a href="/resume">Testimonials</a>
+                        <a href="/Achievements">Achievements</a>
                     </div>
                     <div className="Fotter-Projects FC">
                         <p>Projects<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
