@@ -60,10 +60,10 @@ const NavBar = () => {
                 </Link>
               <p>.</p>
             </div>
-            <div className="Vlogs N">
+            {/* <div className="Vlogs N">
               <span>Vlogs</span>
               <p>.</p>
-            </div>
+            </div> */}
             <div className="Blogs N">
               <Link to="/Achievements">
                 <span>Achievements</span>
@@ -102,10 +102,10 @@ const NavBar = () => {
             </Link>
             <p>.</p>
           </div>
-          <div className="Vlogs N">
+          {/* <div className="Vlogs N">
             <span>Vlogs</span>
             <p>.</p>
-          </div>
+          </div> */}
           <div className="Achivements N">
            <Link to="/Achievements">
             <span>Achivements</span>

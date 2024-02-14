@@ -1,0 +1,198 @@
+/* AchivementsCard.css */
+
+.Page-card {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #315b7edb;
+  padding: 12px;
+  padding-bottom: 0px;
+  margin: 10px;
+  width: 300px;
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+  max-width: 1000px;
+  min-width: 200px;
+  transition: box-shadow 0.3s ease-in-out;
+  gap: 10px;
+}
+
+.Page-Work-Img {
+  width: auto;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  background: fixed;
+  padding-bottom: 0px;
+}
+
+.Page-Work-Img .Page-Projects-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Page-Projects-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+  z-index: -1000;
+}
+
+.Page-Projects-img:hover {
+  transform: scale(1.1);
+}
+
+.Page-Tools-img {
+  position: absolute;
+  bottom: -22px;
+  right: -22px;
+  margin: 25px;
+  height: 30px;
+  width: 30px;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.Page-card-content {
+  padding-top: 20px;
+}
+
+.Page-card-content .Page-Project-Name {
+  padding-top: 20px;
+}
+
+.Achive-Fotter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: -10px;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: auto;
+  width: auto;
+  padding-top: 0px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  justify-content: start;
+  gap: 2px;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #fff;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 1005px) {
+  .Page-card {
+    width: 380px;
+    height: 450px;
+    position: relative;
+    left: 9px;
+    max-height: 450px;
+    gap: 0px;
+  }
+
+  .Page-Tools-img {
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 4px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .Page-Work-Img {
+    height: 240px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .Page-card-content {
+    padding-top: 20px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+}
