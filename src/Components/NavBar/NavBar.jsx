@@ -104,8 +104,10 @@ const NavBar = () => {
             <span>Vlogs</span>
             <p>.</p>
           </div>
-          <div className="Blogs N">
-            <span>Blogs</span>
+          <div className="Achivements N">
+           <Link to="/Achievements">
+            <span>Achivements</span>
+            </Link>
             <p>.</p>
           </div>
           <div className="Contacts N">

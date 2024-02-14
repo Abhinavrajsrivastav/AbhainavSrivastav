@@ -7,6 +7,7 @@ import Contact from './Components/Contacts/Contacts';
 import Footer from './Components/Footter/Fotter';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WorkPage from './Components/Works/WorkPage';
+import Achivements from './Components/Achivements/Achivements';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/WorkPage" element={<WorkPage />} />
         <Route path="/open-source" element={<OpenSource />} />
         <Route path="/Vlogs" element={<Vlogs />} />
+        <Route path="/Achievements" element={<Achivements />} /> 
         <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />

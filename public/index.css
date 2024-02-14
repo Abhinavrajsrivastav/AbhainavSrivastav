@@ -7,4 +7,6 @@ body{
   font-family: 'El Messiri', sans-serif;
   align-items: center;
   overflow-x: hidden;
+  position: relative;
+  left: 0px;
 }
