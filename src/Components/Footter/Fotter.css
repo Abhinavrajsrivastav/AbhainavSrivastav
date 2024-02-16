@@ -136,6 +136,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 250px;
+        padding-left: 20px;
         width: 105%; 
         align-items: center;
         overflow-x: hidden;
@@ -144,7 +145,11 @@
     .Fotter {
         gap: 35px;
     }
-
+ 
+    .Contact-Me{
+        position: relative;
+        right: 10px;
+    }
 
     .Brand span {
         font-size: 20px;
@@ -157,10 +162,11 @@
         left:  0px;
     }
 
-    .Fotter-Licence {
+    .Licence {
+        justify-self: center;
         align-items: center;
         text-align: center;
         position: relative;
-        right: 20px;
+        right: 0px;
     }
 }

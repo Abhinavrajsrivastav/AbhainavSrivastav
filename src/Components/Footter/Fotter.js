@@ -25,34 +25,38 @@ const Fotter = () => {
                     <div className="Fotter-General FC">
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Home</a>
-                        <a href="">About</a>
+                        <a href="/About">About</a>
                         <a href="">Resume</a>
-                        <a href="/contact">Contact</a>
+                        <a href="/Contact">Contact</a>
                         <a href="/Achievements">Achievements</a>
                     </div>
                     <div className="Fotter-Projects FC">
                         <p>Projects<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
-                        <a href="/works">Works</a>
-                        <a href="/talks">Talks</a>
-                        <a href="/open-sources">Blogs</a>
+                        <a href="/">Works</a>
+                        <a href="/Vlogs">Vlogs</a>
+                        <a href="/open-sources">Vlogs</a>
                         <a href="/content-creation">Contents</a>
                         <a href="/blogs">Contributions</a>
                     </div>
                     <div className="Fotter-Social FC">
                         <p>Socials<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
-                        <a href="https://github.com">GitHub</a>
-                        <a href="https://twitter.com">Twitter</a>
-                        <a href="https://LinkedIn.com">LinkedIn</a>
-                        <a href="https://youtube.com">YouTube</a>
-                        <a href="https://instagram.com">Instagram</a>
+                        <a href="https://github.com/Abhinavrajsrivastav">GitHub</a>
+                        <a href="https://twitter.com/srivast254">Twitter</a>
+                        <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/">LinkedIn</a>
+                        <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">YouTube</a>
+                        <a href="https://www.instagram.com/_abhinav_srivastav__/">Instagram</a>
                     </div>
                 </div>
             </div>
-            <div className="Fotter-Licence">
-                <div className="Licence">
-                    © 2024 Copyright.Made with ❤️ by @abhinav_ using ABCD Proudly Open-Source!
-                </div>
-            </div>
+            <div className="Footer-Licence">
+        <div className="Licence" style={{marginRight: '30px', marginBottom: '20px'}}>
+          © 2024 Copyright. Made with ❤️ by @_abhinav_srivastav__ using
+           <img src="./images/Tools/javas.png" alt="Java" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px' }} />
+           <img src="./images/Tools/bootstrap.png" alt="Bootstrap" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px'  }} />
+           <img src="./images/Tools/react.png" alt="React" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px'  }} />
+          Proudly Open-Source!
+        </div>
+      </div>
         </div>
     );
 }

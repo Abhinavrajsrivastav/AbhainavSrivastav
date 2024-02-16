@@ -11,11 +11,11 @@ function Contact() {
         <div className="Your-Name">
        <div className="Name-1">
          <label htmlFor="name">Full Name</label>
-         <input type="text" id="name" name="name" value="John Doe" required />
+         <input type="text" id="name" name="name" placeholder='Ram'/>
        </div>
         <div className="Email">
         <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" value="email@example.com" required />
+        <input type="email" id="email" name="email" placeholder='ram@gmai.com'/>
         </div>
         </div>
         <label htmlFor="topic">What would you like to chat about?</label>

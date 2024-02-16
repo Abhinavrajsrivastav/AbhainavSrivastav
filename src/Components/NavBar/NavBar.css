@@ -6,7 +6,7 @@ body.dark-mode {
 }
 
 body.light-mode {
-    background-color: white;
+    background-color: rgba(99, 96, 96, 0.598);
     color: rgb(0, 0, 0);
 }
 
