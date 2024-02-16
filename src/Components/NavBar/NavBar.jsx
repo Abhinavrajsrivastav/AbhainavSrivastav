@@ -51,11 +51,13 @@ const NavBar = () => {
               <p>.</p>
             </div>
             <div className="About N">
+            <Link to="/About">
               <span>About</span>
+            </Link>
               <p>.</p>
             </div>
             <div className="Works N">
-              <Link to="/WorkPage">
+              <Link to="/">
                 <span>Works</span>
                 </Link>
               <p>.</p>
@@ -71,7 +73,9 @@ const NavBar = () => {
               <p>.</p>
             </div>
             <div className="Contacts N">
+            <Link to="/Contact">
               <span>Contacts</span>
+              </Link>
               <p>.</p>
             </div>
             <div className="Theme" onClick={toggleTheme}>
@@ -93,11 +97,13 @@ const NavBar = () => {
             <p>.</p>
           </div>
           <div className="About N">
-            <span>About</span>
+            <Link to="/About">
+              <span>About</span>
+            </Link>
             <p>.</p>
           </div>
           <div className="Works N">
-            <Link to="/WorkPage">
+            <Link to="/">
               <span>Works</span>
             </Link>
             <p>.</p>
@@ -113,7 +119,9 @@ const NavBar = () => {
             <p>.</p>
           </div>
           <div className="Contacts N">
-            <span>Contacts</span>
+            <Link to="/Contact">
+              <span>Contacts</span>
+              </Link>
             <p>.</p>
           </div>
           <div className="Theme" onClick={toggleTheme}>

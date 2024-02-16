@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 
-.Work-Container {
+.Vlog-Work-Container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,14 +13,14 @@
   right: 12px;
 }
 
-.Work{
+.Vlog-Work{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.Work-Head {
+.Vlog-Work-Head {
   position: relative;
   justify-content: flex-start;
   align-self: flex-start;
@@ -28,21 +28,21 @@
   padding: 10px 0px 10px 0px;
 }
 
-.Work-Head .Text-description{
+.Vlog-Work-Head .Text-description{
   font-size: 15px;
 }
 
-.Text{
+.Vlog-Text{
   padding-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
 }
 
-.Text span{
+.Vlog-Text span{
   color: rgb(18, 197, 202);
 }
 
-.Cards {
+.Vlog-Cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
@@ -52,7 +52,7 @@
   max-width: 1000px;
 }
 
-.cta {
+.Vlog-cta {
   position: relative;
   left: -4px;
   top: -20px;
@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 
-.cta:before {
+.Vlog-cta:before {
   content: "";
   position: absolute;
   top: 0;
@@ -77,13 +77,13 @@
   transition: all 0.3s ease;
 }
 
-.cta span {
+.Vlog-cta span {
   position: relative;
   font-size: 18px;
   font-weight: bold;
 }
 
-.cta svg {
+.Vlog-cta svg {
   position: relative;
   top: 0;
   margin-left: 10px;
@@ -96,16 +96,16 @@
   transition: all 0.3s ease;
 }
 
-.cta:hover:before {
+.Vlog-cta:hover:before {
   width: 100%;
   background: rgb(47 110 145);
 }
 
-.cta:hover svg {
+.Vlog-cta:hover svg {
   transform: translateX(0);
 }
 
-.cta:active {
+.Vlog-cta:active {
   transform: scale(0.95);
 }
 
@@ -114,10 +114,10 @@
 /* Media Query for Mobile View */
 @media (max-width: 1000px) {
 
-  .cta{
+  .Vlog-cta{
     left: 20px;
   }
-  .Work-Container {
+  .Vlog-Work-Container {
     padding: 10px; /* Adjust padding for mobile view */
     position: relative;
     top: 325px;
@@ -125,20 +125,20 @@
     left: 0px;
   }
 
-  .Work-Head {
+  .Vlog-Work-Head {
     margin-bottom: 0px; /* Add margin for spacing */
     position: relative;
     right: 0px;
   }
 
-  .Cards {
+  .Vlog-Cards {
     flex-direction: column;
     align-items: center;
     width: 105%;
     left: 0px;
   }
 
-  .Cards > .card {
+  .Vlog-Cards > .Vlog-card {
     width: 100%;
     height: 100%;
     margin-bottom: 10px; /* Adjust margin for mobile view */
@@ -146,7 +146,7 @@
 }
 
 @media (max-width: 1000px) and (min-width: 800px){
-  .Work-Container{
+  .Vlog-Work-Container{
     top: 100px;
     width: auto;
     align-items: center;

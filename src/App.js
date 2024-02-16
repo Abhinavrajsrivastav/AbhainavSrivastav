@@ -8,6 +8,7 @@ import Footer from './Components/Footter/Fotter';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WorkPage from './Components/Works/WorkPage';
 import Achivements from './Components/Achivements/Achivements';
+import About from './Components/About/About';
 
 const App = () => {
   return (
@@ -15,9 +16,10 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/Home" element={<Home />} />
-        <Route path="/WorkPage" element={<WorkPage />} />
+        <Route path="/" element={<WorkPage />} />
         <Route path="/open-source" element={<OpenSource />} />
         <Route path="/Vlogs" element={<Vlogs />} />
+        <Route path="/About" element={<About />} />
         <Route path="/Achievements" element={<Achivements />} /> 
         <Route path="/Contact" element={<Contact />} />
       </Routes>

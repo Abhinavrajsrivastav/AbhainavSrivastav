@@ -2,51 +2,29 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AchivementsCard.css';
 
-const AchivementsCard = ({ 
+const AchivementsCard = ({
   src,
   gitHub,
   name,
   about,
-  link
- }) => {
+  link,
+  techs
+}) => {
   return (
-    <div className="Page-card dark:bg-dark bg-lighter">
-      <div className="Page-Work-Img">
-        <img src={src} alt="ExpressIT" className="Page-Projects-img" />
-        <img src="./images/Tools/java.png" className="Page-Tools-img" />
+    <div className="Achive-card dark:bg-dark bg-lighter">
+      <div className="Achive-Work-Img">
+        <img src={src} alt="ExpressIT" className="Achive-Projects-img" />
+        <img src="./images/Tools/java.png" className="Achive-Tools-img" />
       </div>
-      <div className="Page-card-content">
-        <span className="Page-Project-Name fs-5">{name}</span><br />
+      <div className="Achive-card-content">
+        <span className="Achive-Project-Name fs-5">{name}</span><br />
         <span style={{ fontSize: '13px' }}>{about}</span>
       </div>
       <div className="Achive-Fotter">
-        <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
-          {src !== "" && (
-            <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-dark border-0" style={{ backgroundColor: '#091224c4' }}>
-              <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
-              View
-            </a>
-          )}
-          {gitHub !== "" && (
-            <a href={gitHub} target="_blank" rel="noopener noreferrer" className="btn btn-dark opacity-5 border-0" style={{ backgroundColor: '#091224c4' }}>
-              <img src="./images/github-logo.png" style={{ height: '16px', width: '16px' }} alt="GitHub Icon" className="mx-2" />
-              Code
-            </a>
-          )}
-        </div>
-        <div className="wrapper">
-          <li className="icon facebook">
-            <span className="tooltip">Facebook</span>
-            <span><i className="fab fa-facebook-f"></i></span>
-          </li>
-          <li className="icon twitter">
-            <span className="tooltip">Twitter</span>
-            <span><i className="fab fa-twitter"></i></span>
-          </li>
-          <li className="icon instagram">
-            <span className="tooltip">Instagram</span>
-            <span><i className="fab fa-instagram"></i></span>
-          </li>
+        <div className="Achive-techs">
+          {techs.map((tech, index) => (
+            <span key={index} className="Achive-tech">{tech}</span>
+          ))}
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 /* AchivementsCard.css */
 
-.Page-card {
+.Achive-card {
   position: relative;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@
   gap: 10px;
 }
 
-.Page-Work-Img {
+.Achive-Work-Img {
   width: auto;
   height: 180px;
   position: relative;
@@ -27,25 +27,25 @@
   padding-bottom: 0px;
 }
 
-.Page-Work-Img .Page-Projects-img {
+.Achive-Work-Img .Page-Projects-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.Page-Projects-img {
+.Achive-Projects-img {
   height: 100%;
-  width: 100%;
+  width: 105%;
   object-fit: cover;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   z-index: -1000;
 }
 
-.Page-Projects-img:hover {
+.Achive-Projects-img:hover {
   transform: scale(1.1);
 }
 
-.Page-Tools-img {
+.Achive-Tools-img {
   position: absolute;
   bottom: -22px;
   right: -22px;
@@ -58,11 +58,11 @@
   padding: 10px;
 }
 
-.Page-card-content {
+.Achive-card-content {
   padding-top: 20px;
 }
 
-.Page-card-content .Page-Project-Name {
+.Achive-card-content .Achive-Project-Name {
   padding-top: 20px;
 }
 
@@ -70,101 +70,43 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: relative;
-  bottom: -10px;
-}
-
-.wrapper {
-  display: inline-flex;
-  list-style: none;
   height: auto;
-  width: auto;
-  padding-top: 0px;
-  margin-right: 10px;
-  font-family: "Poppins", sans-serif;
-  justify-content: start;
-  gap: 2px;
-}
-
-.wrapper .icon {
+  width: 100%;
   position: relative;
-  background: #fff;
-  border-radius: 50%;
-  margin: 0px;
-  width: 20px;
-  height: 20px;
-  font-size: 18px;
+  bottom: 0px;
+}
+
+
+
+.Achive-techs {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  max-width: 300px;
+  max-height: 100px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 5px;
 }
 
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #fff;
-  color: #fff;
-  padding: 5px 8px;
+.Achive-techs span{
+  margin: 2px;
+  padding: 2px 8px 2px 8px;
+  background-color: rgba(2, 40, 95, 0.527);
   border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-size: 10px;
 }
 
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #fff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
-  color: #fff;
-}
-
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
-  color: #fff;
-}
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
-  color: #fff;
+.Achive-Links{
+  position: relative;
+  top: 5px;
 }
 
 /* Media Query for Mobile View */
 @media (max-width: 1005px) {
-  .Page-card {
+  .Achive-card {
     width: 380px;
     height: 450px;
     position: relative;
@@ -173,7 +115,7 @@
     gap: 0px;
   }
 
-  .Page-Tools-img {
+  .Achive-Tools-img {
     margin: 10px;
     position: absolute;
     bottom: 0px;
@@ -182,13 +124,13 @@
     width: 35px;
   }
 
-  .Page-Work-Img {
+  .Achive-Work-Img {
     height: 240px;
     width: auto;
     object-fit: contain;
   }
 
-  .Page-card-content {
+  .Achive-card-content {
     padding-top: 20px;
   }
 

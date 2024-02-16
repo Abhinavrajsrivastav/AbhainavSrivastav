@@ -56,12 +56,18 @@
   padding: 10px;
 }
 .Page-card-content{
-  padding-top: 20px;
- 
+  min-height: 80px;
+  padding-top: 10px;
+  gap: 5px;
 }
 .Page-card-content .Page-Project-Name{
   padding-top: 20px;
 
+}
+
+.Page-Links{
+  position: relative;
+  top: 15px;
 }
 
 /* Media Query for Mobile View */

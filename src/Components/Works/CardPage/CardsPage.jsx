@@ -19,7 +19,7 @@ const Card = ({
         <span className="Page-Project-Name fs-5">{name}</span><br />
         <span style={{ fontSize: '13px' }}>{about}.</span>
       </div>
-      <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
+      <div className="Page-Links d-flex flex-row justify-content-start gap-2 mt-2">
         {src !== "" && (
           <a href={link} target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: '#091224c4' }}>
             <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
