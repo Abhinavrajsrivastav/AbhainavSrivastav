@@ -18,7 +18,7 @@ const Achivements = () => {
             name={"Java Full Stack Development."}
             about={""}
             link={"https://learn.pwskills.com/certificate/15a6646c-67ba-4222-b36b-0e732e9c100c"}
-            techs={["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC", "Servlet", "Hibernate", "System Design"]}
+            techs={["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC","DataBase", "Servlet", "Hibernate", "System Design","Object Oriented Programming","Computer networking","Computer fundamentals"]}
           />
           <AchivementsCard
             src={"./images/Achivements/Web_Development_Bootcamp.png"}
@@ -26,7 +26,7 @@ const Achivements = () => {
             name={"Web Development Bootcamp Udemy"}
             about={""}
             link={"https://www.udemy.com/certificate/UC-c18bbb12-d072-4ac8-85c5-b5cc1c0fc43a/"}
-            techs={["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "React.js"]}
+            techs={["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", "Node.js","Express.js","SQL","MongoDB"]}
           />
           <AchivementsCard
             src={"./images/Achivements/Jav_Basics.png"}
@@ -55,18 +55,18 @@ const Achivements = () => {
           <AchivementsCard
             src={"./images/Achivements/Java_Script_Essential.png"}
             gitHub={""}
-            name={"Code Coquest 1.0"}
-            about={"Java, Problem Solving, DSA, Coding Contest"}
+            name={"Code Coquest 1.0 Cisco"}
+            about={""}
             link={"https://drive.google.com/file/d/19v987x9nx0O0XD_WBcqjLh9DJimecdmP"}
-            techs={["Java", "Problem Solving", "DSA", "Coding Contest"]}
+            techs={["JavaScript", "Problem Solving", "DSA", "JavaScript fundamentals"]}
           />
           <AchivementsCard
             src={"./images/Achivements/Python_Essential.png"}
             gitHub={""}
-            name={"JavaScript Essential 1.0"}
+            name={"Python Essential 1.0 Cisco"}
             about={""}
             link={"https://www.credly.com/badges/59f9792a-a875-4d85-9652-0ce7712868ca"}
-            techs={["JavaScript"]}
+            techs={["Python Basics", "Fundamentals"]}
           />
         </div>
       </div>

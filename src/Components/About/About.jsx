@@ -36,7 +36,7 @@ const About = () => {
         <h4>Let's build something cool together <span style={{color: 'rgb(18, 197, 202)'}}>!</span></h4>
       </div>
       <div className="Get-In-Touch">
-        <span className="btn bg-primary" style={{backgroundColor: "rgb(18, 197, 202)"}}>
+        <span className="btn bg-primary" style={{backgroundColor: "rgba(26, 137, 185, 0.78)"}}>
           <Link to="/Contact" style={{textDecoration: 'none', color: 'white'}}>Get in Touch</Link>
         </span>
       </div>

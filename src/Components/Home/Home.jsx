@@ -3,6 +3,7 @@ import './Home.css';
 import Work from '../Works/Work';
 import OpenSource from '../OpenSource/OpenSource'
 import Vlogs from '../Vlogs/Vlogs';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [Deck, setDeck] = useState(null);
@@ -33,19 +34,20 @@ const Home = () => {
           <p>Educating</p>
           <p>Entertaining</p>
           </div>
-          <div className="element-2">
-            <img src="./images/Astronomy/solar-system.png" alt="" />
+           <div className="element-2">
+            {/* <img src="./images/Astronomy/solar-system.png" alt="" /> */}
             <img src="./images/Astronomy/sun.png" alt="" />
             <img src="./images/Astronomy/planet (1).png" alt="" />
-            <img src="./images/Astronomy/black-hole.png" alt="" />
-            {/* <element className="Astronomy"></element> */}
+            <img src="./images/Astronomy/black-hole.png" alt="" /> 
           </div>
         </div>
         <div className="My-Thought">
           <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content <br />creator.</span>
         </div>
         <div className="Chat">
-          <button className="Chat-Btn button">Let's Chat!</button>
+          <Link to="/Contact">
+            <button className="Chat-Btn button">Let's Chat!</button>
+          </Link>
         </div>
       </div>
       <div className="My-Profile">

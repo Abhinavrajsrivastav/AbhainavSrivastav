@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'El Messiri', sans-serif;
   width: auto;
   height: auto;
   padding: 40px;
@@ -94,7 +95,7 @@ select:focus {
 }
 
 .Submit-responses:hover {
-  background-color: #553c9a;
+  background-color: #13bfdac6;
 }
 
 @media (max-width: 1000px) {
@@ -105,7 +106,7 @@ select:focus {
   }
 
   .Submit-responses {
-    background-color: #553c9a;
+    background-color: #1fa7c0e0;
   }
 
   .App {

@@ -4,23 +4,23 @@ import './VlogCard.css';
 
 const Card = ({ src, gitHub, name, about, link }) => {
   return (
-    <div className="card-container">
-      <div className="card dark:bg-dark bg-lighter">
-      <div className="Work-Img">
-        <img src={src} alt="ExpressIT" className="Projects-img" />
-        <img src="./images/Tools/java.png" alt="Java" className="Tools-img" />
+    <div className="Vlog-card-container">
+      <div className="Vlog-card dark:bg-dark bg-lighter">
+      <div className="Vlog-Work-Img">
+        <img src={src} alt="ExpressIT" className="Vlog-Projects-img" />
+        <img src="./images/Tools/java.png" alt="Java" className="Vlog-Tools-img" />
       </div>
-      <div className="card-content">
-        <span className="Project-Name fs-5">{name}</span><br />
+      <div className="Vlog-card-content">
+        <span className="Vlog-Project-Name fs-5">{name}</span><br />
         <span style={{ fontSize: '13px' }}>{about}</span>
       </div>
-      <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
+      <div className="Vlog-Links d-flex flex-row justify-content-start gap-2 mt-2">
         {src !== "" && (
           <a
             href={link}
             target="_blank"
             className="btn btn accordion-collapse"
-            style={{ border: '0px solid black', backgroundColor: '#082e64b8' }}
+            style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
           >
             <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
             View

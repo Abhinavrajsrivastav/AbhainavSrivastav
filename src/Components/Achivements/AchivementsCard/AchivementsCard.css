@@ -4,12 +4,13 @@
   position: relative;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #315b7edb;
+  background-color: #1e3950bd;
+  backdrop-filter: blur(10px);
   padding: 12px;
   padding-bottom: 0px;
   margin: 10px;
   width: 300px;
-  height: 330px;
+  height: 370px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
@@ -108,8 +109,9 @@
 @media (max-width: 1005px) {
   .Achive-card {
     width: 380px;
-    height: 450px;
+    height: auto;
     position: relative;
+    padding-bottom: 50px;
     left: 9px;
     max-height: 450px;
     gap: 0px;

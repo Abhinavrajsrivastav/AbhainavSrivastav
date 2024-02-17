@@ -15,7 +15,7 @@ const Work = ({
         <span className="Vlog-Text">{heading}<span>.</span></span><br />
         <span className="Vlog-Text-description">{subHeading}</span>
       </div>
-      <div className="Vlog-Cards"Vlog->
+      <div className="Vlog-Cards">
         <Card src={"./images/Vlogs/Vlogs-1.png"} name={"Parcing in programming"} about={"Parcing in programming is process of analyzing and interpreting structured or semi-structured data"} link={"https://qr.ae/pKfRU6"}/>
         <Card src={"./images/Vlogs/Vlog2.png"} name={"What is Chadrayaan-3?"} about={""} link={"https://qr.ae/ps7o2C"}/>
         <Card src={"./images/Vlogs/Vlog3.png"} name={"Wnat the point we see?"} about={""} link={"https://qr.ae/ps7oAc"}/>
@@ -24,7 +24,7 @@ const Work = ({
       </div>
       <Link to="/WorkPage">
       <button className="Vlog-cta">
-       <span className="Vlog-Text" style={{}} ><a href="https://www.quora.com/profile/Abhinav-Srivastav-189" style={{color: 'inherit', textDecoration: 'inherit'}}>View All Vlogs</a></span>
+       <span className="Vlog-Text" style={{color: 'inherit'}} ><a href="https://www.quora.com/profile/Abhinav-Srivastav-189" style={{color: 'inherit', textDecoration: 'inherit'}}>View All Vlogs</a></span>
        <svg width="15px" height="10px" viewBox="0 0 13 10">
        <path d="M1,5 L11,5"></path>
        <polyline points="8 1 12 5 8 9"></polyline>

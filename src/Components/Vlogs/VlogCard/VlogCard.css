@@ -1,8 +1,9 @@
-.card {
+.Vlog-card {
   position: relative;
   border-radius: 6px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #315b7edb;
+  background-color: #1e3950bd;
+  backdrop-filter: blur(10px);
   padding: 15px;
   margin: 10px;
   width: 270px;
@@ -16,7 +17,7 @@
 }
 
 
-.Work-Img {
+.Vlog-Work-Img {
   width: auto;
   height: 180px;
   position: relative;
@@ -25,13 +26,13 @@
   padding-bottom: 0px;
 }
 
-.Work-Img .Projects-img {
+.Vlog-Work-Img .Vlog-Projects-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.Projects-img {
+.Vlog-Projects-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -39,11 +40,11 @@
   z-index: -1000;
 }
 
-.Projects-img:hover {
+.Vlog-Projects-img:hover {
   transform: scale(1.1);
 }
 
-.Tools-img {
+.Vlog-Tools-img {
   position: absolute;
   bottom: -22px;
   right: -22px;
@@ -56,55 +57,54 @@
   padding: 10px;
 }
 
-.card-content{
+.Vlog-card-content{
   min-height: 80px;
   padding-top: 10px;
   gap: 20px;
 }
 
 
-.Links{
+.Vlog-Links{
   position: relative;
   top: 10px;
 }
 
-.card-container::before {
+.Vlog-card-container::before {
   content: "";
   position: absolute;
   width: 30px; /* Adjust the size of the decorative element */
   height: 30px;
-  background-color: #28cd5fb5; /* Adjust the color as needed */
+  background-color: rgb(1, 114, 167);; /* Adjust the color as needed */
   border-radius: 50%; /* Make it round */
   z-index: 10000;
 }
 
-.card::before {
+.Vlog-card::before {
   top: -10px;
   left: -10px;
 }
 
-.card::after {
+.Vlog-card::after {
   bottom: -10px;
   right: -10px;
 }
 
 /* Additional styling for the pseudo-elements (optional) */
-.card::before,
-.card::after {
+.Vlog-card::before,
+.Vlog-card::after {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
 
 /* Media Query for Mobile View */
 @media (max-width: 1005px) {
-  .card {
+  .Vlog-card {
     width: 100%; 
-    height: 400px;
+    height: 420px;
     position: relative;
     left: 0px;
-    max-height: 400px;
   }
 
-  .Tools-img {
+  .Vlog-Tools-img {
     margin: 10px; /* Adjust margin as needed */
     position: absolute;
     bottom: 0px;
@@ -113,13 +113,13 @@
     width: 35px;
   }
 
-  .Work-Img {
+  .Vlog-Work-Img {
     height: 240px; /* Increase the height of the parent container */
     width: auto; /* Auto width to maintain aspect ratio */
     object-fit: contain; /* Ensure entire image is shown */
   }
 
-  .card-content {
+  .Vlog-card-content {
     padding-top: 10px; /* Add some padding for better spacing */
   }
 

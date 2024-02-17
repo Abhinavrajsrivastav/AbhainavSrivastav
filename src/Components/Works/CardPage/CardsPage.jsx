@@ -21,14 +21,14 @@ const Card = ({
       </div>
       <div className="Page-Links d-flex flex-row justify-content-start gap-2 mt-2">
         {src !== "" && (
-          <a href={link} target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: '#091224c4' }}>
+          <a href={link} target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: 'rgba(49, 75, 178, 0.1)' }}>
             <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
             View
           </a>
         )}
        {
           gitHub !== "" && (
-            <a href={gitHub} target="_blank" className="btn btn-dark opacity-5 border-0" style={{ backgroundColor: '#091224c4' }}>
+            <a href={gitHub} target="_blank" className="btn btn-dark opacity-5 border-0" style={{ backgroundColor: 'rgba(49, 75, 178, 0.1)' }}>
               <img src="./images/github-logo.png" style={{ height: '16px', width: '16px' }} alt="Link Icon" className="mx-2" />
               Code
             </a>
