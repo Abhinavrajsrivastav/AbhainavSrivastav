@@ -35,6 +35,31 @@
     padding: 10px 0px 10px 0px;
 }
 
+.Card-Container::before{
+  content: "";
+  position: absolute;
+  width: 30px; /* Adjust the size of the decorative element */
+  height: 30px;
+  background-color: #00ff116f; /* Adjust the color as needed */
+  border-radius: 50%; /* Make it round */
+}
+
+.Card-Container::before {
+  top: -10px;
+  left: -10px;
+}
+
+.Card-Container::after {
+  bottom: -10px;
+  right: -10px;
+}
+
+.Card-Container::before,
+.Card-Container::after {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+
 @media (max-width: 1000px){
     .Card-Container{
         width: 100%;

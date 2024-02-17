@@ -3,7 +3,6 @@
   border-radius: 6px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #315b7edb;
-  backdrop-filter: blur(10px);
   padding: 15px;
   margin: 10px;
   width: 270px;
@@ -67,6 +66,32 @@
 .Links{
   position: relative;
   top: 10px;
+}
+
+.card-container::before {
+  content: "";
+  position: absolute;
+  width: 30px; /* Adjust the size of the decorative element */
+  height: 30px;
+  background-color: #28cd5fb5; /* Adjust the color as needed */
+  border-radius: 50%; /* Make it round */
+  z-index: 10000;
+}
+
+.card::before {
+  top: -10px;
+  left: -10px;
+}
+
+.card::after {
+  bottom: -10px;
+  right: -10px;
+}
+
+/* Additional styling for the pseudo-elements (optional) */
+.card::before,
+.card::after {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
 
 /* Media Query for Mobile View */
