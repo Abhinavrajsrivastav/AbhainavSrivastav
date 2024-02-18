@@ -14,7 +14,7 @@ const AchivementsCard = ({
     <div className="Achive-card dark:bg-dark bg-lighter">
       <div className="Achive-Work-Img">
         <img src={src} alt="ExpressIT" className="Achive-Projects-img" />
-        <img src="./images/Tools/java.png" className="Achive-Tools-img" />
+        {/* <img src="./images/Tools/java.png" className="Achive-Tools-img" /> */}
       </div>
       <div className="Achive-card-content">
         <span className="Achive-Project-Name fs-5">{name}</span><br />

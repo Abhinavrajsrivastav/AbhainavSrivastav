@@ -2,13 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './VlogCard.css';
 
-const Card = ({ src, gitHub, name, about, link }) => {
+const Card = ({ src, gitHub, name, about, link, vlogImg }) => {
   return (
     <div className="Vlog-card-container">
       <div className="Vlog-card dark:bg-dark bg-lighter">
       <div className="Vlog-Work-Img">
         <img src={src} alt="ExpressIT" className="Vlog-Projects-img" />
-        <img src="./images/Tools/java.png" alt="Java" className="Vlog-Tools-img" />
+        <img src={vlogImg} alt="Java" className="Vlog-Tools-img" />
       </div>
       <div className="Vlog-card-content">
         <span className="Vlog-Project-Name fs-5">{name}</span><br />

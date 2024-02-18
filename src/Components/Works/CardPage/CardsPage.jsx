@@ -7,13 +7,14 @@ const Card = ({
   gitHub,
   name,
   about,
-  link
+  link,
+  toolImg
  }) => {
   return (
     <div className="Page-card dark:bg-dark bg-lighter">
       <div className="Page-Work-Img">
         <img src={src} alt="ExpressIT" className="Page-Projects-img" />
-        <img src="./images/Tools/java.png" className="Page-Tools-img" />
+        <img src={toolImg}  className="Page-Tools-img" />
       </div>
       <div className="Page-card-content">
         <span className="Page-Project-Name fs-5">{name}</span><br />

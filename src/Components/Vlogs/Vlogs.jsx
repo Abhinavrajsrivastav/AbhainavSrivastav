@@ -16,8 +16,8 @@ const Work = ({
         <span className="Vlog-Text-description">{subHeading}</span>
       </div>
       <div className="Vlog-Cards">
-        <Card src={"./images/Vlogs/Vlogs-1.png"} name={"Parcing in programming"} about={"Parcing in programming is process of analyzing and interpreting structured or semi-structured data"} link={"https://qr.ae/pKfRU6"}/>
-        <Card src={"./images/Vlogs/Vlog2.png"} name={"What is Chadrayaan-3?"} about={""} link={"https://qr.ae/ps7o2C"}/>
+        <Card src={"./images/Vlogs/parcing.png"} name={"Parcing in programming"} about={"Parcing in programming is process of analyzing and interpreting structured or semi-structured data"} link={"https://qr.ae/pKfRU6"} vlogImg={"./images/Vlogs/quara.png"}/>
+        <Card src={"./images/Vlogs/chandrayaan3.jpg"} name={"What is Chadrayaan-3?"} about={""} link={"https://qr.ae/ps7o2C"} vlogImg={"./images/Vlogs/quara.png"}/>
         <Card src={"./images/Vlogs/Vlog3.png"} name={"Wnat the point we see?"} about={""} link={"https://qr.ae/ps7oAc"}/>
       </div>
       
