@@ -15,9 +15,9 @@ const OpenSource = () => {
           <span>Here are some of the popular Open Source Repositories I've worked on.</span>
         </div>
         <div className="Open">
-          <Card />
-          <Card />
-          <Card />
+          <Card name={"Core Java and DSA"} about={"This Repo consists all important topics of Core Java. every pont is covered with a coding example."} view={"https://github.com/Abhinavrajsrivastav/Core_Java.git"}/>
+          <Card name={"System Design Concepts"} about={"This Repo consists all important topics System Design."} view={"https://github.com/Abhinavrajsrivastav/System-Design.git"}/>
+          <Card name={"DSA with Java"} about={"This Repo consists all important topics of data structure and algorithms. every topics is covered with a easy coding example."} view={"https://github.com/Abhinavrajsrivastav/DSA-With-Java.git"}/>
         </div>
       </div>
       <div className="Btn">

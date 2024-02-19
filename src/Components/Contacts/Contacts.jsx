@@ -15,7 +15,7 @@ function Contact() {
        </div>
         <div className="Email">
         <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" placeholder='ram@gmai.com' className="Input"/>
+        <input type="email" id="email" name="email" placeholder='universe@verse.com' className="Input"/>
         </div>
         </div>
         <label htmlFor="topic">What would you like to chat about?</label>

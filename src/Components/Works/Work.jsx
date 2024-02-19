@@ -22,7 +22,7 @@ const Work = ({
       </div>
       
       </div>
-      <Link to="/WorkPage">
+      <Link to="/">
       <button className="cta">
        <span className="Text" style={{}} >View All Talks</span>
        <svg width="15px" height="10px" viewBox="0 0 13 10">

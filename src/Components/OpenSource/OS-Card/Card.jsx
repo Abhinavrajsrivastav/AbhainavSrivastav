@@ -1,26 +1,31 @@
-import React from 'react'
-import './Card.css'
+import React from 'react';
+import './Card.css';
 
-function Card() {
+function Card({ name, about, view }) {
   return (
     <div className="Card-Container">
-        <div className="Card-Head">
-            <span>Awesom-Hindus</span>
+      <div className="Card-Head">
+        <span>{name}</span>
+      </div>
+      <div className="Card-Body">
+        <span>{about}</span>
+      </div>
+      <div className="Card-Bottom">
+        <a
+          href={view}
+          target="_blank"
+          className="btn btn accordion-collapse"
+          style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
+        >
+          <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
+          View
+        </a>
+        <div className="Updates">
+          <p>updates</p>
         </div>
-        <div className="Card-Body">
-          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla officia animi, fugit asperiores aliquid excepturi nihil accusamus, culpa nemo fugiat cumque illum suscipit neque. Vero veniam sed voluptas mollitia aliquid?</span>
-        </div>
-        <div className="Card-Bottom">
-          <div className="Tech-used">
-            <p>tech</p>
-          </div>
-          <div className="Updates">
-            <p>updates</p>
-          </div>
-        </div>
-
+      </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;

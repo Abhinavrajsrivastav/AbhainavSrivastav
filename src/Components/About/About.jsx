@@ -29,14 +29,13 @@ const About = () => {
         </div>
       </div>
       <div className="Follow-Me">
-        <span style={{fontSize: '15px'}}>Follow Me on Socials<span style={{color: "rgb(18, 197, 202)"}}>.</span><br />You will find me on major social media platforms under the username @choubari, or @choubari_ if the first one is taken.</span>
         <span style={{fontSize: '13px'}}>You will find me on major social media platforms under the username @abhinav_, or @_abhinav_srivastav__ if the first one is taken.</span>
       </div>
       <div className="Fotter-1">
         <h4>Let's build something cool together <span style={{color: 'rgb(18, 197, 202)'}}>!</span></h4>
       </div>
       <div className="Get-In-Touch">
-        <span className="btn bg-primary" style={{backgroundColor: "rgba(26, 137, 185, 0.78)"}}>
+        <span className="btn bg" style={{backgroundColor: "rgb(35, 160, 233)"}}>
           <Link to="/Contact" style={{textDecoration: 'none', color: 'white'}}>Get in Touch</Link>
         </span>
       </div>

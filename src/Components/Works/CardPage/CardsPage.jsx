@@ -14,8 +14,12 @@ const Card = ({
     <div className="Page-card dark:bg-dark bg-lighter">
       <div className="Page-Work-Img">
         <img src={src} alt="ExpressIT" className="Page-Projects-img" />
-        <img src={toolImg}  className="Page-Tools-img" />
       </div>
+       <div className="toolsImg">
+        {toolImg.map((img,index) => (
+  <img key={index} src={`./images/Tools/${img}`} alt={img} className="Page-Tools-img" />
+))}
+       </div>
       <div className="Page-card-content">
         <span className="Page-Project-Name fs-5">{name}</span><br />
         <span style={{ fontSize: '13px' }}>{about}.</span>

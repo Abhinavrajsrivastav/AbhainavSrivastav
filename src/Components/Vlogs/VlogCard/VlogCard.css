@@ -49,8 +49,8 @@
   bottom: -22px;
   right: -22px;
   margin: 25px;
-  height: 35px;
-  width: 35px;
+  height: 45px;
+  width: 45px;
   z-index: 1000;
   border-radius: 50%;
   padding: 10px;
@@ -75,7 +75,7 @@
   position: absolute;
   width: 30px; /* Adjust the size of the decorative element */
   height: 30px;
-  background-color: rgb(1, 114, 167);; /* Adjust the color as needed */
+  background-color: rgb(1, 106, 167); /* Adjust the color as needed */
   border-radius: 50%; /* Make it round */
   z-index: 10000;
 }

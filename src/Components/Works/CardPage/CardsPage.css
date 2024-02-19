@@ -46,15 +46,21 @@
 
 .Page-Tools-img {
   position: absolute;
-  bottom: -22px;
-  right: -22px;
+  top: 146px;
+  right: 1px;
   margin: 25px;
-  height: 30px;
-  width: 30px;
-  z-index: 1000;
-  /* background-color: rgb(255, 255, 255); */
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 7px;
+  max-width: 100%;
+  background-color:#1e3950;
+}
+
+.toolsImg{
+  margin: 2px;
+  padding: 2px 8px 2px 8px;
+  font-size: 10px;
 }
 .Page-card-content{
   min-height: 80px;
@@ -83,10 +89,11 @@
   .Page-Tools-img {
     margin: 10px; /* Adjust margin as needed */
     position: absolute;
-    bottom: 0px;
-    right: 4px;
+    top: 224px;
+    right: 15px;
     height: 35px;
     width: 35px;
+
   }
 
   .Page-Work-Img {
