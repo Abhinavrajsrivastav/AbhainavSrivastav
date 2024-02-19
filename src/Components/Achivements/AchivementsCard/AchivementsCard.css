@@ -42,7 +42,7 @@
   z-index: -1000;
 }
 
-.Achive-Projects-img:hover {
+.Achive-card:hover .Achive-Projects-img {
   transform: scale(1.1);
 }
 

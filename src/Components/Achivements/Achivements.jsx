@@ -2,6 +2,7 @@ import React from 'react';
 import AchivementsCard from './AchivementsCard/AchivementsCard'
 import './Achivements.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Test from '../Test/test';
 
 const Achivements = () => {
   return (
@@ -86,6 +87,17 @@ const Achivements = () => {
           />
         </div>
       </div>
+
+      {/* <div className="Achivement-fotter">
+        <div className="Achivement-fotter-line">
+          <div className="line-1"></div>
+          <div className="or">Or</div>
+          <div className="line-2"></div> 
+        </div>
+        <div className="Achivement-fotter-btn">
+          <Test />
+        </div>
+      </div> */}
     </div>
   );
 }
