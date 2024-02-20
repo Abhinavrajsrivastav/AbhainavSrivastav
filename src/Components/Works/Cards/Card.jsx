@@ -2,13 +2,27 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Card.css';
 
-const Card = ({ src, gitHub, name, about, link }) => {
+const Card = ({ 
+  src,
+  gitHub,
+  name,
+  about,
+  link,
+  toolImg
+}) => {
   return (
     <div className="card dark:bg-dark bg-lighter">
       <div className="Work-Img">
         <img src={src} alt="ExpressIT" className="Projects-img" />
-        <img src="./images/Tools/java.png" alt="Java" className="Tools-img" />
+        {/* <img src="./images/Tools/java.png" alt="Java" className="Tools-img" /> */}
       </div>
+      
+      <div className="ToolsImg">
+        {toolImg.map((img,index) => (
+  <img key={index} src={`./images/Tools/${img}`} alt={img} className="Card-Tools-img" />
+))}
+       </div>
+
       <div className="card-content">
         <span className="Project-Name fs-5">{name}</span><br />
         <span style={{ fontSize: '13px' }}>{about}</span>
@@ -21,7 +35,7 @@ const Card = ({ src, gitHub, name, about, link }) => {
             className="btn btn accordion-collapse"
             style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
           >
-            <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
+            <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2"   />
             View
           </a>
         )}

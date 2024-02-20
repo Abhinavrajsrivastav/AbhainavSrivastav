@@ -4,7 +4,6 @@ import Work from '../Works/Work';
 import OpenSource from '../OpenSource/OpenSource'
 import Vlogs from '../Vlogs/Vlogs';
 import { Link } from 'react-router-dom';
-import Test from '../Test/test';
 
 const Home = () => {
   const [Deck, setDeck] = useState(null);

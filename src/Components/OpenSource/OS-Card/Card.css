@@ -63,11 +63,11 @@
 
 .Card-Container::before,
 .Card-Container::after {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
 }
 
 .heart-container {
-  --heart-color: rgb(105, 251, 105);
+  --heart-color: rgb(17, 83, 159);
   position: relative;
   top: -1px;
   left: -11px;

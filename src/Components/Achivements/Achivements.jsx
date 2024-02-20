@@ -2,7 +2,6 @@ import React from 'react';
 import AchivementsCard from './AchivementsCard/AchivementsCard'
 import './Achivements.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Test from '../Test/test';
 
 const Achivements = () => {
   return (
