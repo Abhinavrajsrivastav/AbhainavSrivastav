@@ -31,7 +31,7 @@ const Achivements = () => {
           <AchivementsCard
             src={"./images/Achivements/Java_Pw.png"}
             gitHub={""}
-            name={"Java Full Stack Development."}
+            name={"Java with DSA and System Design."}
             about={""}
             link={"https://learn.pwskills.com/certificate/15a6646c-67ba-4222-b36b-0e732e9c100c"}
             techs={["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC","DataBase", "Servlet", "Hibernate", "System Design","Object Oriented Programming","Computer networking","Computer fundamentals"]}
