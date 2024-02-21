@@ -118,7 +118,7 @@
     left: 20px;
   }
   .Work-Container {
-    padding: 10px; /* Adjust padding for mobile view */
+    padding: 10px;
     position: relative;
     top: 325px;
     align-self: start;
@@ -126,7 +126,7 @@
   }
 
   .Work-Head {
-    margin-bottom: 0px; /* Add margin for spacing */
+    margin-bottom: 0px;
     position: relative;
     right: 0px;
   }
@@ -141,7 +141,7 @@
   .Cards > .card {
     width: 100%;
     height: auto;
-    margin-bottom: 10px; /* Adjust margin for mobile view */
+    margin-bottom: 10px;
   }
 }
 

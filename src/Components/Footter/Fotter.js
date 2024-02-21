@@ -34,9 +34,9 @@ const Fotter = () => {
                         <p>Projects<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Works</a>
                         <a href="/Vlogs">Vlogs</a>
-                        <a href="/open-sources">Blogs</a>
-                        <a href="/content-creation">Contents</a>
-                        <a href="/blogs">Contributions</a>
+                        <a href="/Vlogs">Blogs</a>
+                        <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">Contents</a>
+                        <a href="https://github.com/Abhinavrajsrivastav">Contributions</a>
                     </div>
                     <div className="Fotter-Social FC">
                         <p>Socials<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>

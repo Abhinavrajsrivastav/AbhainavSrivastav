@@ -70,15 +70,15 @@
   top: 25px;
 }
 
-.Vlog-card-container::before {
+/* .Vlog-card-container::before {
   content: "";
   position: absolute;
-  width: 30px; /* Adjust the size of the decorative element */
+  width: 30px;
   height: 30px;
-  background-color: rgb(1, 106, 167); /* Adjust the color as needed */
-  border-radius: 50%; /* Make it round */
+  background-color: rgb(1, 106, 167);
+  border-radius: 50%;
   z-index: 10000;
-}
+} */
 
 .Vlog-card::before {
   top: -10px;
@@ -90,13 +90,11 @@
   right: -10px;
 }
 
-/* Additional styling for the pseudo-elements (optional) */
 .Vlog-card::before,
 .Vlog-card::after {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
 }
 
-/* Media Query for Mobile View */
 @media (max-width: 1005px) {
   .Vlog-card {
     width: 100%; 
@@ -106,7 +104,7 @@
   }
 
   .Vlog-Tools-img {
-    margin: 10px; /* Adjust margin as needed */
+    margin: 10px; 
     position: absolute;
     bottom: 0px;
     right: -8px;
@@ -115,16 +113,16 @@
   }
 
   .Vlog-Work-Img {
-    height: 240px; /* Increase the height of the parent container */
-    width: auto; /* Auto width to maintain aspect ratio */
-    object-fit: contain; /* Ensure entire image is shown */
+    height: 240px;
+    width: auto;
+    object-fit: contain;
   }
 
   .Vlog-card-content {
-    padding-top: 10px; /* Add some padding for better spacing */
+    padding-top: 10px;
   }
 
   span {
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px;
   }
 }

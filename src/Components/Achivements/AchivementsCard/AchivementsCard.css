@@ -1,4 +1,3 @@
-/* AchivementsCard.css */
 
 .Achive-card {
   position: relative;
@@ -98,7 +97,6 @@
   background-color: rgba(33, 100, 108, 0.378);
   border-radius: 5px;
   font-size: 10px;
-  /* box-shadow: 2px 2px 4px 0px rgba(195, 225, 228, 0.114); */
 }
 
 .Achive-Links{

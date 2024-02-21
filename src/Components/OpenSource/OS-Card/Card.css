@@ -9,13 +9,13 @@
   margin: 10px;
   width: 270px;
   height: 170px;
-  max-width: 1000px; /* Maximum width on desktop */
+  max-width: 1000px;
   min-width: 200px;
-  transition: box-shadow 0.3s ease-in-out; /* Add transition for smoother effect */
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .Card-Container:hover{
-  box-shadow: 0 0 10px rgb(1, 114, 167); /* Adjust the values as needed */
+  box-shadow: 0 0 10px rgb(1, 114, 167);
 }
 
 .Card-Head{
@@ -42,14 +42,14 @@
     left: 0px;
 }
 
-.Card-Container::before{
+/* .Card-Container::before{
   content: "";
   position: absolute;
-  width: 30px; /* Adjust the size of the decorative element */
+  width: 30px;
   height: 30px;
-  background-color: rgb(1, 114, 167);; /* Adjust the color as needed */
-  border-radius: 50%; /* Make it round */
-}
+  background-color: rgb(1, 114, 167);
+  border-radius: 50%; 
+} */
 
 .Card-Container::before {
   top: -10px;

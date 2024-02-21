@@ -110,8 +110,6 @@ document.body.bg-video{
     margin-top: 8px;
 }
 
-/* Existing styles */
-
 body.menu-open .Container {
   display: flex;
 }
@@ -129,10 +127,9 @@ body.menu-open .Theme {
   margin-top: 10px;
 }
 
-/* Additional styles for the menu toggle icon */
 .ToggleMenu {
   cursor: pointer;
-  display: none; /* Initially hide the toggle button on larger screens */
+  display: none;
 }
 
 .Navigation a {
@@ -178,20 +175,20 @@ body.menu-open .Theme {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; /* Center the content vertically */
+    align-items: center;
     padding: 5px 10px 0px 8px;
     width: 100%;
 }
 
 .Name div {
-    margin-right: 10px; /* Adjust the margin value as needed */
+    margin-right: 10px; 
 }
 
 .Navigation {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 10px; /* Adjust the gap value as needed */
+    gap: 10px;
     font-size: 10px;
     position: relative;
     left: 10px;

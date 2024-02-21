@@ -22,7 +22,6 @@ const Work = ({
       </div>
       
       </div>
-      <Link to="/WorkPage">
       <button className="Vlog-cta">
        <span className="Vlog-Text" style={{color: 'inherit'}} ><a href="https://www.quora.com/profile/Abhinav-Srivastav-189" style={{color: 'inherit', textDecoration: 'inherit'}}>View All Vlogs</a></span>
        <svg width="15px" height="10px" viewBox="0 0 13 10">
@@ -30,7 +29,6 @@ const Work = ({
        <polyline points="8 1 12 5 8 9"></polyline>
        </svg>
       </button>
-      </Link>
     </div>
   );
 }

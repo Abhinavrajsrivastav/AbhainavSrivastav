@@ -87,7 +87,7 @@
   }
 
   .Page-Tools-img {
-    margin: 10px; /* Adjust margin as needed */
+    margin: 10px;
     position: absolute;
     top: 224px;
     right: 15px;
@@ -97,16 +97,16 @@
   }
 
   .Page-Work-Img {
-    height: 240px; /* Increase the height of the parent container */
-    width: auto; /* Auto width to maintain aspect ratio */
-    object-fit: contain; /* Ensure entire image is shown */
+    height: 240px;
+    width: auto;
+    object-fit: contain;
   }
 
   .Page-card-content {
-    padding-top: 10px; /* Add some padding for better spacing */
+    padding-top: 10px;
   }
 
   span {
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px;
   }
 }
