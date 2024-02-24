@@ -25,7 +25,7 @@ const Card = ({
         <span style={{ fontSize: '13px' }}>{about}.</span>
       </div>
       <div className="Page-Links d-flex flex-row justify-content-start gap-2 mt-2">
-        {src !== "" && (
+        {link !== "" && (
           <a href={link} target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: 'rgba(49, 75, 178, 0.1)' }}>
             <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
             View

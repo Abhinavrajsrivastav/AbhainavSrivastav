@@ -19,11 +19,22 @@ function Contact() {
     setClient({ ...client, [e.target.name]: e.target.value });
   };
 
+  // const onSubmit = async (e) => {
+  //   e.preventDefault();
+  //   await axios.post('http://localhost:8097/Contact', client);
+  //   navigate('/Home');
+  // };
+
   const onSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
+
+  try {
     await axios.post('http://localhost:8097/Contact', client);
     navigate('/Home');
-  };
+  } catch (error) {
+    console.error('Error submitting form:', error);
+  }
+};
 
   return (
     <div className="App">

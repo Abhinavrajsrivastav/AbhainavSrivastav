@@ -28,7 +28,7 @@ const Card = ({
         <span style={{ fontSize: '13px' }}>{about}</span>
       </div>
       <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
-        {src !== "" && (
+        {link !== "" && (
           <a
             href={link}
             target="_blank"
