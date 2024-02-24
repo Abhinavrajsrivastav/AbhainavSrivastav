@@ -17,8 +17,8 @@ app.post('/contact', async (req, res) => {
     let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'abhiraj.srivast254@gmail.com',
-        pass: process.env.Password, // Replace with your app password
+        user: process.env.Email,
+        pass: process.env.Password,
       },
     });
 
@@ -35,7 +35,6 @@ app.post('/contact', async (req, res) => {
   } catch (error) {
     console.error('Error sending email:', error);
 
-    // Send a 500 Internal Server Error response with the error details
     res.status(500).json({ error: 'Internal Server Error', details: error.message });
   }
 });
