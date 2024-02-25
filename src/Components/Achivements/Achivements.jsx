@@ -34,7 +34,7 @@ const Achivements = () => {
             name={"Java with DSA and System Design."}
             about={""}
             link={"https://learn.pwskills.com/certificate/15a6646c-67ba-4222-b36b-0e732e9c100c"}
-            techs={["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC","DataBase", "Servlet", "Hibernate", "System Design","Object Oriented Programming","Computer networking","Computer fundamentals"]}
+            techs={["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC","DataBase", "System Design","Object Oriented Programming"]}
           />
           <AchivementsCard
             src={"./images/Achivements/Web_Development_Bootcamp.png"}
