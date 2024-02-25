@@ -8,7 +8,8 @@
   padding: 12px;
   margin: 10px;
   width: 270px;
-  height: 170px;
+  /* height: auto; */
+  min-height: 250px;
   max-width: 1000px;
   min-width: 200px;
   transition: box-shadow 0.3s ease-in-out;
@@ -27,7 +28,7 @@
 }
 
 .Card-Body{
-  min-height: 50px;
+  min-height: 100px;
 }
 
 
