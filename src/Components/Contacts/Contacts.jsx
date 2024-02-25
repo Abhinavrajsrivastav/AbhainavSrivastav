@@ -9,32 +9,37 @@ function Contact() {
     name: '',
     email: '',
     needHelp: 'softwareDevelopment',
-    message: ''
+    message: '',
+    recaptcha: false, // Add recaptcha to state
   });
 
-  const { name, email, needHelp, message } = client;
+  const { name, email, needHelp, message, recaptcha } = client;
   const navigate = useNavigate();
 
   const onInputChange = (e) => {
     setClient({ ...client, [e.target.name]: e.target.value });
   };
 
-  // const onSubmit = async (e) => {
-  //   e.preventDefault();
-  //   await axios.post('http://localhost:8097/Contact', client);
-  //   navigate('/Home');
-  // };
+  const onCheckboxChange = (e) => {
+    setClient({ ...client, [e.target.name]: e.target.checked });
+  };
 
   const onSubmit = async (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  try {
-    await axios.post('http://localhost:8097/Contact', client);
-    navigate('/Home');
-  } catch (error) {
-    console.error('Error submitting form:', error);
-  }
-};
+    // Check if all required fields are filled
+    if (!name || !email || !message || !recaptcha) {
+      alert('Please fill in all required fields.');
+      return;
+    }
+
+    try {
+      await axios.post('http://localhost:8097/Contact', client);
+      navigate('/Home');
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
   return (
     <div className="App">
@@ -76,7 +81,7 @@ function Contact() {
           value={needHelp}
           onChange={(e) => onInputChange(e)}
         >
-          <option value="BackendDevelopmemt">Backend Development</option>
+           <option value="BackendDevelopmemt">Backend Development</option>
           <option value="FrontendDevelopment">Frontend Development</option>
           <option value="fullStackDevelopment">Full Stack Development</option>
           <option value="mobileDevelopment">Mobile Development</option>
@@ -103,6 +108,8 @@ function Contact() {
               name="recaptcha"
               required
               className="Input"
+              checked={recaptcha}
+              onChange={(e) => onCheckboxChange(e)}
             />
             <label htmlFor="recaptcha">I'm not a robot</label>
             <img
@@ -112,9 +119,7 @@ function Contact() {
             />
           </div>
         </div>
-        <button type="submit" className="Submit-responses">
-          Submit
-        </button>
+        <button id="submitButton" className="Submit-responses">Send</button>
       </form>
     </div>
   );

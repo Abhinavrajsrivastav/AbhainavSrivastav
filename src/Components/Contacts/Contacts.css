@@ -98,6 +98,15 @@ select:focus {
   background-color: #13bfdac6;
 }
 
+.Submit-responses:active,
+.Submit-responses:focus {
+  background-color: #00cc66; /* Change this to your desired green color */
+}
+
+.Submit-responses.sent {
+  background-color: #00cc66; /* Same green color as the active state */
+}
+
 @media (max-width: 1000px) {
   .Your-Name,
   .Email {
