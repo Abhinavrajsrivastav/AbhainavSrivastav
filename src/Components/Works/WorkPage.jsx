@@ -17,7 +17,9 @@ const WorkPage = () => {
         <CardsPage src={"./images/Works/Movie-Finder.png"} gitHub={"https://github.com/Abhinavrajsrivastav/SpringBootProjects/tree/main/moviefinder"} name={"Movie Finder"} about={"An youtube usecase, this app help user to find any movie available on yt. Efficient and no irrelevent content show"} link={""} toolImg={["react.png","leaf.png"]}/>
         <CardsPage src={"./images/Works/CodeBuddi.png"} gitHub={"https://github.com/Abhinavrajsrivastav/SpringBootProjects/tree/main/OpenAi"} name={"Code Buddy"} about={"An Spring Ai and OpenAi based project, help programmers in their code to debug, write codes and will answer effectively."} link={""} toolImg={["chat-gpt.png","react.png","leaf.png"]}/>
         <CardsPage src={"./images/Works/StdudentManage.png"} gitHub={"https://github.com/Abhinavrajsrivastav/SpringBootProjects/tree/main/StudentManagement_"} name={"Student Management System"} about={"Student Management System"}  link={""} toolImg={["react.png","leaf.png"]}/>
-        <CardsPage src={"./images/Works/Musics.png"} gitHub={"https://github.com/Abhinavrajsrivastav/React-Projects/tree/master/Musics/mymusics"} name={"New Word"} about={"A musics player collections of some best Arman malik's songs."} link={"https://moonlit-faun-712a3e.netlify.app/"} toolImg={["react.png"]}/>
+        <CardsPage src={"./images/Works/Musics.png"} gitHub={"https://github.com/Abhinavrajsrivastav/React-Projects/tree/master/Musics/mymusics"} name={"New Word"} about={"A musics player collections of some best Arman malik's songs."} link={""} toolImg={["react.png"]}/>
+        {/* https://moonlit-faun-712a3e.netlify.app/ */}
+
         {/* <CardsPage />
         <CardsPage />
         <CardsPage />
