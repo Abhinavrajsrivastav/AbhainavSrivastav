@@ -15,7 +15,7 @@ const Achivements = () => {
         <AchivementsCard
             src={"./images/Achivements/gfg.png"}
             gitHub={""}
-            name={"0.8% at GFG In College with 450+ problems."}
+            name={"0.8% at GFG In College with 400+ problems."}
             about={""}
             link={"https://auth.geeksforgeeks.org/user/abhirajsrivast254"}
             techs={["Java", "DSA", "Competitive Programming","C","Coding Contest"]}
@@ -23,7 +23,7 @@ const Achivements = () => {
           <AchivementsCard
             src={"./images/Achivements/github.png"}
             gitHub={""}
-            name={"600+ contributions on GitHub."}
+            name={"590+ contributions on GitHub."}
             about={""}
             link={"https://github.com/Abhinavrajsrivastav"}
             techs={["Java", "DSA", "Competitive Programming","C","Contribution","Open Source","Web Development","System Design","JavaScript","React.js","Node.js","Express.js","Spring Boot","OOP's"]}
