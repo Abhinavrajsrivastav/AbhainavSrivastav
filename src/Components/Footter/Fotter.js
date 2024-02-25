@@ -50,11 +50,11 @@ const Fotter = () => {
             </div>
             <div className="Footer-Licence">
         <div className="Licence" style={{marginRight: '30px', marginBottom: '20px'}}>
-          © 2024 Copyright. Made with ❤️ by @_abhinav_srivastav__ using
+          © 2024 Copyright.Proudly Made with ❤️ by @_abhinav_srivastav__ using
            <img src="./images/Tools/javas.png" alt="Java" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px' }} />
            <img src="./images/Tools/bootstrap.png" alt="Bootstrap" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px'  }} />
            <img src="./images/Tools/react.png" alt="React" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px'  }} />
-          Proudly Open-Source!
+          !
         </div>
       </div>
         </div>
