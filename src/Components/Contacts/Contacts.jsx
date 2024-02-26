@@ -34,7 +34,7 @@ function Contact() {
     }
 
     try {
-      await axios.post('http://localhost:8097/Contact', client);
+      await axios.post('https://p-o-server-2.onrender.com/Contact', client);
       navigate('/Home');
     } catch (error) {
       console.error('Error submitting form:', error);
