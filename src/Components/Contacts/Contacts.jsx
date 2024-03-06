@@ -90,6 +90,7 @@ function Contact() {
           <option value="MachineLearning">Machine Learning</option>
           <option value="design">UI/UX design</option>
           <option value="marketing">Video editing</option>
+          <option value="hi">Just hi...</option>
         </select>
         <label htmlFor="message">Your Message</label>
         <textarea

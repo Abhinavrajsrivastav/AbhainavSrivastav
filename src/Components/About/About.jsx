@@ -24,7 +24,6 @@ const About = () => {
             <li>System Design</li>
             <li>Video Editing</li>
             <li>Content Creation</li>
-            <li>Just hi</li>
             <li>.....</li>
           </ul>
         </div>
