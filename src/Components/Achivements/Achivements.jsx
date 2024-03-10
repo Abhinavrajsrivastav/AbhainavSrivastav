@@ -15,7 +15,7 @@ const Achivements = () => {
         <AchivementsCard
             src={"./images/Achivements/gfg.png"}
             gitHub={""}
-            name={"0.8% at GFG In College with 400+ problems."}
+            name={"0.8% at GFG In College. solved 450+ problems at GFG and leetcode."}
             about={""}
             link={"https://auth.geeksforgeeks.org/user/abhirajsrivast254"}
             techs={["Java", "DSA", "Competitive Programming","C","Coding Contest"]}
@@ -23,7 +23,7 @@ const Achivements = () => {
           <AchivementsCard
             src={"./images/Achivements/github.png"}
             gitHub={""}
-            name={"590+ contributions on GitHub."}
+            name={"650+ contributions on GitHub."}
             about={""}
             link={"https://github.com/Abhinavrajsrivastav"}
             techs={["Java", "DSA", "Competitive Programming","C","Contribution","Open Source","Web Development","System Design","JavaScript","React.js","Node.js","Express.js","Spring Boot","OOP's"]}
@@ -71,7 +71,7 @@ const Achivements = () => {
           <AchivementsCard
             src={"./images/Achivements/Java_Script_Essential.png"}
             gitHub={""}
-            name={"Code Coquest 1.0 Cisco"}
+            name={"Javascript Essential 1.0 Cisco"}
             about={""}
             link={"https://drive.google.com/file/d/19v987x9nx0O0XD_WBcqjLh9DJimecdmP"}
             techs={["JavaScript", "Problem Solving", "DSA", "JavaScript fundamentals"]}
