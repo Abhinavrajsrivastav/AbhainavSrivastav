@@ -26,7 +26,7 @@ const Fotter = () => {
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Home</a>
                         <a href="/About">About</a>
-                        <a href="https://drive.google.com/file/d/1QJFtnmA3ZS_QaC1uY2rlcBN5TgvY2Awy/view?pli=1">Resume</a>
+                        <a href="https://drive.google.com/file/d/1RKXEKqv9a9PpwAcYw84yPLZ5_-KBPN0r/view?usp=drivesdk">Resume</a>
                         <a href="/Contact">Contact</a>
                         <a href="/Achievements">Achievements</a>
                     </div>
