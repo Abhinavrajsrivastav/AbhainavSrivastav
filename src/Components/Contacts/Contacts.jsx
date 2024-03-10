@@ -10,9 +10,10 @@ function Contact() {
     email: '',
     needHelp: 'softwareDevelopment',
     message: '',
-    recaptcha: false, // Add recaptcha to state
+    recaptcha: false,
   });
 
+  const [loading, setLoading] = useState(false); // Add loading state
   const { name, email, needHelp, message, recaptcha } = client;
   const navigate = useNavigate();
 
@@ -34,16 +35,74 @@ function Contact() {
     }
 
     try {
+      setLoading(true); // Set loading state to true
       await axios.post('https://p-o-server-2.onrender.com/Contact', client);
+      setLoading(false); // Set loading state to false after successful post
       navigate('/Home');
     } catch (error) {
       console.error('Error submitting form:', error);
+      setLoading(false); // Set loading state to false in case of an error
     }
   };
-
   return (
     <div className="App">
-      <header className="Contact-header">
+     {
+      loading?
+      (
+        <>
+           <div className="box-of-star1">
+            <div className="star star-position1"></div>
+            <div className="star star-position2"></div>
+            <div className="star star-position3"></div>
+            <div className="star star-position4"></div>
+            <div className="star star-position5"></div>
+            <div className="star star-position6"></div>
+            <div className="star star-position7"></div>
+          </div>
+          <div className="box-of-star2">
+            <div className="star star-position1"></div>
+            <div className="star star-position2"></div>
+            <div className="star star-position3"></div>
+            <div className="star star-position4"></div>
+            <div className="star star-position5"></div>
+            <div className="star star-position6"></div>
+            <div className="star star-position7"></div>
+          </div>
+          <div className="box-of-star3">
+            <div className="star star-position1"></div>
+            <div className="star star-position2"></div>
+            <div className="star star-position3"></div>
+            <div className="star star-position4"></div>
+            <div className="star star-position5"></div>
+            <div className="star star-position6"></div>
+            <div className="star star-position7"></div>
+          </div>
+          <div className="box-of-star4">
+            <div className="star star-position1"></div>
+            <div className="star star-position2"></div>
+            <div className="star star-position3"></div>
+            <div className="star star-position4"></div>
+            <div className="star star-position5"></div>
+            <div className="star star-position6"></div>
+            <div className="star star-position7"></div>
+          </div>
+          {/* ... (box-of-star2, box-of-star3, box-of-star4) */}
+          <div data-js="astro" className="astronaut">
+            <div className="head"></div>
+            <div className="arm arm-left"></div>
+            <div className="arm arm-right"></div>
+            <div className="body">
+              <div className="panel"></div>
+            </div>
+            <div className="leg leg-left"></div>
+            <div className="leg leg-right"></div>
+            <div className="schoolbag"></div>
+          </div>
+        </>
+      ):
+      (
+        <>
+           <header className="Contact-header">
         <h1>Let's make some cool stuff together!</h1>
       </header>
       <form className="form" onSubmit={(e) => onSubmit(e)}>
@@ -120,8 +179,15 @@ function Contact() {
             />
           </div>
         </div>
-        <button id="submitButton" className="Submit-responses">Send</button>
+        {/* Loading message */}
+        {loading && <p>Sending Your message...</p>}
+        <button id="submitButton" className="Submit-responses" disabled={loading}>
+          {loading ? 'Sending✈️...' : 'Send Me'}
+        </button>
       </form>
+        </>
+      )
+     }
     </div>
   );
 }
