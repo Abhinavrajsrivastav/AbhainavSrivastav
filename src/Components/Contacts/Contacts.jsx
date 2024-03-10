@@ -46,10 +46,7 @@ function Contact() {
   };
   return (
     <div className="App">
-     {
-      loading?
-      (
-        <>
+        {/* <>
            <div className="box-of-star1">
             <div className="star star-position1"></div>
             <div className="star star-position2"></div>
@@ -86,7 +83,6 @@ function Contact() {
             <div className="star star-position6"></div>
             <div className="star star-position7"></div>
           </div>
-          {/* ... (box-of-star2, box-of-star3, box-of-star4) */}
           <div data-js="astro" className="astronaut">
             <div className="head"></div>
             <div className="arm arm-left"></div>
@@ -98,10 +94,7 @@ function Contact() {
             <div className="leg leg-right"></div>
             <div className="schoolbag"></div>
           </div>
-        </>
-      ):
-      (
-        <>
+        </> */}
            <header className="Contact-header">
         <h1>Let's make some cool stuff together!</h1>
       </header>
@@ -185,9 +178,6 @@ function Contact() {
           {loading ? 'Sending✈️...' : 'Send Me'}
         </button>
       </form>
-        </>
-      )
-     }
     </div>
   );
 }
