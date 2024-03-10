@@ -7,7 +7,7 @@
   padding: 15px;
   margin: 10px;
   width: 270px;
-  height: 350px;
+  height: 340px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
@@ -67,7 +67,7 @@
 
 .Links{
   position: relative;
-  top: 10px;
+  top: 5px;
 }
 
 /* Media Query for Mobile View */
