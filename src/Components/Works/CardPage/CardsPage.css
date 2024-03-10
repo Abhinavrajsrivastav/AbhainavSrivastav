@@ -7,15 +7,15 @@
   padding: 12px;
   padding-bottom: 20px;
   margin: 10px;
-  width: 310px;
+  width: 315px;
   /* height: auto; */
-  min-height: 360px;
+  min-height: 380px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
   min-width: 200px;
   transition: box-shadow 0.3s ease-in-out;
-  gap: 10px;
+  gap: 0px;
 }
 
 .Page-Work-Img {
@@ -64,13 +64,13 @@
   font-size: 10px;
 }
 .Page-card-content{
-  min-height:  90px;
+  min-height:  100px;
   height: auto;
   padding-top: 10px;
   gap: 5px;
 }
 .Page-card-content .Page-Project-Name{
-  padding-top: 20px;
+  padding-top: 10px;
 
 }
 
