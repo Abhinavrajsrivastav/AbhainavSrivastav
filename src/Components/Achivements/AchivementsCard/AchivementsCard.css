@@ -5,11 +5,11 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #1e3950bd;
   backdrop-filter: blur(10px);
-  padding: 12px;
+  /* padding: 12px; */
   padding-bottom: 0px;
   margin: 10px;
   width: 300px;
-  height: 370px;
+  height: 350px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
@@ -60,6 +60,7 @@
 
 .Achive-card-content {
   padding-top: 20px;
+  padding: 12px;
 }
 
 .Achive-card-content .Achive-Project-Name {
@@ -73,7 +74,8 @@
   height: auto;
   width: 100%;
   position: relative;
-  bottom: 0px;
+  bottom: 15px;
+  padding: 12px;
 }
 
 
