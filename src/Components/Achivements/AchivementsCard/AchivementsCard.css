@@ -9,7 +9,7 @@
   padding-bottom: 0px;
   margin: 10px;
   width: 300px;
-  height: 350px;
+  height: 330px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
@@ -60,11 +60,15 @@
 
 .Achive-card-content {
   padding-top: 20px;
-  padding: 12px;
+  padding-left: 12px;
 }
 
 .Achive-card-content .Achive-Project-Name {
   padding-top: 20px;
+}
+
+.Achive-Project-Name{
+  min-height: 100px;
 }
 
 .Achive-Fotter {
@@ -74,8 +78,8 @@
   height: auto;
   width: 100%;
   position: relative;
-  bottom: 15px;
-  padding: 12px;
+  bottom: 0px;
+  padding: 8px;
 }
 
 
@@ -85,20 +89,20 @@
   flex-wrap: wrap;
   justify-content: start;
   align-items: start;
-  max-width: 300px;
+  max-width: 400px;
   max-height: 100px;
   position: relative;
   top: 0px;
   left: 0px;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 .Achive-techs span{
   margin: 2px;
   padding: 2px 8px 2px 8px;
-  background-color: rgba(33, 100, 108, 0.378);
-  border-radius: 5px;
-  font-size: 10px;
+  background-color: rgb(54 153 179 / 39%);
+  border-radius: 15px;
+  font-size: 8px;
 }
 
 .Achive-Links{
