@@ -136,11 +136,13 @@ function Contact() {
            <option value="BackendDevelopmemt">Backend Development</option>
           <option value="FrontendDevelopment">Frontend Development</option>
           <option value="fullStackDevelopment">Full Stack Development</option>
-          <option value="mobileDevelopment">Mobile Development</option>
-          <option value="gameDevelopment">Game Development</option>
+          {/* <option value="mobileDevelopment">Mobile Development</option> */}
+          {/* <option value="gameDevelopment">Game Development</option> */}
           <option value="webDevelopment">Web Development</option>
           <option value="MachineLearning">Machine Learning</option>
           <option value="design">UI/UX design</option>
+          <option value="content writing">Content writing</option>
+          <option value="teaching" >Teaching</option>
           <option value="marketing">Video editing</option>
           <option value="hi">Just hi...</option>
         </select>
