@@ -54,7 +54,7 @@
 
 .Card-Tools-img {
   position: absolute;
-  top: 140px;
+  top: 120px;
   right: 1px;
   margin: 25px;
   height: 35px;
@@ -74,14 +74,14 @@
 .card-content{
   /* min-height: 100px; */
   padding-bottom: 0px;
-  padding-top: 10px;
+  padding-top: px;
   padding: 12px;
 }
 
 
 .Links{
   position: relative;
-  top: 5px;
+  top: 0px;
   padding: 12px;
 }
 
