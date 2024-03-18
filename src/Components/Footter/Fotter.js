@@ -31,10 +31,10 @@ const Fotter = () => {
                         <a href="/Achievements">Achievements</a>
                     </div>
                     <div className="Fotter-Projects FC">
-                        <p>Projects<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <p>Contents<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Works</a>
-                        <a href="/Vlogs">Vlogs</a>
-                        <a href="/Vlogs">Blogs</a>
+                        <a href="https://qr.ae/ps7o2C">Vlogs</a>
+                        <a href="https://medium.com/@abhiraj.srivast254/">Blogs</a>
                         <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">Contents</a>
                         <a href="https://github.com/Abhinavrajsrivastav">Contributions</a>
                     </div>
@@ -50,11 +50,11 @@ const Fotter = () => {
             </div>
             <div className="Footer-Licence">
         <div className="Licence" style={{marginRight: '30px', marginBottom: '20px'}}>
-          Proudly Made with ❤️ by @_abhinav_srivastav__ using
+         © 2024 Copyright. Proudly Made with by <a href="https://github.com/Abhinavrajsrivastav">Abhinav</a> using
            <img src="./images/Tools/javas.png" alt="Java" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px' }} />
            <img src="./images/Tools/bootstrap.png" alt="Bootstrap" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px'  }} />
            <img src="./images/Tools/react.png" alt="React" style={{ height: '20px', width: '20px',margin: '0px 3px 0px 3px'  }} />
-          . © 2024 Copyright.!
+          .
         </div>
       </div>
         </div>

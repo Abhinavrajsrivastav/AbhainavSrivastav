@@ -130,6 +130,11 @@
   outline: none;
 }
 
+.Licence a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 /* Fotter.css */
 @media (max-width: 1005px) {

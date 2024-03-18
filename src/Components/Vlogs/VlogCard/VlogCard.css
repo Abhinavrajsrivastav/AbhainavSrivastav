@@ -9,7 +9,7 @@
   width: 270px;
   /* height: auto; */
   min-height: 300px;
-  max-height: 330px;
+  max-height: 310px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
@@ -21,7 +21,7 @@
 
 .Vlog-Work-Img {
   width: auto;
-  height: 180px;
+  height: 170px;
   position: relative;
   overflow: hidden;
   background: fixed;
@@ -35,10 +35,10 @@
 }
 
 .Vlog-Projects-img {
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: cover;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   z-index: -1000;
 }
 
@@ -70,7 +70,7 @@
 
 .Vlog-Links{
   position: relative;
-  top: -25px;
+  top: -45px;
   padding: 12px;
 }
 
