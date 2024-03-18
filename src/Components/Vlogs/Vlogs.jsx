@@ -23,7 +23,7 @@ const Work = ({
       
       </div>
       <button className="Vlog-cta">
-       <span className="Vlog-Text" style={{color: 'inherit'}} ><a href="https://www.quora.com/profile/Abhinav-Srivastav-189" style={{color: 'inherit', textDecoration: 'inherit'}}>View All Vlogs</a></span>
+       <span className="Vlog-Text" style={{color: 'inherit'}} ><a href="https://medium.com/@abhiraj.srivast254/" style={{color: 'inherit', textDecoration: 'inherit'}}>View All Vlogs</a></span>
        <svg width="15px" height="10px" viewBox="0 0 13 10">
        <path d="M1,5 L11,5"></path>
        <polyline points="8 1 12 5 8 9"></polyline>

@@ -8,8 +8,8 @@ const Card = ({ src, gitHub, name, about, link, vlogImg }) => {
       <div className="Vlog-card dark:bg-dark bg-lighter">
       <div className="Vlog-Work-Img">
         <img src={src} alt="ExpressIT" className="Vlog-Projects-img" />
-        <img src={vlogImg} alt="Java" className="Vlog-Tools-img" />
       </div>
+      <img src={vlogImg} alt="Java" className="Vlog-Tools-img" />
       <div className="Vlog-card-content">
         <span className="Vlog-Project-Name fs-5">{name}</span><br />
         <span style={{ fontSize: '13px' }}>{about}</span>
