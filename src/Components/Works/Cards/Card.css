@@ -22,7 +22,7 @@
 
 .Work-Img {
   width: auto;
-  height: 180px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   background: fixed;
@@ -54,7 +54,7 @@
 
 .Card-Tools-img {
   position: absolute;
-  top: 120px;
+  top: 140px;
   right: 1px;
   margin: 25px;
   height: 35px;
