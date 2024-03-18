@@ -17,7 +17,7 @@ const Card = ({
         {/* <img src="./images/Tools/java.png" alt="Java" className="Tools-img" /> */}
       </div>
       
-      <div className="ToolsImg">
+      <div className="Card-ToolsImg">
         {toolImg.map((img,index) => (
   <img key={index} src={`./images/Tools/${img}`} alt={img} className="Card-Tools-img" />
 ))}

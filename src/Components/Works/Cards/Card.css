@@ -65,7 +65,7 @@
   background-color:#1e3950;
 }
 
-.ToolsImg{
+.Card-ToolsImg{
   margin: 2px;
   padding: 2px 8px 2px 8px;
   font-size: 10px;
@@ -99,10 +99,10 @@
   .Card-Tools-img  {
     margin: 10px;
     position: absolute;
-    top: 164px;
+    top: 130px;
     right: 15px;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
   }
 
   .card-content {
