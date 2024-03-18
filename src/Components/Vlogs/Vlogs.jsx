@@ -17,7 +17,7 @@ const Work = ({
       </div>
       <div className="Vlog-Cards">
         <Card src={"./images/Vlogs/parcing.png"} name={"Parcing in programming"} about={""} link={"https://qr.ae/pKfRU6"} vlogImg={"./images/Vlogs/quara.png"}/>
-        <Card src={"./images/Vlogs/chandrayaan3.jpg"} name={"Chadrayaan-3"} about={""} link={"https://qr.ae/ps7o2C"} vlogImg={"./images/Vlogs/quara.png"}/>
+        <Card src={"https://static.vecteezy.com/system/resources/previews/027/543/050/original/india-russia-rocket-to-moon-mission-chandrayaan-3-rocket-india-luna-25-rocket-russia-vector.jpg"} name={"Chadrayaan-3"} about={""} link={"https://qr.ae/ps7o2C"} vlogImg={"./images/Vlogs/quara.png"}/>
         <Card src={"./images/Vlogs/Threading.png"} name={"Mutli-Threading"} about={""} link={"https://www.linkedin.com/posts/abhinav-raj-srivastav-599aaa1b2_multithreading-java-concurrency-activity-7175072758316347392-9DXo?utm_source=share&utm_medium=member_desktop"} vlogImg={"./images/Vlogs/linkedin.png"}/>
       </div>
       
