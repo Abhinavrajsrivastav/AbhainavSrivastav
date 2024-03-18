@@ -22,7 +22,7 @@ const Card = ({
        </div>
       <div className="Page-card-content">
         <span className="Page-Project-Name fs-5">{name}</span><br />
-        <span style={{ fontSize: '13px' }}>{about}.</span>
+        <span style={{ fontSize: '13px' }}>{about}</span>
       </div>
       <div className="Page-Links d-flex flex-row justify-content-start gap-2 mt-2">
         {link !== "" && (
