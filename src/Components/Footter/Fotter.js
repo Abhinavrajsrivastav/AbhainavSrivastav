@@ -31,7 +31,7 @@ const Fotter = () => {
                         <a href="/Achievements">Achievements</a>
                     </div>
                     <div className="Fotter-Projects FC">
-                        <p>Contents<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <p>Work<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Works</a>
                         <a href="https://qr.ae/ps7o2C">Vlogs</a>
                         <a href="https://medium.com/@abhiraj.srivast254/">Blogs</a>
