@@ -8,12 +8,12 @@
   margin: 10px;
   width: 270px;
   /* height: auto; */
-  min-height: 300px;
-  max-height: 310px;
+  min-height: 280px;
+  max-height: 300px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
-  min-width: 200px;
+  min-width: 190px;
   transition: box-shadow 0.3s ease-in-out;
   gap: 0px;
 }
@@ -35,7 +35,7 @@
 }
 
 .Vlog-Projects-img {
-  height: auto;
+  height: 300px;
   width: 100%;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
