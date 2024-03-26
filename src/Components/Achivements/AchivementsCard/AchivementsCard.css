@@ -9,6 +9,7 @@
   padding-bottom: 0px;
   margin: 10px;
   width: 300px;
+  max-width: 400px;
   height: auto;
   overflow: hidden;
   position: relative;
@@ -113,11 +114,11 @@
 /* Media Query for Mobile View */
 @media (max-width: 1005px) {
   .Achive-card {
-    width: 380px;
+    width: 100%;
     height: auto;
     position: relative;
     padding-bottom: 0px;
-    left: 9px;
+    left: 0px;
     max-height: 450px;
     gap: 0px;
   }
