@@ -1,5 +1,5 @@
 import React from 'react';
-import AchivementsCard from './AchivementsCard/AchivementsCard'
+import AchivementsCard from './AchivementsCard/AchivementsCard';
 import './Achivements.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,10 +9,10 @@ const Achivements = () => {
       <div className="Page-Work">
         <div className="Page-Work-Head">
           <span className="Page-Text">My Achievements<span>.</span></span><br />
-          <span className="Page-Text-description">Here are some of my Achievements, I Proudly  have.</span>
+          <span className="Page-Text-description">Here are some of my Achievements, I Proudly have.</span>
         </div>
         <div className="Page-Cards">
-        <AchivementsCard
+          <AchivementsCard
             src={"./images/Achivements/gfg.png"}
             gitHub={""}
             name={"Solved 400+ problems at GFG"}
@@ -20,7 +20,7 @@ const Achivements = () => {
             link={"https://auth.geeksforgeeks.org/user/abhirajsrivast254"}
             techs={["Java", "DSA", "Competitive Programming","C","Coding Contest"]}
           />
-           <AchivementsCard
+          <AchivementsCard
             src={"./images/Achivements/leetcode.png"}
             gitHub={""}
             name={"Solved 80+ problems solved at leetdode."}
@@ -42,7 +42,7 @@ const Achivements = () => {
             name={"700+ contributions on GitHub."}
             about={"🏆 Achived 12+ stars"}
             link={"https://github.com/Abhinavrajsrivastav"}
-            techs={["Java", "DSA", "Competitive Programming","C","Contribution","Open Source","Web Development","System Design","JavaScript","React.js","Node.js","Express.js","Spring Boot","OOP's"]}
+            techs={["Core Java", "DSA", "Competitive Programming","Contribution","Open Source","JavaScript","React.js","Node.js","Spring Boot"]}
           />
           <AchivementsCard
             src={"./images/Achivements/Hackerranks.png"}
@@ -60,6 +60,16 @@ const Achivements = () => {
             link={"https://learn.pwskills.com/certificate/15a6646c-67ba-4222-b36b-0e732e9c100c"}
             techs={["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC","DataBase", "System Design","Object Oriented Programming"]}
           />
+          {/* Add other achievement cards here */}
+        </div>
+      </div>
+
+      <div className="Second-Part">
+        <div className="Page-Work-Head">
+          <span className="Page-Text">Certifications<span>.</span></span><br />
+          <span className="Page-Text-description">Here are some of my certifications.</span>
+        </div>
+        <div className="Page-Cards">
           <AchivementsCard
             src={"./images/Achivements/Web_Development_Bootcamp.png"}
             gitHub={""}
@@ -108,19 +118,9 @@ const Achivements = () => {
             link={"https://www.credly.com/users/abhinav-raj-srivastav/badges"}
             techs={["Python Basics", "Fundamentals"]}
           />
+          {/* Add other certification cards here */}
         </div>
       </div>
-
-      {/* <div className="Achivement-fotter">
-        <div className="Achivement-fotter-line">
-          <div className="line-1"></div>
-          <div className="or">Or</div>
-          <div className="line-2"></div> 
-        </div>
-        <div className="Achivement-fotter-btn">
-          <Test />
-        </div>
-      </div> */}
     </div>
   );
 }

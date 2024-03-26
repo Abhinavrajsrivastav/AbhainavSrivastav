@@ -20,7 +20,7 @@
 
 .Achive-Work-Img {
   width: auto;
-  height: 180px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   background: fixed;
@@ -116,7 +116,7 @@
     width: 380px;
     height: auto;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     left: 9px;
     max-height: 450px;
     gap: 0px;
@@ -132,7 +132,8 @@
   }
 
   .Achive-Work-Img {
-    height: 190px;
+    height: 200px;
+    width: auto;
     max-height: 350px;
     width: auto;
     object-fit: contain;
