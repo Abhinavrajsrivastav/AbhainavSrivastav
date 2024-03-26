@@ -310,3 +310,12 @@
  color:  rgb(0, 167, 0);
  box-shadow: 0 0 10px 0 rgb(14, 255, 62);
 }
+
+@media (max-width: 870px) and (min-width: 765px){
+   .Home-Head{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    top: 20px;
+   }
+}

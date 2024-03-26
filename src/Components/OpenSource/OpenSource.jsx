@@ -12,7 +12,7 @@ const OpenSource = () => {
             <span className="Point">.</span>
             <br />
           </span>
-          <span>Here are some of the popular Open Source Repositories I've worked on.</span>
+          <span>Here are some Proudly made, Open Source Repositories I've worked on, btw still working...</span>
         </div>
         <div className="Open">
           <Card name={"Core Java and DSA"} about={"This Repo consists all important topics of Core Java. every pont is covered with a coding example."} view={"https://github.com/Abhinavrajsrivastav/Core_Java.git"}/>

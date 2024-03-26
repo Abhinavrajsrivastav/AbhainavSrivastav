@@ -43,19 +43,13 @@ const Home = () => {
           <div className="My-Thought">
             <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content <br />creator.</span>
           </div>
-         <div className="Coding-Profiles">
-  {/* Add your iconic buttons here */}
+         {/* <div className="Coding-Profiles">
   <h2></h2>
-  <a href="https://auth.geeksforgeeks.org/user/abhirajsrivast254" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/Abhinavrajsrivastav" target="_blank" rel="noopener noreferrer">
     <button className="Coding-Profile-Button git">
       GitHub
     </button>
   </a>
-  {/* <a href="https://www.hackerrank.com/profile/CSME2A_b1531174" target="_blank" rel="noopener noreferrer">
-    <button className="Coding-Profile-Button hack">
-     Hackerrank
-    </button>
-  </a> */}
   <a href="https://leetcode.com/Abhinav254/" target="_blank" rel="noopener noreferrer">
     <button className="Coding-Profile-Button leet">
       Leetcode
@@ -66,8 +60,7 @@ const Home = () => {
       GFG
     </button>
   </a>
-  {/* Add more buttons for other coding profiles if needed */}
-</div>
+</div> */}
 <div className="Chat">
             <Link to="/Contact">
               <button className="Chat-Btn button">Let's Chat!</button>

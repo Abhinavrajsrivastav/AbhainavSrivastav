@@ -18,7 +18,7 @@ const Fotter = () => {
                     <div className="Fotter-About" style={{fontSize: '15px'}}>I turn ideas into reality with the power of software engineering, and I share my stories as a content creator.</div>
                     <div class="input-group">
                     <input type="email" className="input" id="Email" name="Email" placeholder="uiverse@verse.io"></input>
-                    <input className="button--submit" value="Subscribe" type="submit"></input>
+                    <a href="/Contact"><input className="button--submit" value="Say hi 👋" type="submit" ></input></a>
                     </div>
                 </div>
                 <div className="Fotter-Content">
