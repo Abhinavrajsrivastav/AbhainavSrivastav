@@ -132,7 +132,8 @@
   }
 
   .Achive-Work-Img {
-    height: 240px;
+    height: 190px;
+    max-height: 350px;
     width: auto;
     object-fit: contain;
   }

@@ -88,6 +88,9 @@
 
 .Chat {
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 .My-Profile {
@@ -115,7 +118,7 @@
 .button {
   font-size: 15px;
   position: relative;
-  padding: 10px;
+  padding: 8px;
   border-radius: 30px;
   border: none;
   color: #fff;
@@ -263,4 +266,47 @@
     left: 35px;
   }
 
+}
+
+/* Add this to your existing Home.css or create a new CSS file */
+.Coding-Profiles {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Coding-Profiles h2{
+  font-size: 12px;
+  padding: 8px 8px 8px 0px;
+  color: inherit;
+}
+
+.Coding-Profile-Button {
+  padding: 5px;
+  background-color: #204053f2; /* Change the color as per your preference */
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 12px;
+  margin: 5px 15px 5px -10px;
+}
+
+.git:hover {
+ color:  rgb(135, 48, 143);
+ box-shadow: 0 0 10px 0 rgb(192, 73, 251);
+}
+
+.hack:hover {
+ color:  rgb(7, 147, 42);
+ box-shadow: 0 0 10px 0 rgb(32, 255, 61);
+}
+.leet:hover {
+ color:  rgb(247, 221, 23);
+ box-shadow: 0 0 10px 0 rgb(255, 235, 53);
+}
+.gfg:hover {
+ color:  rgb(0, 167, 0);
+ box-shadow: 0 0 10px 0 rgb(14, 255, 62);
 }

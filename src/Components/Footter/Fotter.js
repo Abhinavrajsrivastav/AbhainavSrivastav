@@ -22,27 +22,34 @@ const Fotter = () => {
                     </div>
                 </div>
                 <div className="Fotter-Content">
+                <div className="Fotter-General FC">
+                        <p>Coding<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <a href="https://auth.geeksforgeeks.org/user/abhirajsrivast254">GFG</a>
+                        <a href="https://github.com/Abhinavrajsrivastav">GitHub</a>
+                        <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/">LinkedIn</a>
+                        <a href="https://leetcode.com/Abhinav254/">Leetcode</a>
+                        <a href="https://www.hackerrank.com/profile/CSME2A_b1531174">Hackerrank</a>
+                    </div>
                     <div className="Fotter-General FC">
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Home</a>
                         <a href="/About">About</a>
-                        <a href="https://drive.google.com/file/d/1ZsSS8dkb1KIvPB7xHt9VtXRFhkNB_gRb/view?usp=drivesdk">Resume</a>
+                        <a href="https://drive.google.com/file/d/1bAnNLnfiY84rpcOteebBBOB2JVLI5k9A/view?usp=drivesdk">Resume</a>
                         <a href="/Contact">Contact</a>
                         <a href="/Achievements">Achievements</a>
                     </div>
                     <div className="Fotter-Projects FC">
-                        <p>Work<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
-                        <a href="/">Works</a>
-                        <a href="https://qr.ae/ps7o2C">Vlogs</a>
+                        <p>Works<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <a href="/">Work</a>
+                        {/* <a href="https://qr.ae/ps7o2C">Vlogs</a> */}
                         <a href="https://medium.com/@abhiraj.srivast254/">Blogs</a>
                         <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">Contents</a>
                         <a href="https://github.com/Abhinavrajsrivastav">Contributions</a>
                     </div>
                     <div className="Fotter-Social FC">
                         <p>Socials<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
-                        <a href="https://github.com/Abhinavrajsrivastav">GitHub</a>
                         <a href="https://twitter.com/srivast254">Twitter</a>
-                        <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/">Portfolio</a>
                         <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">YouTube</a>
                         <a href="https://www.instagram.com/_abhinav_srivastav__/">Instagram</a>
                     </div>

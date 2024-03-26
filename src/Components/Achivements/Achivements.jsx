@@ -9,24 +9,48 @@ const Achivements = () => {
       <div className="Page-Work">
         <div className="Page-Work-Head">
           <span className="Page-Text">My Achievements<span>.</span></span><br />
-          <span className="Page-Text-description">Here are some of the Achievements I have.</span>
+          <span className="Page-Text-description">Here are some of my Achievements, I Proudly  have.</span>
         </div>
         <div className="Page-Cards">
         <AchivementsCard
             src={"./images/Achivements/gfg.png"}
             gitHub={""}
-            name={"Solved 450+ problems at GFG and leetcode."}
+            name={"Solved 400+ problems at GFG"}
             about={"🏆 0.8% at GFG In College."}
             link={"https://auth.geeksforgeeks.org/user/abhirajsrivast254"}
             techs={["Java", "DSA", "Competitive Programming","C","Coding Contest"]}
           />
+           <AchivementsCard
+            src={"./images/Achivements/leetcode.png"}
+            gitHub={""}
+            name={"Solved 80+ problems solved at leetdode."}
+            about={"🏆 Top 41% at leetcode"}
+            link={"https://leetcode.com/Abhinav254/"}
+            techs={["Java", "DSA", "Competitive Programming","C","Coding Contest"]}
+          />
+          <AchivementsCard
+            src={"./images/Achivements/50daysleetcode.png"}
+            gitHub={""}
+            name={"Consistent 50+ days CP coding at leetdode."}
+            about={"🏆 Contest Rating - 1502(*1)"}
+            link={"https://leetcode.com/Abhinav254/"}
+            techs={["Java", "DSA", "Competitive Programming","Coding Contest"]}
+          />
           <AchivementsCard
             src={"./images/Achivements/github.png"}
             gitHub={""}
-            name={"650+ contributions on GitHub."}
+            name={"700+ contributions on GitHub."}
             about={"🏆 Achived 12+ stars"}
             link={"https://github.com/Abhinavrajsrivastav"}
             techs={["Java", "DSA", "Competitive Programming","C","Contribution","Open Source","Web Development","System Design","JavaScript","React.js","Node.js","Express.js","Spring Boot","OOP's"]}
+          />
+          <AchivementsCard
+            src={"./images/Achivements/Hackerranks.png"}
+            gitHub={""}
+            name={"Hackerrank Rating."}
+            about={"🏆 Java - 3*⭐ |  C - 4*⭐ | PS - 3*⭐"}
+            link={"https://www.hackerrank.com/profile/CSME2A_b1531174"}
+            techs={["Java", "DSA", "Competitive Programming","C", "Problem Solving","SQL","Python"]}
           />
           <AchivementsCard
             src={"./images/Achivements/Java_Pw.png"}
@@ -49,7 +73,7 @@ const Achivements = () => {
             gitHub={""}
             name={"Problem Solving with Java"}
             about={""}
-            link={"https://www.hackerrank.com/certificates/iframe/822de53d1ccc"}
+            link={"https://www.hackerrank.com/profile/CSME2A_b1531174"}
             techs={["Java", "Problem Solving"]}
           />
           <AchivementsCard
@@ -57,7 +81,7 @@ const Achivements = () => {
             gitHub={""}
             name={"Problem Solving with Java"}
             about={""}
-            link={"https://www.hackerrank.com/certificates/iframe/8a532de3c6a1"}
+            link={"https://www.hackerrank.com/profile/CSME2A_b1531174"}
             techs={["Java", "C", "Problem Solving"]}
           />
           <AchivementsCard
@@ -65,7 +89,7 @@ const Achivements = () => {
             gitHub={""}
             name={"SQL Basics Certified"}
             about={""}
-            link={"https://www.hackerrank.com/certificates/iframe/47e280504ef5"}
+            link={"https://www.hackerrank.com/profile/CSME2A_b1531174"}
             techs={["SQL", "Problem Solving"]}
           />
           <AchivementsCard
@@ -73,7 +97,7 @@ const Achivements = () => {
             gitHub={""}
             name={"Javascript Essential 1.0 Cisco"}
             about={""}
-            link={"https://drive.google.com/file/d/19v987x9nx0O0XD_WBcqjLh9DJimecdmP"}
+            link={"https://www.credly.com/badges/59f9792a-a875-4d85-9652-0ce7712868ca"}
             techs={["JavaScript", "Problem Solving", "DSA", "JavaScript fundamentals"]}
           />
           <AchivementsCard
@@ -81,7 +105,7 @@ const Achivements = () => {
             gitHub={""}
             name={"Python Essential 1.0 Cisco"}
             about={""}
-            link={"https://www.credly.com/badges/59f9792a-a875-4d85-9652-0ce7712868ca"}
+            link={"https://www.credly.com/users/abhinav-raj-srivastav/badges"}
             techs={["Python Basics", "Fundamentals"]}
           />
         </div>
