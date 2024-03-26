@@ -9,7 +9,7 @@ const Achivements = () => {
       <div className="Page-Work">
         <div className="Page-Work-Head">
           <span className="Page-Text">My Achievements<span>.</span></span><br />
-          <span className="Page-Text-description">Here are some of my Achievements, I Proudly have.</span>
+          <span className="Page-Text-description">Here are some of my Achievements, I Proudly 🩵 have.</span>
         </div>
         <div className="Page-Cards">
           <AchivementsCard
