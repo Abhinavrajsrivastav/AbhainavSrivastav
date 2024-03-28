@@ -33,10 +33,10 @@ const Fotter = () => {
                     <div className="Fotter-General FC">
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Home</a>
-                        <a href="/About">About</a>
+                        <Link to="/About">About</Link>
                         <a href="https://drive.google.com/file/d/1bAnNLnfiY84rpcOteebBBOB2JVLI5k9A/view?usp=drivesdk">Resume</a>
                         <a href="/Contact">Contact</a>
-                        <a href="/Achievements">Achievements</a>
+                        <Link to="/Achievements">Achievements</Link>
                     </div>
                     <div className="Fotter-Projects FC">
                         <p>Works<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
