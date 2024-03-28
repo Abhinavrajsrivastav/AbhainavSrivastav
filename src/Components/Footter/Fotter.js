@@ -18,7 +18,7 @@ const Fotter = () => {
                     <div className="Fotter-About" style={{fontSize: '15px'}}>I turn ideas into reality with the power of software engineering, and I share my stories as a content creator.</div>
                     <div class="input-group">
                     <input type="email" className="input" id="Email" name="Email" placeholder="uiverse@verse.io"></input>
-                    <a href="/Contact"><input className="button--submit" value="Say hi 👋" type="submit" ></input></a>
+                    <Link to="/Contact"> <input className="button--submit" value="Say hi 👋" type="submit" ></input></Link>
                     </div>
                 </div>
                 <div className="Fotter-Content">
@@ -35,7 +35,7 @@ const Fotter = () => {
                         <a href="/">Home</a>
                         <Link to="/About">About</Link>
                         <a href="https://drive.google.com/file/d/1bAnNLnfiY84rpcOteebBBOB2JVLI5k9A/view?usp=drivesdk">Resume</a>
-                        <a href="/Contact">Contact</a>
+                        <Link to="/Contact">Contact</Link>
                         <Link to="/Achievements">Achievements</Link>
                     </div>
                     <div className="Fotter-Projects FC">
