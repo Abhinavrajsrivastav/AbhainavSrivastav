@@ -1,6 +1,7 @@
 import React from 'react';
 import './Fotter.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 const Fotter = () => {
     const name = "Abhinav";
@@ -33,10 +34,10 @@ const Fotter = () => {
                     <div className="Fotter-General FC">
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/">Home</a>
-                        <Link to="/About">About</Link>
+                        <Link to="/About"><span>About</span></Link>
                         <a href="https://drive.google.com/file/d/1bAnNLnfiY84rpcOteebBBOB2JVLI5k9A/view?usp=drivesdk">Resume</a>
-                        <Link to="/Contact">Contact</Link>
-                        <Link to="/Achievements">Achievements</Link>
+                        <Link to="/Contact"><span>Contact</span></Link>
+                        <Link to="/Achievements"><span>Achievements</span></Link>
                     </div>
                     <div className="Fotter-Projects FC">
                         <p>Works<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
