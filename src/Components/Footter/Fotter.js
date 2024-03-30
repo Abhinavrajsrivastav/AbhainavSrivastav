@@ -17,7 +17,7 @@ const Fotter = () => {
                         <span style={{ color: 'rgb(18, 197, 202)' }}>{CloseC}</span>
                     </div>
                     <div className="Fotter-About" style={{fontSize: '15px'}}>I turn ideas into reality with the power of software engineering, and I share my stories as a content creator.</div>
-                    <div class="input-group">
+                    <div className="input-group">
                     <input type="email" className="input" id="Email" name="Email" placeholder="uiverse@verse.io"></input>
                     <Link to="/Contact"> <input className="button--submit" value="Say hi 👋" type="submit" ></input></Link>
                     </div>

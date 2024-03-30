@@ -41,7 +41,7 @@ const Home = () => {
             </div>
           </div>
           <div className="My-Thought">
-            <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content <br />creator.</span>
+            <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content creator.</span>
           </div>
          {/* <div className="Coding-Profiles">
   <h2></h2>

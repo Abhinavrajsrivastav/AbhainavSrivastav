@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .Page-Work-Head {
@@ -68,7 +69,6 @@
   align-items: start;
   position: relative;
   left: 0px;
-  max-width: 1200px;
 }
 
 .Achivement-fotter {

@@ -109,6 +109,8 @@ select:focus {
   background-color: #00cc66; /* Same green color as the active state */
 }
 
+
+
 @media (max-width: 1000px) {
   .Your-Name,
   .Email {

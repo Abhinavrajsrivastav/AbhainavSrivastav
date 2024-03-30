@@ -76,7 +76,7 @@
 
 .Profession p {
   padding: 4px;
-  font-size: 17px;
+  font-size: 13px;
   background-color: rgb(91 194 213 / 50%);
   border-radius: 2px;
 }
@@ -116,15 +116,16 @@
 }
 
 .button {
-  font-size: 15px;
+  font-size: 12px 15px 12px 15px;
   position: relative;
   padding: 8px;
   border-radius: 30px;
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: rgb(47 110 145);
+  background-color: rgb(75 135 196);
   transition: all 0.2s ease;
+
 }
 
 .button:active {
