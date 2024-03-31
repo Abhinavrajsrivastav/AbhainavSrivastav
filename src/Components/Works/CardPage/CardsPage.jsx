@@ -40,10 +40,10 @@ const Card = ({
           </a>
         )}
       </div>
-      <div className="techs">
+      {/* <div className="techs">
         {tech.map((techi, index) => (
           <p key={index}>{techi}</p>
-        ))}
+        ))} */}
       </div>
     </div>
   );
