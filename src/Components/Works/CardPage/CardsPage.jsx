@@ -43,8 +43,8 @@ const Card = ({
       {/* <div className="techs">
         {tech.map((techi, index) => (
           <p key={index}>{techi}</p>
-        ))} */}
-      </div>
+        ))}
+      </div> */}
     </div>
   );
 }
