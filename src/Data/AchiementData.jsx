@@ -104,6 +104,12 @@ const AchiementData = () => {
         }
     ];
 
+    // const Hackethons = [
+    //     {
+
+    //     }
+    // ]
+
     return { AchivementsData, certificationsData };
 }
 
