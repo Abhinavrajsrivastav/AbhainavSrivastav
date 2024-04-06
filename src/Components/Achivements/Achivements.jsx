@@ -47,26 +47,6 @@ const Achivements = () => {
           ))}
         </div>
       </div>
-
-      <div className="Page-Work">
-        <div className="Page-Work-Head">
-          <span className="Page-Text">Certifications<span>.</span></span><br />
-          <span className="Page-Text-description">Here are some of my certifications.</span>
-        </div>
-        <div className="Page-Cards">
-          {certificationsData.map((data, index) => (
-            <AchivementsCard
-              key={index}
-              src={data.src}
-              gitHub={data.gitHub}
-              name={data.name}
-              about={data.about}
-              link={data.link}
-              techs={data.techs}
-            />
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
