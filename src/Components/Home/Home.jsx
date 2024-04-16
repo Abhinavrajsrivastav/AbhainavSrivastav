@@ -65,7 +65,7 @@ const Home = () => {
             <Link to="/Contact">
               <button className="Chat-Btn button">Let's Chat!</button>
             </Link>
-            <Link to="https://drive.google.com/file/d/1bAnNLnfiY84rpcOteebBBOB2JVLI5k9A/view?usp=drivesdk">
+            <Link to="https://drive.google.com/file/d/1iSNnpLumD0VItYJEjiFjpifnH2mtdrz4/view">
               <button className="Chat-Btn button">My Resume</button>
             </Link>
           </div>
