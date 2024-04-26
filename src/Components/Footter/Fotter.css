@@ -142,13 +142,18 @@
     .Fotter-Container {
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
         margin-top: 250px;
-        padding-left: 40px;
-        width: 105%; 
-        align-items: center;
+        padding-left: 45px;
+        width: 108%; 
+        align-items: start;
+        justify-self: start;
+        text-align: start;
         overflow-x: hidden;
     }
     .Fotter-Content{
+    position: relative;
+    right: 30px;
     gap: 20px;
 }
 
@@ -178,6 +183,6 @@
         align-items: center;
         text-align: center;
         position: relative;
-        right: 0px;
+        right: 6px;
     }
 }
