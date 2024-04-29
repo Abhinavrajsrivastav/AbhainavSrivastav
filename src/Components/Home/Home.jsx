@@ -43,24 +43,6 @@ const Home = () => {
           <div className="My-Thought">
             <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content creator.</span>
           </div>
-         {/* <div className="Coding-Profiles">
-  <h2></h2>
-  <a href="https://github.com/Abhinavrajsrivastav" target="_blank" rel="noopener noreferrer">
-    <button className="Coding-Profile-Button git">
-      GitHub
-    </button>
-  </a>
-  <a href="https://leetcode.com/Abhinav254/" target="_blank" rel="noopener noreferrer">
-    <button className="Coding-Profile-Button leet">
-      Leetcode
-    </button>
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/abhirajsrivast254" target="_blank" rel="noopener noreferrer">
-    <button className="Coding-Profile-Button gfg">
-      GFG
-    </button>
-  </a>
-</div> */}
 <div className="Chat">
             <Link to="/Contact">
               <button className="Chat-Btn button">Let's Chat!</button>
