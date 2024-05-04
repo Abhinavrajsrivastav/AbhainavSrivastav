@@ -62,6 +62,12 @@ const NavBar = () => {
                 </Link>
               <p>.</p>
             </div>
+             <div className="Works N">
+              <Link to="/">
+                <span>Skills</span>
+                </Link>
+              <p>.</p>
+            </div>
             {/* <div className="Vlogs N">
               <span>Vlogs</span>
               <p>.</p>
@@ -108,6 +114,12 @@ const NavBar = () => {
             </Link>
             <p>.</p>
           </div>
+          <div className="Works N">
+              <Link to="/Skills">
+                <span>Skills</span>
+                </Link>
+              <p>.</p>
+            </div>
           {/* <div className="Vlogs N">
             <span>Vlogs</span>
             <p>.</p>

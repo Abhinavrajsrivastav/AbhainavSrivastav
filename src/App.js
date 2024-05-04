@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WorkPage from './Components/Works/WorkPage';
 import Achivements from './Components/Achivements/Achivements';
 import About from './Components/About/About';
+import Skills from './Components/Skills/Skills';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/About" element={<About />} />
         <Route path="/Achievements" element={<Achivements />} /> 
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Skills" element={<Skills />} />
       </Routes>
       <Footer />
     </Router>
