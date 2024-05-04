@@ -63,7 +63,7 @@ const NavBar = () => {
               <p>.</p>
             </div>
              <div className="Works N">
-              <Link to="/">
+              <Link to="/Skills">
                 <span>Skills</span>
                 </Link>
               <p>.</p>
