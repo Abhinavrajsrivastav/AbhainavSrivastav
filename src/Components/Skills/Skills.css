@@ -1,9 +1,8 @@
 .skills {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
-  padding: 50px;
   padding-bottom: 100px;
 }
 
@@ -17,6 +16,10 @@
   padding: 20px;
   border-radius: 5px;
   width: auto;
+}
+
+p{
+    font-size: 1.5rem;
 }
 
 img{
@@ -41,4 +44,11 @@ h2 {
 
 ul li {
   margin-bottom: 5px;
+}
+
+@media(max-width: 1005px){
+    img{
+        height: 30px;
+        width: auto;
+    }
 }

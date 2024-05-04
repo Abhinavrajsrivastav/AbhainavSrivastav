@@ -16,17 +16,17 @@ function Skills() {
       <div className="developments">
         <p>Developments</p>
         <div className="skills-container">
-          <div>React</div>
-          <div>Node.js</div>
-          <div>Express.js</div>
+        <img src="./Images/Skills/science.png" alt="" />
+        <img src="./Images/Skills/spring.png" alt="" />
+         <img src="./Images/Skills/programing.png" alt="" />
         </div>
       </div>
       <div className="coreSubjects">
         <p>Core Subjects</p>
         <div className="skills-container">
-          <div>Data Structures</div>
-          <div>Algorithms</div>
-          <div>Database Management</div>
+           <img src="./Images/Skills/structure.png" alt="" />
+          <img src="./Images/Skills/settings.png" alt="" />
+          <img src="./Images/Skills/database.png" alt="" />
         </div>
       </div>
       <div className="tools">
@@ -37,14 +37,14 @@ function Skills() {
           <div>Docker</div>
         </div>
       </div>
-      <div className="softSkills">
+      {/* <div className="softSkills">
         <p>Soft Skills</p>
         <div className="skills-container">
           <div>Communication</div>
           <div>Teamwork</div>
           <div>Problem Solving</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
