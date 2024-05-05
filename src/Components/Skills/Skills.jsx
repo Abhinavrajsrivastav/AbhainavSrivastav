@@ -32,19 +32,20 @@ function Skills() {
       <div className="tools">
         <p>Tools</p>
         <div className="skills-container">
-          <div>Git</div>
-          <div>VS Code</div>
-          <div>Docker</div>
+          <img src="./images/Skills/github.png" alt="" />
+          <img src="./images/Skills/postman.png" alt="" />
+          <img src="./images/Skills/visual-studio.png" alt="" />
+          <img src="./images/Skills/docker.png" alt="" />
         </div>
       </div>
-      {/* <div className="softSkills">
-        <p>Soft Skills</p>
-        <div className="skills-container">
-          <div>Communication</div>
-          <div>Teamwork</div>
-          <div>Problem Solving</div>
+      <div className="softSkills">
+        <p>Deployments</p>
+        <div className='skills-container'>
+        <img src="./images/Skills/aws.jpg" alt="" />
+          <img src="./images/Skills/render.png" alt="" />
+          <img src="./images/Skills/vecel.png" alt="" />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
