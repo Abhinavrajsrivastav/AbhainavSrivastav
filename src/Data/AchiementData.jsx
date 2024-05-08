@@ -19,6 +19,14 @@ const AchiementData = () => {
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
         {
+            src: "./images/Achivements/4april.png",
+            gitHub: "",
+            name: "4 April Leetcode batch.",
+            about: "",
+            link: "",
+            techs: []
+        },
+        {
             src: "./images/Achivements/50daysleetcode.png",
             gitHub: "",
             name: "Consistent 50+ days CP coding at leetdode.",
