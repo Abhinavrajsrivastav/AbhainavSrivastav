@@ -167,7 +167,7 @@ body.menu-open .Theme {
     margin-left: 0px;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
 
@@ -176,7 +176,7 @@ body.menu-open .Theme {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px 0px 8px;
+    padding: 5px 5px 0px 8px;
     width: 100%;
 }
 
@@ -188,7 +188,7 @@ body.menu-open .Theme {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 10px;
+    gap: -10px;
     font-size: 10px;
     position: relative;
     left: 10px;
@@ -196,7 +196,7 @@ body.menu-open .Theme {
 
 .N p {
    position: relative;
-   top: 10px;
+   top: 5px;
 }
 
 .Theme img {
@@ -204,7 +204,7 @@ body.menu-open .Theme {
     width: 20px;
     margin-top: 0px;
     position: relative;
-    top: -10px;
+    top: -15px;
 }
 
 }
