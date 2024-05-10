@@ -99,7 +99,7 @@ const AchiementData = () => {
             gitHub: "",
             name: "Javascript Essential at Cisco",
             about: "",
-            link: "https://www.credly.com/badges/59f9792a-a875-4d85-9652-0ce7712868ca",
+            link: "https://www.credly.com/badges/59f9792a-a875-4d85-9652-0ce7712868ca/public_url",
             techs: ["JavaScript", "Problem Solving", "DSA", "JavaScript fundamentals"]
         },
         {
@@ -107,7 +107,7 @@ const AchiementData = () => {
             gitHub: "",
             name: "Python Essential at Cisco",
             about: "",
-            link: "https://www.credly.com/users/abhinav-raj-srivastav/badges",
+            link: "https://www.credly.com/badges/ac023cac-33f0-4422-a0f2-4d9337262942/public_url",
             techs: ["Python Basics", "Fundamentals"]
         }
     ];
