@@ -5,15 +5,15 @@ const AchiementData = () => {
         {
             src: "./images/Achivements/gfg.png",
             gitHub: "",
-            name: "Solved 400+ problems at GFG",
-            about: "🏆 0.8% at GFG In College.",
+            name: "Solved 450+ problems at GFG",
+            about: "🏆 0.7% at GFG In College.",
             link: "https://auth.geeksforgeeks.org/user/abhirajsrivast254",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
         {
             src: "./images/Achivements/leetcode.png",
             gitHub: "",
-            name: "Solved 100+ problems solved at leetdode.",
+            name: "Solved 140+ problems solved at leetdode.",
             about: "",
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
@@ -30,23 +30,23 @@ const AchiementData = () => {
             src: "./images/Achivements/leetcode100days.png",
             gitHub: "",
             name: "100 days Leetcode badge.",
-            about: "🏆first 100 days at leetcode .",
+            about: "🏆first 100 days at leetcode.",
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
         },
-        {
-            src: "./images/Achivements/50daysleetcode.png",
-            gitHub: "",
-            name: "Consistent 50+ days CP coding at leetdode.",
-            about: "🏆 Max Contest Rating - 1502",
-            link: "https://leetcode.com/Abhinav254/",
-            techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
-        },
+        // {
+        //     src: "./images/Achivements/50daysleetcode.png",
+        //     gitHub: "",
+        //     name: "Consistent 500+ days CP coding at leetdode.",
+        //     about: "🏆 Max Contest Rating - 1502",
+        //     link: "https://leetcode.com/Abhinav254/",
+        //     techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
+        // },
         {
             src: "./images/Achivements/github.png",
             gitHub: "",
-            name: "800+ contributions on GitHub.",
-            about: "🏆 Achived 12+ stars",
+            name: "850+ contributions on GitHub.",
+            about: "🏆 Achived 15+ stars",
             link: "https://github.com/Abhinavrajsrivastav",
             techs: ["Core Java", "DSA", "Competitive Programming", "Contribution", "Open Source", "JavaScript", "React.js", "Node.js", "Spring Boot"]
         },
