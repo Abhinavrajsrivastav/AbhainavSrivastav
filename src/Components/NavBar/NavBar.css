@@ -107,7 +107,7 @@ document.body.bg-video{
 .Theme img {
     height: 17px;
     width: 17px;
-    margin-top: 4px;
+    margin-top: 13px;
 }
 
 body.menu-open .Container {
@@ -124,7 +124,7 @@ body.menu-open .Theme {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .ToggleMenu {
