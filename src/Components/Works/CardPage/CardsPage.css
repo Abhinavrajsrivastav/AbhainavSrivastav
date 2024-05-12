@@ -9,9 +9,9 @@
   padding-bottom: 20px;
   margin: 10px;
   width: 315px;
-  /* height: auto; */
-  min-height: 300px;
-  max-height: 330px;
+  height: auto;
+  /* min-height: 350px; */
+  max-height: 360px;
   overflow: hidden;
   position: relative;
   max-width: 1000px;
@@ -71,7 +71,7 @@
   font-size: 10px;
 }
 .Page-card-content{
-  /* min-height:  30px; */
+  /* min-height:  40px; */
   height: auto;
   padding-top: 10px;
   gap: 5px;
@@ -84,8 +84,9 @@
 
 .Page-Links{
   position: relative;
-  top: -20px;
+  /* top: -20px; */
   padding: 12px;
+  /* margin-bottom: 20px; */
 }
 
 .techs{

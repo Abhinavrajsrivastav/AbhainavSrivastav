@@ -4,6 +4,7 @@ import Work from '../Works/Work';
 import OpenSource from '../OpenSource/OpenSource'
 import Vlogs from '../Vlogs/Vlogs';
 import { Link } from 'react-router-dom';
+import ScrollReveal from 'scrollreveal';
 
 const Home = () => {
   const [Deck, setDeck] = useState(null);
@@ -16,6 +17,24 @@ const Home = () => {
     };
 
     importDeck();
+
+    const sr = ScrollReveal();
+    sr.reveal('.about-me', {
+      delay: 200,
+      duration: 1000,
+      origin: 'bottom',
+      distance: '20px',
+      easing: 'ease-in-out',
+    });
+
+    sr.reveal('.Home-Body', {
+      delay: 200,
+      duration: 1000,
+      origin: 'bottom',
+      distance: '20px',
+      easing: 'ease-in-out',
+    });
+
   }, []);
 
   return (

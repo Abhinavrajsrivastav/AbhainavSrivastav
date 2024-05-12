@@ -10,14 +10,14 @@ const AchiementData = () => {
             link: "https://auth.geeksforgeeks.org/user/abhirajsrivast254",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
-        {
-            src: "./images/Achivements/leetcode.png",
-            gitHub: "",
-            name: "Solved 140+ problems solved at leetdode.",
-            about: "",
-            link: "https://leetcode.com/Abhinav254/",
-            techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
-        },
+        // {
+        //     src: "./images/Achivements/leetcode.png",
+        //     gitHub: "",
+        //     name: "Solved 140+ problems solved at leetdode.",
+        //     about: "",
+        //     link: "https://leetcode.com/Abhinav254/",
+        //     techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
+        // },
         {
             src: "./images/Achivements/4april.png",
             gitHub: "",
@@ -57,7 +57,11 @@ const AchiementData = () => {
             about: "🏆 Java - 3*⭐ |  C - 4*⭐ | PS - 3*⭐",
             link: "https://www.hackerrank.com/profile/CSME2A_b1531174",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Problem Solving", "SQL", "Python"]
-        },
+        }
+    ];
+
+
+    const certificationsData = [
         {
             src: "./images/Achivements/Java_Pw.png",
             gitHub: "",
@@ -65,11 +69,7 @@ const AchiementData = () => {
             about: "",
             link: "https://learn.pwskills.com/certificate/15a6646c-67ba-4222-b36b-0e732e9c100c",
             techs: ["Java", "DSA", "Competitive Programming", "SQL", "MongoDB", "Spring Boot", "JDBC", "DataBase", "System Design", "Object Oriented Programming"]
-        }
-    ];
-
-
-    const certificationsData = [
+        },
         {
             src: "./images/Achivements/Web_Development_Bootcamp.png",
             gitHub: "",
