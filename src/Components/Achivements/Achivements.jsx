@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AchiementData from '../../Data/AchiementData';
 
 const Achivements = () => {
-  const { AchivementsData, certificationsData } = AchiementData();
+  const { AchivementsData, certificationsData, Hackathons } = AchiementData();
   return (
     <div className="Page-Work-Container">
       <div className="Page-Work">
@@ -35,6 +35,26 @@ const Achivements = () => {
         </div>
         <div className="Page-Cards">
           {certificationsData.map((data, index) => (
+            <AchivementsCard
+              key={index}
+              src={data.src}
+              gitHub={data.gitHub}
+              name={data.name}
+              about={data.about}
+              link={data.link}
+              techs={data.techs}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="Page-Work">
+        <div className="Page-Work-Head">
+          <span className="Page-Text">Hackathons<span>.</span></span><br />
+          <span className="Page-Text-description">Here are some of Hackethons, I have Participate.</span>
+        </div>
+        <div className="Page-Cards">
+          {Hackathons.map((data, index) => (
             <AchivementsCard
               key={index}
               src={data.src}

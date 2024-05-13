@@ -120,13 +120,26 @@ const AchiementData = () => {
         }
     ];
 
-    // const Hackethons = [
-    //     {
+    const Hackathons = [
+        {
+            src: "./images/Hackathons/GFGHackFest.png",
+            gitHub: "",
+            name: "GFG Hackfest",
+            about: "Attended GFG's recent hackathon HackFest 2024",
+            link: "https://drive.google.com/file/d/1NjTk3KImfc442bSj_4ghzNk9AgaD9iUh/view",
+            techs: []
+        },
+        {
+            src: "./images/Hackathons/Hackoverse.png",
+            gitHub: "",
+            name: "GFG Hackfest",
+            about: "Attended Hackoverse, orgainzed The Data Science Community of ABESEC 2024",
+            link: "https://credsverse.com/credentials/ceedaea9-21b4-46eb-baed-811b76834361",
+            techs: []
+        }
+    ]
 
-    //     }
-    // ]
-
-    return { AchivementsData, certificationsData };
+    return { AchivementsData, certificationsData,Hackathons };
 }
 
 export default AchiementData;
