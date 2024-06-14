@@ -45,7 +45,7 @@ const AchiementData = () => {
         {
             src: "./images/Achivements/github.png",
             gitHub: "",
-            name: "850+ contributions on GitHub.",
+            name: "900+ contributions on GitHub.",
             about: "🏆 Achived 15+ stars",
             link: "https://github.com/Abhinavrajsrivastav",
             techs: ["Core Java", "DSA", "Competitive Programming", "Contribution", "Open Source", "JavaScript", "React.js", "Node.js", "Spring Boot"]
