@@ -12,9 +12,9 @@ const Fotter = () => {
             <div className="Fotter">
                 <div className="Contact-Me">
                     <div className="Brand">
-                        <span style={{ color: 'rgb(18, 197, 202)' }}>{OpenC}</span>
-                        <span>{name}</span>
-                        <span style={{ color: 'rgb(18, 197, 202)' }}>{CloseC}</span>
+                        <span className="OpenC">{OpenC}</span>
+                        <span >{name}</span>
+                        <span className="CloseC">{CloseC}</span>
                     </div>
                     <div className="Fotter-About" style={{fontSize: '15px'}}>I turn ideas into reality with the power of software engineering, and I share my stories as a content creator.</div>
                     <div className="input-group">

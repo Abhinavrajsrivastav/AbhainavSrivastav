@@ -1,0 +1,110 @@
+
+.Certificate-card {
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--card-color);
+  padding: 0px 10px 0px 10px;
+  margin: 5px;
+  width: auto;
+  /* max-width: 220px; */
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  min-width: 200px;
+  gap: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+
+.Certificate-card-content {
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+.Certificate-card-content .Certificate-Project-Name {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.Certificate-Project-Name{
+  min-height: 100px;
+}
+
+.Certificate-Fotter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  padding: 8px;
+}
+
+
+
+.Certificate-techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  max-width: 400px;
+  max-height: 100px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 0px;
+}
+
+.Certificate-techs span{
+  margin: 2px;
+  padding: 5px 8px 2px 8px;
+  background-color: var(--bg-color);
+  border-radius: 15px;
+}
+
+.Certificate-techs span:hover{
+  background-color: var(--bg-color);
+  cursor: pointer;
+}
+
+
+.Certificate-Link{
+ margin-bottom: 10px;
+ margin-left: 0px;
+ font-size: 10px;
+}
+
+.Certificate-Link a{
+  padding: 2px 10px;
+  margin: 0px;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease;
+}
+.Link a:hover{
+  background-color: var(--bg-hover-color);
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 1005px) {
+  .Certificate-card {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 0px;
+    left: 0px;
+    max-height: 450px;
+    gap: 0px;
+  }
+
+
+  .Certificate-card-content {
+    padding-top: 20px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+}

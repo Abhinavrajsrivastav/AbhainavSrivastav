@@ -3,11 +3,14 @@ import AchivementsCard from './AchivementsCard/AchivementsCard';
 import './Achivements.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AchiementData from '../../Data/AchiementData';
+import Certifications from './AchivementsCard/Certifications';
+import { DiVim } from 'react-icons/di';
 
 const Achivements = () => {
   const { AchivementsData, certificationsData, Hackathons } = AchiementData();
   return (
-    <div className="Page-Work-Container">
+   <div className="Achivements-Box">
+     <div className="Page-Work-Container">
       <div className="Page-Work">
         <div className="Page-Work-Head">
           <span className="Page-Text">My Achievements<span>.</span></span><br />
@@ -35,7 +38,7 @@ const Achivements = () => {
         </div>
         <div className="Page-Cards">
           {certificationsData.map((data, index) => (
-            <AchivementsCard
+            <Certifications
               key={index}
               src={data.src}
               gitHub={data.gitHub}
@@ -55,7 +58,7 @@ const Achivements = () => {
         </div>
         <div className="Page-Cards">
           {Hackathons.map((data, index) => (
-            <AchivementsCard
+            <Certifications
               key={index}
               src={data.src}
               gitHub={data.gitHub}
@@ -68,6 +71,8 @@ const Achivements = () => {
         </div>
       </div>
     </div>
+   </div>
+
   );
 }
 

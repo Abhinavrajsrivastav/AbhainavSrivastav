@@ -1,3 +1,16 @@
+
+.Achivements-Box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'El Messiri', sans-serif;
+  padding: 10px 0px 20px 0px;
+  max-width: 1000px;
+  position: relative;
+  left: 180px;
+}
+
 .Page-Work-Container {
   display: flex;
   flex-direction: column;
@@ -5,9 +18,6 @@
   font-family: 'El Messiri', sans-serif;
   align-items: center;
   padding: 10px 0px 20px 0px;
-  position: relative;
-  top: 30px;
-  right: 0px;
 }
 
 .Page-Work{
@@ -33,7 +43,7 @@
 }
 
 .Page-Text span{
-  color: rgba(26, 137, 185, 0.716);
+  color: var(--text-color);
 }
 
 .Page-Cards {

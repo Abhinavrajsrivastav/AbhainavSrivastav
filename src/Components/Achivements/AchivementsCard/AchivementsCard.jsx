@@ -27,16 +27,14 @@ const AchivementsCard = ({
           ))}
         </div>
       </div>
-       <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
+       <div className="Link">
         {link !== "" && (
           <a
             href={link}
             target="_blank"
-            className="btn btn accordion-collapse"
-            style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
+            className=""
           >
-            {/* <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2"   /> */}
-            Pow
+           See Profile
           </a>
         )}
       </div>

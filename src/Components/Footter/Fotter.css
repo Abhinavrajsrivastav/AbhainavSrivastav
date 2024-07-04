@@ -6,7 +6,7 @@
     position: relative;
     top: 20px;
     font-family: 'El Messiri', sans-serif;
-    background-color:  #0a3245e6;
+    background-color:  var(--bg-color);
     color: white;
     position: static;
 }
@@ -45,7 +45,7 @@
 }
 
 .Fotter-Content a:hover{
-   color: rgb(0, 255, 225);
+   color: rgb(56, 100, 171);
 }
 
 .Fotter-Content a:hover::before {
@@ -54,7 +54,7 @@
     width: 100%;
     height: 1px;
     bottom: 0;
-    background-color: #0cf8dd;
+    background-color: rgb(56, 100, 171);
 }
 
 
@@ -105,7 +105,7 @@
   padding: 0 1rem;
   color: #fff;
   font-size: 15px;
-  border: 1px solid #116277;
+  border: 1px solid rgb(56, 100, 171);
   border-radius: 6px 0 0 6px;
   background-color: transparent;
 }
@@ -115,7 +115,7 @@
   padding: .5em 1em;
   border: none;
   border-radius: 0 6px 6px 0;
-  background-color: #116277;
+  background-color: rgb(56, 100, 171);
   color: #fff;
   font-size: 15px;
   cursor: pointer;
@@ -123,11 +123,11 @@
 }
 
 .button--submit:hover {
-  background-color: rgb(14, 126, 155);
+  background-color: rgb(79, 118, 181);
 }
 
 .input:focus, .input:focus-visible {
-  border-color: #066a83;
+  border-color: rgb(56, 100, 171);
   outline: none;
 }
 
