@@ -33,9 +33,9 @@ const NavBar = () => {
     <div className={`Container ${Theme ? 'dark-mode' : 'light-mode'}`}>
       <div className="Name">
         <div className="My-Name">
-          <span style={{ color: 'rgb(18, 197, 202)' }}>{OpenC}</span>
+          <span className='OpenC'>{OpenC}</span>
           <span>{name}</span>
-          <span style={{ color: 'rgb(18, 197, 202)' }}>{CloseC}</span>
+          <span className='CloseC'>{CloseC}</span>
         </div>
         <div className="ToggleMenu" onClick={toggleMenu}>
           <img src={menu ? "./images/cross.png" : "./images/menu.png"} alt="Toggle Menu Icon" />
