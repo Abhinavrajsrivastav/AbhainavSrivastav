@@ -8,7 +8,13 @@
   position: relative;
   top: 50px;
 }
-
+.skill-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
 .languages,
 .developments,
 .coreSubjects,
@@ -22,8 +28,10 @@
   width: auto;
 }
 
-p {
-  font-size: 1.5rem;
+.skill-box p {
+  font-size: 1.3rem;
+  position: relative;
+  top: 20px;
 }
 
 h2 {
@@ -31,15 +39,33 @@ h2 {
 }
 
 .skills-container {
-  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   padding: 30px;
   border: 1px solid #182d8e;
   display: flex;
   flex-direction: row;
-  gap: 40px;
-  width: auto;
+  gap: 30px;
+  width: 100%;
+  min-width: 400px;
+  max-width: 400px;
   border-radius: 15px;
+  background-color: var(--bg-color);
+  transition: .2s ease-in-out;
+  box-shadow: 0 0 50px rgba(81, 98, 255, 0.752);
 }
+
+.skills-container:hover {
+  transform: scale(1.05);
+}
+
+.skills-container .icon {
+    height: 20px;
+    width: auto;
+  }
+
+
 
 ul li {
   margin-bottom: 5px;
@@ -47,7 +73,7 @@ ul li {
 
 @media (max-width: 1005px) {
   .skills-container .icon {
-    height: 30px;
+    height: 20px;
     width: auto;
   }
 }
@@ -72,7 +98,7 @@ ul li {
   left: 50%;
   margin-left: -60px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.4s;
 }
 
 .tooltip:hover .tooltiptext {
@@ -83,4 +109,13 @@ ul li {
 .skills-container .icon {
   height: 80px;
   width: auto;
+}
+
+@media(max-width: 1005px) {
+  .skills-container {
+    padding: 40px;
+    flex-direction: row;
+    min-width: 350px;
+    max-width: 350px;
+  }
 }
