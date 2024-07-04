@@ -35,7 +35,7 @@
 }
 
 .highlight {
-  color: rgb(18, 197, 202);
+  color: var(--text-color)
 }
 
 .Head-About {
@@ -54,6 +54,10 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.element-1 p{
+  background-color: rgb(26, 93, 187);
 }
 
 .element-2{
@@ -77,7 +81,7 @@
 .Profession p {
   padding: 4px;
   font-size: 13px;
-  background-color: rgb(91 194 213 / 50%);
+  background-color: rgb(26, 93, 187);
   border-radius: 2px;
 }
 
@@ -123,7 +127,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: rgb(75 135 196);
+  background-color: rgb(26, 93, 187);
   transition: all 0.2s ease;
 
 }
@@ -146,15 +150,15 @@
 
 .button:hover:before {
   top: -70%;
-  background-image: radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, transparent 20%, rgb(18, 197, 202) 20%, transparent 30%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, rgb(18, 197, 202) 15%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%);
+  background-image: radial-gradient(circle, rgb(9, 55, 135) 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, rgb(4, 33, 78) 20%, transparent 30%),
+    radial-gradient(circle, rgb(6, 79, 119) 20%, transparent 20%),
+    radial-gradient(circle, rgb(21, 43, 142) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, rgb(14, 73, 140) 15%, transparent 20%),
+    radial-gradient(circle, rgb(18, 95, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 85, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 89, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(18, 85, 202) 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
     10% 10%, 18% 18%;
   background-position: 50% 120%;
@@ -181,13 +185,13 @@
 
 .button:hover::after {
   bottom: -70%;
-  background-image: radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, rgb(18, 197, 202) 15%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 197, 202) 20%, transparent 20%);
+  background-image: radial-gradient(circle, rgb(18, 58, 202) 20%, transparent 20%),
+    radial-gradient(circle, rgb(10, 49, 108) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, rgb(18, 49, 202) 15%, transparent 20%),
+    radial-gradient(circle, rgb(8, 49, 138) 20%, transparent 20%),
+    radial-gradient(circle, rgb(3, 51, 96) 20%, transparent 20%),
+    radial-gradient(circle, rgb(8, 54, 128) 20%, transparent 20%),
+    radial-gradient(circle, rgb(15, 44, 110) 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
   background-position: 50% 0%;
   animation: greenbottomBubbles 0.6s ease;

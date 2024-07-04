@@ -137,8 +137,8 @@
     position: relative;
     padding-bottom: 0px;
     left: 0px;
-    max-height: 450px;
     gap: 0px;
+    min-width: 360px;
   }
 
   .Achive-Tools-img {

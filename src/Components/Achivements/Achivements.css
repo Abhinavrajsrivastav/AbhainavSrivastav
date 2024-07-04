@@ -117,7 +117,10 @@
 }
 
 /* Media Query for Mobile View */
-@media (max-width: 1000px) {
+@media (max-width: 1005px) {
+  .Achivements-Box{
+  left: 0px;
+}
 
   .cta{
     left: 20px;

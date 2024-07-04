@@ -26,6 +26,22 @@ const AchiementData = () => {
             link: "https://codolio.com/profile/2llPokxI",
             techs: ["Java", "DSA", "Competitive Programming"]
         },
+                {
+            src: "./images/Achivements/github.png",
+            gitHub: "",
+            name: "Github Stats",
+            about: "🏆 Achived 15+ Stars | 1000+ Commits",
+            link: "https://github.com/Abhinavrajsrivastav",
+            techs: ["Core Java", "DSA", "Competitive Programming", "Contribution", "Open Source", "JavaScript", "React.js", "Node.js", "Spring Boot"]
+        },
+        {
+            src: "./images/Achivements/Hackerranks.png",
+            gitHub: "",
+            name: "Hackerrank Stats",
+            about: "🏆 Java - 3 🌟| C - 4S 🌟| PS - 3S 🌟",
+            link: "https://www.hackerrank.com/profile/CSME2A_b1531174",
+            techs: ["Java", "DSA", "Competitive Programming", "C", "Problem Solving", "SQL", "Python"]
+        },
         {
             src: "./images/Achivements/leetcode100days.png",
             gitHub: "",
@@ -42,22 +58,6 @@ const AchiementData = () => {
         //     link: "https://leetcode.com/Abhinav254/",
         //     techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
         // },
-        {
-            src: "./images/Achivements/github.png",
-            gitHub: "",
-            name: "Github Stats",
-            about: "🏆 Achived 15+ Stars | 1000+ Commits",
-            link: "https://github.com/Abhinavrajsrivastav",
-            techs: ["Core Java", "DSA", "Competitive Programming", "Contribution", "Open Source", "JavaScript", "React.js", "Node.js", "Spring Boot"]
-        },
-        {
-            src: "./images/Achivements/Hackerranks.png",
-            gitHub: "",
-            name: "Hackerrank Stats",
-            about: "Java - 3S | C - 4S | PS - 3S",
-            link: "https://www.hackerrank.com/profile/CSME2A_b1531174",
-            techs: ["Java", "DSA", "Competitive Programming", "C", "Problem Solving", "SQL", "Python"]
-        }
     ];
 
 

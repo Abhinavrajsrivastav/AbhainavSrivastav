@@ -14,7 +14,7 @@ const Achivements = () => {
       <div className="Page-Work">
         <div className="Page-Work-Head">
           <span className="Page-Text">My Achievements<span>.</span></span><br />
-          <span className="Page-Text-description">Here are some of my Achievements,<br /> I Proudly 🩵 have.</span>
+          <span className="Page-Text-description">Here are some of my Achievements,<br /> I Proudly 🩵 Have.</span>
         </div>
         <div className="Page-Cards">
           {AchivementsData.map((data, index) => (
