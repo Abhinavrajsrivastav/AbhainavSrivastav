@@ -57,7 +57,7 @@
 }
 
 .element-1 p{
-  background-color: rgb(26, 93, 187);
+  background-color: rgb(237, 241, 247);
 }
 
 .element-2{
@@ -81,7 +81,7 @@
 .Profession p {
   padding: 4px;
   font-size: 13px;
-  background-color: rgb(26, 93, 187);
+  background-color: rgb(111, 171, 255);
   border-radius: 2px;
 }
 
@@ -127,7 +127,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: rgb(26, 93, 187);
+  background-color: rgb(87, 155, 250);
   transition: all 0.2s ease;
 
 }

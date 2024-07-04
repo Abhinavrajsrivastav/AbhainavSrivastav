@@ -85,7 +85,7 @@ select:focus {
 }
 
 .Submit-responses {
-  background-color: #2e50a0c6; 
+  background-color: #123485c6; 
   width: 100%;
   color: #fff;
   padding: 15px;
@@ -101,11 +101,11 @@ select:focus {
 
 .Submit-responses:active,
 .Submit-responses:focus {
-  background-color: #00cc66; /* Change this to your desired green color */
+  background-color: #1251b7; /* Change this to your desired green color */
 }
 
 .Submit-responses.sent {
-  background-color: #00cc66; /* Same green color as the active state */
+  background-color: #165bae; /* Same green color as the active state */
 }
 
 

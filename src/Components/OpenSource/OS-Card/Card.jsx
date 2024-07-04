@@ -17,7 +17,7 @@ function Card({ name, about, view }) {
           className="btn btn accordion-collapse"
           style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
         >
-          <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
+          <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="" />
           View
         </a>
 

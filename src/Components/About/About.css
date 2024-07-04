@@ -45,7 +45,7 @@ h3, h4 {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 5px;
   justify-content: start;
 }
 
@@ -54,11 +54,12 @@ h3, h4 {
   color: white;
   padding: 7px;
   margin: 0px;
-  border-radius: 10px;
+  border-radius: 3px;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: normal;
   transition: transform 0.2s, background-color 0.2s;
+  transition: .2s ease-in-out;
   cursor: pointer;
   width: auto;
 }
@@ -136,7 +137,7 @@ h3, h4 {
   }
 
   .Service-Body li {
-    font-size: 12px;
+    font-size: 16px;
     padding: 12px;
     margin: 5px;
     border-radius: 8px;

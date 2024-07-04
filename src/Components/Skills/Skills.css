@@ -1,12 +1,14 @@
 .skills {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding-bottom: 100px;
   position: relative;
-  top: 50px;
+  top: 0px;
+  gap: 20px;
+  padding: 100px;
 }
 .skill-box{
   display: flex;
@@ -31,7 +33,7 @@
 .skill-box p {
   font-size: 1.3rem;
   position: relative;
-  top: 20px;
+  top: 10px;
 }
 
 h2 {
@@ -43,7 +45,6 @@ h2 {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 30px;
-  border: 1px solid #182d8e;
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -53,11 +54,11 @@ h2 {
   border-radius: 15px;
   background-color: var(--bg-color);
   transition: .2s ease-in-out;
-  box-shadow: 0 0 50px rgba(81, 98, 255, 0.752);
+  box-shadow: 0 0 30px rgba(23, 66, 144, 0.5);
 }
 
 .skills-container:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .skills-container .icon {
@@ -72,10 +73,27 @@ ul li {
 }
 
 @media (max-width: 1005px) {
+
+  .skills {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  top: 50px;
+  }
+
   .skills-container .icon {
     height: 20px;
     width: auto;
   }
+  .skill-box p {
+  font-size: 1.3rem;
+  position: relative;
+  top: 5px;
+}
+
+.skills-container:hover {
+  transform: scale(1);
+}
 }
 
 /* Tooltip styling */

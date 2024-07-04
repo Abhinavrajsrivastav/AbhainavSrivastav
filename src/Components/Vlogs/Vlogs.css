@@ -39,7 +39,7 @@
 }
 
 .Vlog-Text span{
-  color: rgb(18, 197, 202);
+  color: rgb(8, 64, 103);
 }
 
 .Vlog-Cards {
@@ -71,7 +71,7 @@
   left: 0;
   display: block;
   border-radius: 50px;
-  background: rgb(47 110 145);
+  background: rgb(8, 64, 103);
   width: 56px;
   height: 56px;
   transition: all 0.3s ease;
@@ -90,7 +90,7 @@
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #234567;
+  stroke: rgb(8, 64, 103);
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -98,7 +98,7 @@
 
 .Vlog-cta:hover:before {
   width: 100%;
-  background: rgb(1, 114, 167);;
+  background: rgb(8, 64, 103);
 }
 
 .Vlog-cta:hover svg {

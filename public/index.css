@@ -10,6 +10,7 @@ body{
   overflow-x: hidden;
   position: relative;
   left: 0px;
+  background-color: var(--bg-color);
 }
 
 :root{

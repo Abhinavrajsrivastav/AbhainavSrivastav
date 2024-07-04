@@ -57,7 +57,7 @@ function Contact() {
               type="text"
               id="name"
               name="name"
-              placeholder="Ram"
+              placeholder="Hey Universe"
               className="Input"
               value={name}
               onChange={(e) => onInputChange(e)}
@@ -86,15 +86,13 @@ function Contact() {
         >
            <option value="BackendDevelopmemt">Backend Development</option>
           <option value="FrontendDevelopment">Frontend Development</option>
-          <option value="fullStackDevelopment">Full Stack Development</option>
-          {/* <option value="mobileDevelopment">Mobile Development</option> */}
-          {/* <option value="gameDevelopment">Game Development</option> */}
+          {/* <option value="fullStackDevelopment">Full Stack Development</option> */}
           <option value="webDevelopment">Web Development</option>
-          <option value="MachineLearning">Machine Learning</option>
-          <option value="design">UI/UX design</option>
+          {/* <option value="MachineLearning">Machine Learning</option> */}
+          {/* <option value="design">UI/UX design</option> */}
           <option value="content writing">Content writing</option>
-          <option value="teaching" >Teaching</option>
-          <option value="marketing">Video editing</option>
+          {/* <option value="teaching" >Teaching</option> */}
+          {/* <option value="marketing">Video editing</option> */}
           <option value="hi">Just hi...</option>
         </select>
         <label htmlFor="message">Your Message</label>
@@ -117,17 +115,18 @@ function Contact() {
               checked={recaptcha}
               onChange={(e) => onCheckboxChange(e)}
             />
-            <label htmlFor="recaptcha">I'm not a robot</label>
-            <img
+            <label htmlFor="recaptcha">I'm humen</label>
+            🚹
+            {/* <img
               src="./images/Tools/robot.png"
               style={{ height: '30px', width: '30px' }}
               alt="robot icon"
-            />
+            /> */}
           </div>
         </div>
         {/* Loading message */}
         {loading && <p>Sending Your message...</p>}
-        <button id="submitButton" className="Submit-responses" disabled={loading}>
+        <button id="submitButton" className="Submit-responses" disabled={loading} style={{backgroundColor: "#123485c6"}}>
           {loading ? 'Sending✈️...' : 'Send Me'}
         </button>
       </form>

@@ -20,18 +20,18 @@ const Home = () => {
 
     const sr = ScrollReveal();
     sr.reveal('.about-me', {
-      delay: 200,
+      delay: 100,
       duration: 1000,
       origin: 'bottom',
-      distance: '20px',
+      distance: '30px',
       easing: 'ease-in-out',
     });
 
     sr.reveal('.Home-Body', {
-      delay: 200,
+      delay: 100,
       duration: 1000,
       origin: 'bottom',
-      distance: '20px',
+      distance: '30px',
       easing: 'ease-in-out',
     });
 

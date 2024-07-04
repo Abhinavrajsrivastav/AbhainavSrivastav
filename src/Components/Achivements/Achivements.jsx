@@ -22,6 +22,7 @@ const Achivements = () => {
               key={index}
               src={data.src}
               gitHub={data.gitHub}
+              org={data.org}
               name={data.name}
               about={data.about}
               link={data.link}
@@ -42,6 +43,7 @@ const Achivements = () => {
               key={index}
               src={data.src}
               gitHub={data.gitHub}
+              org={data.org}
               name={data.name}
               about={data.about}
               link={data.link}
@@ -62,6 +64,7 @@ const Achivements = () => {
               key={index}
               src={data.src}
               gitHub={data.gitHub}
+              org={data.org}
               name={data.name}
               about={data.about}
               link={data.link}

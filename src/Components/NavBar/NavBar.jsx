@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
+import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
   const [Theme, setTheme] = useState(true);
@@ -38,7 +39,7 @@ const NavBar = () => {
           <span className='CloseC'>{CloseC}</span>
         </div>
         <div className="ToggleMenu" onClick={toggleMenu}>
-          <img src={menu ? "./images/cross.png" : "./images/menu.png"} alt="Toggle Menu Icon" />
+          {menu ? <FaTimes size={20} color="#32a6e9"/> : <FaBars size={20} color="#32a6e9"/>}
         </div>
       </div>
       {document.body.clientWidth <= 1005 && toggle && (
@@ -51,21 +52,21 @@ const NavBar = () => {
               <p>.</p>
             </div>
             <div className="About N">
-            <Link to="/About">
-              <span>About</span>
-            </Link>
+              <Link to="/About">
+                <span>About</span>
+              </Link>
               <p>.</p>
             </div>
             <div className="Works N">
               <Link to="/">
                 <span>Works</span>
-                </Link>
+              </Link>
               <p>.</p>
             </div>
              <div className="Works N">
               <Link to="/Skills">
                 <span>Skills</span>
-                </Link>
+              </Link>
               <p>.</p>
             </div>
             {/* <div className="Vlogs N">
@@ -79,17 +80,13 @@ const NavBar = () => {
               <p>.</p>
             </div>
             <div className="Contacts N">
-            <Link to="/Contact">
-              <span>Contacts</span>
+              <Link to="/Contact">
+                <span>Contacts</span>
               </Link>
               <p>.</p>
             </div>
             <div className="Theme" onClick={toggleTheme}>
-              {Theme ? (
-                <img src="./images/moonMode.png" alt="Moon Mode Icon" />
-              ) : (
-                <img src="./images/LightMode.png" alt="Light Mode Icon" />
-              )}
+              {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
             </div>
           </div>
         </div>
@@ -117,16 +114,16 @@ const NavBar = () => {
           <div className="Works N">
               <Link to="/Skills">
                 <span>Skills</span>
-                </Link>
+              </Link>
               <p>.</p>
             </div>
           {/* <div className="Vlogs N">
             <span>Vlogs</span>
             <p>.</p>
           </div> */}
-          <div className="Achivements N">
+          <div className="Achievements N">
            <Link to="/Achievements">
-            <span>Achivements</span>
+            <span>Achievements</span>
             </Link>
             <p>.</p>
           </div>
@@ -137,11 +134,7 @@ const NavBar = () => {
             <p>.</p>
           </div>
           <div className="Theme" onClick={toggleTheme}>
-            {Theme ? (
-              <img src="./images/moonMode.png" alt="Moon Mode Icon" />
-            ) : (
-              <img src="./images/LightMode.png" alt="Light Mode Icon" />
-            )}
+            {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
           </div>
         </div>
       )}

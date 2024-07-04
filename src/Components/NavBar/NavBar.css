@@ -36,7 +36,7 @@ document.body.bg-video{
     background-color: var(--bg-color);
     color: white;
     padding: 20px;
-    width: 105%;
+    width: 106%;
 }
 
 .Container{
@@ -107,10 +107,10 @@ document.body.bg-video{
     margin-left: 0px;
 }
 
-.Theme img {
+.Theme {
     height: 17px;
     width: 17px;
-    margin-top: 13px;
+    margin-top: 5px;
 }
 
 body.menu-open .Container {
@@ -158,7 +158,7 @@ body.menu-open .Theme {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 107%;
+    width: 108%;
     align-items: start;
     padding: 10px;
     overflow-x: hidden;
