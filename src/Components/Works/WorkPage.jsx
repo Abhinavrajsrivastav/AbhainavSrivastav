@@ -11,6 +11,7 @@ const WorkPage = () => {
           <span className="Page-Text">Coding Projects<span>.</span></span><br />
           <span className="Page-Text-description">Here are some of the projects I've worked on, utilizing a variety of technologies and frameworks.</span>
         </div>
+        
         <div className="Page-Cards">
           <CardPage src={"./images/Works/educome.png"} gitHub={"https://github.com/Abhinavrajsrivastav/pacifics-path"} name={"Educome"} about={"A platform for engineers"} link={"https://abhinavrajsrivastav.github.io/pacifics-path/"} toolImg={["react.png"]} tech={["React", "GCP", "Gemini 1.5", "Firebase","MySql"]}  className="animated" />
           <CardsPage src={"./images/Works/AyodhayaDham.png"} gitHub={"https://github.com/Abhinavrajsrivastav/ADHM"} name={"Ayodhya Dham"} about={"Ayodhya Dham, is a tour guide website. Help you to make your Ayodhya visit comfortable and safe."} link={"https://ayodhyadham.vercel.app/"} toolImg={["react.png"]} tech={["React","Google cloud console","Javascript"]}/>
