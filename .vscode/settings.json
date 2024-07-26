@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/278c4445-0414-4275-9255-aae51a63cd61/resourceGroups/beer1/providers/Microsoft.Web/sites/portfolio-msa",
+    "appService.deploySubpath": "build"
+}

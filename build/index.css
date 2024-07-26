@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 body{
   overflow-x: hidden;
@@ -9,4 +10,14 @@ body{
   overflow-x: hidden;
   position: relative;
   left: 0px;
+  background-color: var(--bg-color);
+}
+
+:root{
+  --bg-color: #0b2133f7;
+  --bg-hover-color: #102d45f7;
+  --text-color: #32a6e9;
+  --text-hover-color: rgb(14, 59, 114);
+  --card-color: #0e1d2af7;
+  --Achievent-color: #097d2df7;
 }
