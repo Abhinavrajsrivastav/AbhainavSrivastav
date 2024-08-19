@@ -107,7 +107,7 @@
 /* Media Query for Mobile View */
 @media (max-width: 1005px) {
   .Page-card {
-    width: 100%; 
+    width: auto; 
     max-height: 400px;
     position: relative;
     left: 0px;

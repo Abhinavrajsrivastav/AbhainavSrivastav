@@ -100,7 +100,7 @@
 @media (max-width: 1000px){
     .Open{
         margin: 2px;
-        width: 105%;
+        width: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -130,8 +130,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 70px;
   }
 
   .Content{

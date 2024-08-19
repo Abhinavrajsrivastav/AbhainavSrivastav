@@ -135,8 +135,9 @@
   .Vlog-Cards {
     flex-direction: column;
     align-items: center;
-    width: 105%;
+    width: auto;
     left: 0px;
+    max-width: none;
   }
 
   .Vlog-Cards > .Vlog-card {

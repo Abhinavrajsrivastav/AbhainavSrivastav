@@ -132,20 +132,19 @@
 /* Media Query for Mobile View */
 @media (max-width: 1005px) {
   .Achive-card {
-    width: 100%;
+    width: auto;
     height: auto;
     position: relative;
     padding-bottom: 0px;
     left: 0px;
     gap: 0px;
-    min-width: 360px;
+    min-width: 340px;
   }
 
   .Achive-Tools-img {
     margin: 10px;
     position: absolute;
     bottom: 0px;
-    right: 4px;
     height: 35px;
     width: 35px;
   }

@@ -44,7 +44,7 @@ const Home = () => {
           <div className="Head-About">
             <span className="highlight">Coding</span> &amp;
             <br className="break-line" />
-            <span className="highlight">Storytelling</span>:
+            <span className="highlight">Storytelling</span>
             <br /> That's what I do!
           </div>
           <div className="Profession">

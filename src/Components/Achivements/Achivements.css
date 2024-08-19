@@ -142,7 +142,7 @@
   .Page-Cards {
     flex-direction: column;
     align-items: center;
-    width: 105%;
+    width: 100%;
     left: 0px;
   }
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
+import { Home, Person, Work, School, Star, Mail } from '@mui/icons-material';
 
 const NavBar = () => {
   // Initialize theme based on localStorage or default to dark mode
@@ -38,6 +39,12 @@ const NavBar = () => {
     document.body.classList.toggle('menu-open');
   };
 
+  const iconStyle = {
+    position: "relative",
+    bottom: "2px",
+    right: "3px"
+  };
+
   return (
     <div className={`Container ${Theme ? 'dark-mode' : 'light-mode'}`}>
       <div className="Name">
@@ -55,40 +62,48 @@ const NavBar = () => {
           <div className="Navigation">
             <div className="Home N">
               <Link to="/Home">
+                <Home style={iconStyle} />
                 <span>Home</span>
               </Link>
               <p>.</p>
             </div>
             <div className="About N">
               <Link to="/About">
+                <Person style={iconStyle} />
                 <span>About</span>
               </Link>
               <p>.</p>
             </div>
             <div className="Works N">
               <Link to="/">
+                <Work style={iconStyle} />
                 <span>Works</span>
               </Link>
               <p>.</p>
             </div>
-             <div className="Works N">
+            <div className="Skills N">
               <Link to="/Skills">
+                <School style={iconStyle} />
                 <span>Skills</span>
               </Link>
               <p>.</p>
             </div>
-            <div className="Blogs N">
+            <div className="Achievements N">
               <Link to="/Achievements">
+                <Star style={iconStyle} />
                 <span>Achievements</span>
               </Link>
               <p>.</p>
             </div>
+            {/* Uncomment if you want to include Contacts */}
             {/* <div className="Contacts N">
               <Link to="/Contact">
-                <span>Contacts</span>
+                <Mail style={iconStyle} />
+                <span>Contact</span>
               </Link>
               <p>.</p>
             </div> */}
+            {/* Uncomment if you want to include Theme toggle */}
             {/* <div className="Theme" onClick={toggleTheme}>
               {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
             </div> */}
@@ -99,43 +114,39 @@ const NavBar = () => {
         <div className="Navigation">
           <div className="Home N">
             <Link to="/Home">
+              <Home style={iconStyle} />
               <span>Home</span>
             </Link>
             <p>.</p>
           </div>
           <div className="About N">
             <Link to="/About">
+              <Person style={iconStyle} />
               <span>About</span>
             </Link>
             <p>.</p>
           </div>
           <div className="Works N">
             <Link to="/">
+              <Work style={iconStyle} />
               <span>Works</span>
             </Link>
             <p>.</p>
           </div>
-          <div className="Works N">
-              <Link to="/Skills">
-                <span>Skills</span>
-              </Link>
-              <p>.</p>
-            </div>
-          <div className="Achievements N">
-           <Link to="/Achievements">
-            <span>Achievements</span>
+          <div className="Skills N">
+            <Link to="/Skills">
+              <School style={iconStyle} />
+              <span>Skills</span>
             </Link>
             <p>.</p>
           </div>
-          {/* <div className="Contacts N">
-            <Link to="/Contact">
-              <span>Contacts</span>
-              </Link>
+          <div className="Achievements N">
+            <Link to="/Achievements">
+              <Star style={iconStyle} />
+              <span>Achievements</span>
+            </Link>
             <p>.</p>
-          </div> */}
-          {/* <div className="Theme" onClick={toggleTheme}>
-            {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
-          </div> */}
+          </div>
         </div>
       )}
     </div>

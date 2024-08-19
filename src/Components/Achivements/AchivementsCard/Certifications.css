@@ -89,7 +89,7 @@
 /* Media Query for Mobile View */
 @media (max-width: 1005px) {
   .Certificate-card {
-    width: 100%;
+    width: 90%;
     max-height: 400px;
   }
 

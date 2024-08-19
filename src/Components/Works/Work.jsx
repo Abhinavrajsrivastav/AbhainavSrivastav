@@ -32,7 +32,7 @@ const Work = ({
         </div>
         <div className="Cards">
           <Card src={"./images/Works/educome.png"} gitHub={"https://github.com/Abhinavrajsrivastav/pacifics-path"} name={"Educome"} about={"A platform for engineers. Google Gemini Competition - 2024"} link={"https://abhinavrajsrivastav.github.io/pacifics-path/"} toolImg={["react.png"]} tech={["React", "GCP", "Gemini 1.5", "Firebase","MySql"]}  className="animated" />
-          <Card src={"./images/Works/AyodhayaDham.png"} gitHub={"https://github.com/Abhinavrajsrivastav/ADHM"} name={"Ayodhya Dham 🌻"} about={"Ayodhya Dham, is a tour guide website."} link={"https://ayodhyadham.vercel.app/"} toolImg={["react.png"]} tech={["React", "Google cloud console", "Javascript"]} className="animated" />
+          <Card src={"./images/Works/AyodhayaDham.png"} gitHub={"https://github.com/Abhinavrajsrivastav/ADHM"} name={"Ayodhya Dham"} about={"Ayodhya Dham, is a tour guide website."} link={"https://ayodhyadham.vercel.app/"} toolImg={["react.png"]} tech={["React", "Google cloud console", "Javascript"]} className="animated" />
           <Card src={"./images/Works/gemini.png"} gitHub={"https://github.com/Abhinavrajsrivastav/SpringBootProjects/tree/main/OpenAi"} name={"Gemini Ai Clone"} about={"UI and functionality Google Gemini clone"} link={"https://clone-gemini.vercel.app/"} toolImg={["chat-gpt.png", "react.png", "leaf.png"]} tech={["React", "Spring Boot"]} className="animated" />
         </div>
       </div>
