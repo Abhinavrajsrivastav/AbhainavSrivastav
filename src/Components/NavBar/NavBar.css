@@ -1,213 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 
-body.dark-mode {
-    background-color: var(--bg-color);
-    color: white;
-}
-
+/* Light and Dark mode background settings */
 body.light-mode {
-    background-color: rgba(255, 255, 255, 0.598);
-    color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.598);
+  color: rgb(0, 0, 0);
 }
 
-.OpenC, .CloseC{
-    color: var(--text-color);
+body.dark-mode {
+  background-color: var(--bg-color);
+  color: white;
 }
 
-document.body.bg-video{
-    opacity: 0;
+/* Default styles for body */
+body {
+  margin: 0;
+  font-family: 'El Messiri', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.dark-mode .Container {
-    background-color: var(--bg-color);
-    color: white;
-}
-
-.light-mode .Container {
-    background-color: white;
-    color: black;
-}
-
+/* Container styles */
 .Container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'El Messiri', sans-serif;
-    background-color: var(--bg-color);
-    color: white;
-    padding: 20px;
-    width: 106%;
-}
-
-.Container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    right: 30px;
-}
-
-.Name {
-    margin-left: 0px;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.Navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    gap: 18px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.N {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    cursor: pointer;
-    opacity: 0.7;
-    transition: 0.1s ease-in-out;
-}
-
-.N:active {
-    opacity: 1;
-}
-
-.N::after{
-  opacity: 1;
-}
-
-.N p {
-  position: relative;
-  top: 6px;
-  left: 2px;
-}
-
-.N:hover {
-    opacity: 1;
-}
-
-.N:hover span {
-    opacity: 1;
-}
-
-.N:hover p {
-    opacity: 1;
-    color: var(--text-color);
-}
-
-.Theme {
-    align-items: start;
-    margin-left: 0px;
-}
-
-.Theme {
-    height: 17px;
-    width: 17px;
-    margin-top: 5px;
-}
-
-body.menu-open .Container {
   display: flex;
-}
-
-body.menu-open .Navigation {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-}
-
-body.menu-open .Theme {
-  display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 17px;
+  padding: 20px 20px 20px 20px;
+  gap: 100px;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--bg-color);
+  opacity: 0.7;
 }
 
+/* Name section styling */
+.Name {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.OpenC, .CloseC {
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+/* Toggle menu icon */
 .ToggleMenu {
   cursor: pointer;
-  display: none;
+  display: none; /* Hidden by default, shown on smaller screens */
 }
 
-.Navigation a {
+/* Navigation styles */
+.Navigation {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Navigation .N {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Navigation .N p {
+  margin: 0;
+  color: #32a6e9;
+  font-size: 18px;
+}
+
+.Navigation .N a {
   text-decoration: none;
   color: inherit;
-  cursor: default;
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
 
-.Navigation a:hover {
-  color: inherit;
+.Navigation .N a:hover {
+  color: #32a6e9;
 }
 
+/* Theme toggle icon */
+.Theme {
+  cursor: pointer;
+}
+
+/* Styles for small screens */
 @media (max-width: 1005px) {
   .ToggleMenu {
     display: flex;
-    position:relative;
+    position: relative;
     left: 0px;
     height: 30px;
     width: 30px;
   }
 
-  .Container{
-    display: flex;
+  .Container {
     flex-direction: column;
-    justify-content: space-between;
-    width: 108%;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 10px;
-    overflow-x: hidden;
-    position: relative;
-    right:  0px;
   }
 
-  .Name span {
-    margin-left: 0px;
-    font-size: 30px;
-    font-weight: bolder;
-    margin-top: 0px;
-  }
-
-
-.Name {
+  .Name {
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 5px 0px 8px;
-    width: 100%;
-}
+  }
 
-.Name div {
-    margin-right: 10px; 
-}
-
-.Navigation {
-    display: flex;
+  .Navigation {
     flex-direction: column;
-    justify-content: start;
-    gap: 10px;
-    font-size: 10px;
-    position: relative;
-    left: 10px;
+    align-items: flex-start;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .Theme {
+    margin-top: 10px;
+  }
 }
 
-.N p {
-   position: relative;
-   top: 5px;
+body.menu-open .Navigation {
+  display: flex;
 }
 
-.Theme img {
-    height: 20px;
-    width: 20px;
-    margin-top: 0px;
-    position: relative;
-    top: -10px;
+body.menu-open .Container {
+  flex-direction: column;
 }
 
-}

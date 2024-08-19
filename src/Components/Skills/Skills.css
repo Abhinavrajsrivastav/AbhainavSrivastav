@@ -2,138 +2,67 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: center;
   align-items: center;
-  text-align: center;
-  padding-bottom: 100px;
-  position: relative;
-  top: 0px;
-  gap: 20px;
-  padding: 100px;
+  gap: 30px;
+  padding: 100px 100px;
+  background-color: var(--bg-color);
 }
-.skill-box{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  text-align: start;
-}
-.languages,
-.developments,
-.coreSubjects,
-.tools,
-.softSkills,
-.databases {
+
+.skill-box {
   flex: 1;
-  margin: 10px;
+  max-width: 350px;
+  min-width: 250px;
+  min-height: 300px;
   padding: 20px;
-  border-radius: 5px;
-  width: auto;
+  background-color: rgba(42, 92, 244, 0.268);
+  border-radius: 10px;
 }
 
 .skill-box p {
-  font-size: 1.3rem;
-  position: relative;
-  top: 10px;
-}
-
-h2 {
-  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  padding: 30px;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  width: 100%;
-  min-width: 400px;
-  max-width: 400px;
-  border-radius: 15px;
-  background-color: var(--bg-color);
-  transition: .2s ease-in-out;
-  box-shadow: 0 0 30px rgba(23, 66, 144, 0.5);
+  gap: 20px;
 }
 
-.skills-container:hover {
-  transform: scale(1.06);
-}
-
-.skills-container .icon {
-    height: 20px;
-    width: auto;
-  }
-
-
-
-ul li {
-  margin-bottom: 5px;
-}
-
-@media (max-width: 1005px) {
-
-  .skills {
+.skill-item {
   display: flex;
   flex-direction: column;
-  padding: 0px;
-  top: 50px;
-  }
-
-  .skills-container .icon {
-    height: 20px;
-    width: auto;
-  }
-  .skill-box p {
-  font-size: 1.3rem;
-  position: relative;
-  top: 5px;
-}
-
-.skills-container:hover {
-  transform: scale(1);
-}
-}
-
-/* Tooltip styling */
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  align-items: center;
   text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Position above the icon */
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.4s;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+.skill-item .icon {
+  transition: transform 0.3s ease;
 }
 
-.skills-container .icon {
-  height: 80px;
-  width: auto;
+.skill-item span {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fffcfc;
 }
 
-@media(max-width: 1005px) {
-  .skills-container {
-    padding: 40px;
-    flex-direction: row;
-    min-width: 350px;
-    max-width: 350px;
+@media (max-width: 768px) {
+  .skills {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .skill-box {
+    max-width: 100%;
+    margin-bottom: 20px;
+    min-width: auto;
+    width: 100%;
   }
 }

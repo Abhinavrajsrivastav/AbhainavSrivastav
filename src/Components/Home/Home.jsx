@@ -53,11 +53,11 @@ const Home = () => {
               <p>Educating</p>
               <p>Entertaining</p>
             </div>
-            <div className="element-2">
+            {/* <div className="element-2">
               <img src="./images/Astronomy/sun.png" alt="" />
               <img src="./images/Astronomy/planet (1).png" alt="" />
               <img src="./images/Astronomy/black-hole.png" alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="My-Thought">
             <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content creator.</span>

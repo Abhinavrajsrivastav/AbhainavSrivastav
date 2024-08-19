@@ -2,7 +2,7 @@ import React from 'react';
 import { FaJava, FaJsSquare, FaPython, FaGithub, FaDocker, FaAws, FaGoogle, FaFlask, FaReact, FaDatabase } from 'react-icons/fa';
 import { SiC, SiSpring, SiPostman, SiVisualstudiocode, SiVercel, SiRender, SiFirebase, SiMongodb, SiMysql, SiOracle } from 'react-icons/si';
 import { MdOutlineScience, MdOutlineDeveloperMode, MdOutlineArchitecture, MdOutlineSettings, MdOutlineStorage } from 'react-icons/md';
-import './Skills.css'; // Import CSS file for styling
+import './Skills.css';
 
 function Skills() {
   return (
@@ -10,60 +10,132 @@ function Skills() {
       <div className="skill-box">
         <p>Languages</p>
         <div className="skills-container">
-          <FaJava size={30} color="#007396" title="Java" />
-          <FaJsSquare size={30} color="#F7DF1E" title="JavaScript" />
-          <SiC size={30} color="#A8B9CC" title="C" />
-          <FaPython size={30} color="#3776AB" title="Python" />
+          <div className="skill-item">
+            <FaJava size={35} className="icon" title="Java" />
+            <span>Java</span>
+          </div>
+          <div className="skill-item">
+            <FaJsSquare size={35} className="icon" title="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div className="skill-item">
+            <SiC size={35} className="icon" title="C" />
+            <span>C</span>
+          </div>
+          <div className="skill-item">
+            <FaPython size={35} className="icon" title="Python" />
+            <span>Python</span>
+          </div>
         </div>
       </div>
 
       <div className="skill-box">
-        <p>Developments</p>
+        <p>Development</p>
         <div className="skills-container">
-          <MdOutlineScience size={30} color="#FF6F61" title="Data Science" />
-          <SiSpring size={30} color="#6DB33F" title="Spring" />
-          <MdOutlineDeveloperMode size={30} color="#000000" title="Development" />
-          <FaReact size={30} color="#61DBFB" title="React" />
-          <FaFlask size={30} color="#000000" title="Flask" />
+          <div className="skill-item">
+            <MdOutlineScience size={35} className="icon" title="Data Science" />
+            <span>Data Science</span>
+          </div>
+          <div className="skill-item">
+            <SiSpring size={35} className="icon" title="Spring" />
+            <span>Spring</span>
+          </div>
+          <div className="skill-item">
+            <MdOutlineDeveloperMode size={35} className="icon" title="Development" />
+            <span>Development</span>
+          </div>
+          <div className="skill-item">
+            <FaReact size={35} className="icon" title="React" />
+            <span>React</span>
+          </div>
+          <div className="skill-item">
+            <FaFlask size={35} className="icon" title="Flask" />
+            <span>Flask</span>
+          </div>
         </div>
       </div>
 
       <div className="skill-box">
         <p>Core Subjects</p>
         <div className="skills-container">
-          <MdOutlineArchitecture size={30} color="#FF6F61" title="Software Architecture" />
-          <MdOutlineSettings size={30} color="#607D8B" title="Settings" />
-          <MdOutlineStorage size={30} color="#FF6F61" title="Database" />
+          <div className="skill-item">
+            <MdOutlineArchitecture size={35} className="icon" title="Software Architecture" />
+            <span>Software Architecture</span>
+          </div>
+          <div className="skill-item">
+            <MdOutlineSettings size={35} className="icon" title="Settings" />
+            <span>Settings</span>
+          </div>
+          <div className="skill-item">
+            <MdOutlineStorage size={35} className="icon" title="Database" />
+            <span>Database</span>
+          </div>
         </div>
       </div>
 
       <div className="skill-box">
         <p>Tools</p>
         <div className="skills-container">
-          <FaGithub size={30} color="#181717" title="GitHub" />
-          <SiPostman size={30} color="#FF6C37" title="Postman" />
-          <SiVisualstudiocode size={30} color="#007ACC" title="VS Code" />
-          <FaDocker size={30} color="#2496ED" title="Docker" />
-          <FaGoogle size={30} color="#4285F4" title="Google Cloud Platform" />
-          <SiFirebase size={30} color="#FFCA28" title="Firebase" />
+          <div className="skill-item">
+            <FaGithub size={35} className="icon" title="GitHub" />
+            <span>GitHub</span>
+          </div>
+          <div className="skill-item">
+            <SiPostman size={35} className="icon" title="Postman" />
+            <span>Postman</span>
+          </div>
+          <div className="skill-item">
+            <SiVisualstudiocode size={35} className="icon" title="VS Code" />
+            <span>VS Code</span>
+          </div>
+          <div className="skill-item">
+            <FaDocker size={35} className="icon" title="Docker" />
+            <span>Docker</span>
+          </div>
+          <div className="skill-item">
+            <FaGoogle size={35} className="icon" title="Google Cloud Platform" />
+            <span>Google Cloud Platform</span>
+          </div>
+          <div className="skill-item">
+            <SiFirebase size={35} className="icon" title="Firebase" />
+            <span>Firebase</span>
+          </div>
         </div>
       </div>
 
       <div className="skill-box">
         <p>Deployments</p>
         <div className='skills-container'>
-          <FaAws size={30} color="#FF9900" title="AWS" />
-          <SiRender size={30} color="#46E3B7" title="Render" />
-          <SiVercel size={30} color="#000000" title="Vercel" />
+          <div className="skill-item">
+            <FaAws size={35} className="icon" title="AWS" />
+            <span>AWS</span>
+          </div>
+          <div className="skill-item">
+            <SiRender size={35} className="icon" title="Render" />
+            <span>Render</span>
+          </div>
+          <div className="skill-item">
+            <SiVercel size={35} className="icon" title="Vercel" />
+            <span>Vercel</span>
+          </div>
         </div>
       </div>
 
       <div className="skill-box">
         <p>Databases</p>
         <div className="skills-container">
-          <SiMysql size={30} color="#4479A1" title="MySQL" />
-          <SiMongodb size={30} color="#47A248" title="MongoDB" />
-          <SiOracle size={30} color="#F80000" title="Oracle" />
+          <div className="skill-item">
+            <SiMysql size={35} className="icon" title="MySQL" />
+            <span>MySQL</span>
+          </div>
+          <div className="skill-item">
+            <SiMongodb size={35} className="icon" title="MongoDB" />
+            <span>MongoDB</span>
+          </div>
+          <div className="skill-item">
+            <SiOracle size={35} className="icon" title="Oracle" />
+            <span>Oracle</span>
+          </div>
         </div>
       </div>
     </div>

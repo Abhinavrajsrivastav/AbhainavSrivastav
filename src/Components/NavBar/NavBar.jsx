@@ -1,26 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
-  const [Theme, setTheme] = useState(true);
+  // Initialize theme based on localStorage or default to dark mode
+  const [Theme, setTheme] = useState(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme === 'light-mode' ? false : true; // Default to dark mode
+  });
+
   const [toggle, setToggle] = useState(false);
   const [menu, setMenu] = useState(false);
   const name = "Abhinav";
   const OpenC = "<";
   const CloseC = "/>";
 
-  const toggleTheme = () => {
+  useEffect(() => {
+    // Apply the theme based on state
     if (Theme) {
       document.body.classList.remove('light-mode');
       document.body.classList.add('dark-mode');
-      document.body.classList.add('bg-video');
     } else {
       document.body.classList.remove('dark-mode');
-      document.body.classList.add('bg-video');
       document.body.classList.add('light-mode');
     }
+    localStorage.setItem('theme', Theme ? 'dark-mode' : 'light-mode');
+  }, [Theme]);
+
+  const toggleTheme = () => {
     setTheme(!Theme);
   };
 
@@ -69,25 +77,21 @@ const NavBar = () => {
               </Link>
               <p>.</p>
             </div>
-            {/* <div className="Vlogs N">
-              <span>Vlogs</span>
-              <p>.</p>
-            </div> */}
             <div className="Blogs N">
               <Link to="/Achievements">
                 <span>Achievements</span>
               </Link>
               <p>.</p>
             </div>
-            <div className="Contacts N">
+            {/* <div className="Contacts N">
               <Link to="/Contact">
                 <span>Contacts</span>
               </Link>
               <p>.</p>
-            </div>
-            <div className="Theme" onClick={toggleTheme}>
+            </div> */}
+            {/* <div className="Theme" onClick={toggleTheme}>
               {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
-            </div>
+            </div> */}
           </div>
         </div>
       )}
@@ -117,25 +121,21 @@ const NavBar = () => {
               </Link>
               <p>.</p>
             </div>
-          {/* <div className="Vlogs N">
-            <span>Vlogs</span>
-            <p>.</p>
-          </div> */}
           <div className="Achievements N">
            <Link to="/Achievements">
             <span>Achievements</span>
             </Link>
             <p>.</p>
           </div>
-          <div className="Contacts N">
+          {/* <div className="Contacts N">
             <Link to="/Contact">
               <span>Contacts</span>
               </Link>
             <p>.</p>
-          </div>
-          <div className="Theme" onClick={toggleTheme}>
+          </div> */}
+          {/* <div className="Theme" onClick={toggleTheme}>
             {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
-          </div>
+          </div> */}
         </div>
       )}
     </div>

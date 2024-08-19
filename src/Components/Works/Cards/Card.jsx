@@ -36,7 +36,7 @@ const Card = ({
             style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
           >
             <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2"   />
-            View
+            Demo
           </a>
         )}
         {gitHub !== "" && (
@@ -47,7 +47,7 @@ const Card = ({
             style={{ border: '0px solid black',  backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit'}}
           >
             <img src="./images/github-logo.png" style={{ height: '16px', width: '16px' }} alt="GitHub Icon" className="mx-2" />
-            Code
+            GitHub
           </a>
         )}
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CardsPage.css';
+import { FaCode, FaGithub, FaNewspaper } from 'react-icons/fa';
 
 const Card = ({ 
   src,
@@ -29,14 +30,14 @@ const Card = ({
       <div className="Page-Links d-flex flex-row justify-content-start gap-2 mt-2">
         {link !== "" && (
           <a href={link} target="_blank" className="btn btn-dark border-0" style={{ backgroundColor: 'rgba(49, 75, 178, 0.1)' }}>
-            <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2" />
-            View
+            <FaCode style={{ height: '16px', width: '16px' }} alt="GitHub Icon" className="mx-2" />
+            Demo
           </a>
         )}
         {gitHub !== "" && (
           <a href={gitHub} target="_blank" className="btn btn-dark opacity-5 border-0" style={{ backgroundColor: 'rgba(49, 75, 178, 0.1)' }}>
-            <img src="./images/github-logo.png" style={{ height: '16px', width: '16px' }} alt="Link Icon" className="mx-2" />
-            Code
+            <FaGithub style={{ height: '16px', width: '16px' }} alt="GitHub Icon" className="mx-2" />
+            GitHub
           </a>
         )}
       </div>
