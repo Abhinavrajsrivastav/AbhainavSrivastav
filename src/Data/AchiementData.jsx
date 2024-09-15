@@ -69,6 +69,15 @@ const AchiementData = () => {
 
     const certificationsData = [
         {
+            src: "./images/Achivements/JPMC.png",
+            gitHub: "",
+            org: "JPMorgan Chase",
+            name: "Investment Banking Job Simulation",
+            about: "Find some M&A targets | Target information and auction process | Financial analysis – run the numbers | Provide an investment recommendation",
+            link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase/YD2kY95RQxQtXxFTS_JPMorgan%20Chase_h5n9PSyivWSGLrxvf_1726312522251_completion_certificate.pdf",
+            techs: ["Java", "Advanced Data Structures","Software Architecture", "Relational Database Design", "Data Munging",  "Java", "Python"]
+        },
+        {
             src: "./images/Achivements/Java_Pw.png",
             gitHub: "",
             org: "Walmart USA",
