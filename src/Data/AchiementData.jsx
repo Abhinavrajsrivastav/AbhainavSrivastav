@@ -7,7 +7,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Leetcode",
-            about: "Rating 1500+ ✨",
+            about: "Rating 1516+ ✨",
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
@@ -16,7 +16,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Codfolio",
-            about: "Solved 700+ Questions | 300+ Active Days | 1500+ Rating ✨",
+            about: "Solved 850+ Questions | 300+ Active Days | 1620+ Rating ✨",
             link: "https://codolio.com/profile/2llPokxI",
             techs: ["Java", "DSA", "Competitive Programming"]
         },
@@ -25,7 +25,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Github Stats",
-            about: "🏆 Achived 15+ Stars | 1000+ Commits",
+            about: "🏆 Achived 15+ Stars | 1100+ Commits",
             link: "https://github.com/Abhinavrajsrivastav",
             techs: ["Core Java", "DSA", "Competitive Programming", "Contribution", "Open Source", "JavaScript", "React.js", "Node.js", "Spring Boot"]
         },
@@ -34,7 +34,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "GeeksForGeeks",
-            about: "🏆 Rank 36 | 0.7% In College.",
+            about: "🏆 Institution Rank 27 | 1615+ Rating | 3 ⭐",
             link: "https://auth.geeksforgeeks.org/user/abhirajsrivast254",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
@@ -43,7 +43,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Hackerrank Stats",
-            about: "🏆 Java - 3 🌟| C - 4S 🌟| PS - 3S 🌟",
+            about: "🏆 Java - 3 🌟| C - 4 🌟| PS - 3 🌟",
             link: "https://www.hackerrank.com/profile/CSME2A_b1531174",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Problem Solving", "SQL", "Python"]
         },
@@ -56,14 +56,6 @@ const AchiementData = () => {
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
         },
-        // {
-        //     src: "./images/Achivements/50daysleetcode.png",
-        //     gitHub: "",
-        //     name: "Consistent 50+ days CP coding at Leetdode.",
-        //     about: "🏆 Max Contest Rating - 1502",
-        //     link: "https://leetcode.com/Abhinav254/",
-        //     techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
-        // },
     ];
 
 
@@ -168,6 +160,15 @@ const AchiementData = () => {
             name: "Data Science Community",
             about: "Attended Hackoverse Hackathon",
             link: "https://credsverse.com/credentials/ceedaea9-21b4-46eb-baed-811b76834361",
+            techs: []
+        },
+        {
+            src: "./images/Achivements/Educome.jpg",
+            gitHub: "https://abhinavrajsrivastav.github.io/pacifics-path/",
+            org: "Google Gemini Developer Competition - 2024",
+            name: "Educome",
+            about: "A Platform For an Engineering Aspirants",
+            link: "https://ai.google.dev/competition/projects/educome",
             techs: []
         }
     ]
