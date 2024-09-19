@@ -62,51 +62,39 @@ const NavBar = () => {
           <div className="Navigation">
             <div className="Home N">
               <Link to="/Home">
-                <Home style={iconStyle} />
+                {/* <Home style={iconStyle} /> */}
                 <span>Home</span>
               </Link>
               <p>.</p>
             </div>
             <div className="About N">
               <Link to="/About">
-                <Person style={iconStyle} />
+                {/* <Person style={iconStyle} /> */}
                 <span>About</span>
               </Link>
               <p>.</p>
             </div>
             <div className="Works N">
               <Link to="/">
-                <Work style={iconStyle} />
+                {/* <Work style={iconStyle} /> */}
                 <span>Works</span>
               </Link>
               <p>.</p>
             </div>
             <div className="Skills N">
               <Link to="/Skills">
-                <School style={iconStyle} />
+                {/* <School style={iconStyle} /> */}
                 <span>Skills</span>
               </Link>
               <p>.</p>
             </div>
             <div className="Achievements N">
               <Link to="/Achievements">
-                <Star style={iconStyle} />
+                {/* <Star style={iconStyle} /> */}
                 <span>Achievements</span>
               </Link>
               <p>.</p>
             </div>
-            {/* Uncomment if you want to include Contacts */}
-            {/* <div className="Contacts N">
-              <Link to="/Contact">
-                <Mail style={iconStyle} />
-                <span>Contact</span>
-              </Link>
-              <p>.</p>
-            </div> */}
-            {/* Uncomment if you want to include Theme toggle */}
-            {/* <div className="Theme" onClick={toggleTheme}>
-              {Theme ? <FaMoon size={20} color="#32a6e9"/> : <FaSun size={20} color="#32a6e9"/>}
-            </div> */}
           </div>
         </div>
       )}
@@ -114,35 +102,35 @@ const NavBar = () => {
         <div className="Navigation">
           <div className="Home N">
             <Link to="/Home">
-              <Home style={iconStyle} />
+              {/* <Home style={iconStyle} /> */}
               <span>Home</span>
             </Link>
             <p>.</p>
           </div>
           <div className="About N">
             <Link to="/About">
-              <Person style={iconStyle} />
+              {/* <Person style={iconStyle} /> */}
               <span>About</span>
             </Link>
             <p>.</p>
           </div>
           <div className="Works N">
             <Link to="/">
-              <Work style={iconStyle} />
+              {/* <Work style={iconStyle} /> */}
               <span>Works</span>
             </Link>
             <p>.</p>
           </div>
           <div className="Skills N">
             <Link to="/Skills">
-              <School style={iconStyle} />
+              {/* <School style={iconStyle} /> */}
               <span>Skills</span>
             </Link>
             <p>.</p>
           </div>
           <div className="Achievements N">
             <Link to="/Achievements">
-              <Star style={iconStyle} />
+              {/* <Star style={iconStyle} /> */}
               <span>Achievements</span>
             </Link>
             <p>.</p>

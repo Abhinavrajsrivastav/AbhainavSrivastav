@@ -39,7 +39,7 @@
 }
 
 .Head-About {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   font-size: 40px;
   font-weight: bold;
 }
@@ -81,7 +81,7 @@
 .Profession p {
   padding: 5px;
   font-size: 13px;
-  background-color: rgb(25, 118, 250);
+  background-color: #1174aa;
   border-radius: 2px;
 }
 
@@ -127,7 +127,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: rgb(21, 109, 233);
+  background-color: #1174aa;
   transition: all 0.2s ease;
 
 }
