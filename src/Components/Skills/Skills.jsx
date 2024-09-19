@@ -1,146 +1,93 @@
 import React from 'react';
-import { FaJava, FaJsSquare, FaPython, FaGithub, FaDocker, FaAws, FaGoogle, FaFlask, FaReact } from 'react-icons/fa';
-import { SiC, SiSpring, SiPostman, SiVisualstudiocode, SiVercel, SiRender, SiFirebase, SiMongodb, SiMysql, SiOracle } from 'react-icons/si';
-import { MdOutlineScience, MdOutlineDeveloperMode, MdOutlineArchitecture, MdOutlineSettings, MdOutlineStorage } from 'react-icons/md';
 import './Skills.css';
 
 function Skills() {
   return (
-    <div className='skills'>
-      <h1 className='skills-heading'>Skills & Technologies</h1>
+     <section className="skills-section">
+      <h2 className="skills-title">My <span>Skills</span>
 
-      <div className="skill-box">
-        <p className="skill-category">Languages</p>
-        <div className="skills-container">
-          <div className="skill-item">
-            <FaJava size={40} className="icon" title="Java" />
-            <span>Java</span>
-          </div>
-          <div className="skill-item">
-            <FaJsSquare size={40} className="icon" title="JavaScript" />
-            <span>JavaScript</span>
-          </div>
-          <div className="skill-item">
-            <SiC size={40} className="icon" title="C" />
-            <span>C</span>
-          </div>
-          <div className="skill-item">
-            <FaPython size={40} className="icon" title="Python" />
-            <span>Python</span>
-          </div>
-        </div>
-      </div>
+      </h2>
+      <p className="skills-subTitle">These are My Expertise in Software Engineering, I have worked with!</p>
+      <div className="skills-categories">
 
-      <div className="skill-box">
-        <p className="skill-category">Development</p>
-        <div className="skills-container">
-          <div className="skill-item">
-            <MdOutlineScience size={40} className="icon" title="Data Science" />
-            <span>Data Science</span>
-          </div>
-          <div className="skill-item">
-            <SiSpring size={40} className="icon" title="Spring" />
-            <span>Spring</span>
-          </div>
-          <div className="skill-item">
-            <MdOutlineDeveloperMode size={40} className="icon" title="Development" />
-            <span>Development</span>
-          </div>
-          <div className="skill-item">
-            <FaReact size={40} className="icon" title="React" />
-            <span>React</span>
-          </div>
-          <div className="skill-item">
-            <FaFlask size={40} className="icon" title="Flask" />
-            <span>Flask</span>
-          </div>
+        {/* Programming Languages */}
+        <div className="skills-category">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Ruby</li>
+          </ul>
         </div>
-      </div>
 
-      <div className="skill-box">
-        <p className="skill-category">Core Subjects</p>
-        <div className="skills-container">
-          <div className="skill-item">
-            <MdOutlineArchitecture size={40} className="icon" title="Software Architecture" />
-            <span>Software Architecture</span>
-          </div>
-          <div className="skill-item">
-            <MdOutlineSettings size={40} className="icon" title="Settings" />
-            <span>Settings</span>
-          </div>
-          <div className="skill-item">
-            <MdOutlineStorage size={40} className="icon" title="Database" />
-            <span>Database</span>
-          </div>
+        {/* Frontend Development */}
+        <div className="skills-category">
+          <h3>Front-end Development</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3 (Sass, Less)</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Vue.js</li>
+            <li>Bootstrap</li>
+            <li>Material-UI</li>
+          </ul>
         </div>
-      </div>
 
-      <div className="skill-box">
-        <p className="skill-category">Tools</p>
-        <div className="skills-container">
-          <div className="skill-item">
-            <FaGithub size={40} className="icon" title="GitHub" />
-            <span>GitHub</span>
-          </div>
-          <div className="skill-item">
-            <SiPostman size={40} className="icon" title="Postman" />
-            <span>Postman</span>
-          </div>
-          <div className="skill-item">
-            <SiVisualstudiocode size={40} className="icon" title="VS Code" />
-            <span>VS Code</span>
-          </div>
-          <div className="skill-item">
-            <FaDocker size={40} className="icon" title="Docker" />
-            <span>Docker</span>
-          </div>
-          <div className="skill-item">
-            <FaGoogle size={40} className="icon" title="Google Cloud Platform" />
-            <span>GCP</span>
-          </div>
-          <div className="skill-item">
-            <SiFirebase size={40} className="icon" title="Firebase" />
-            <span>Firebase</span>
-          </div>
+        {/* Backend Development */}
+        <div className="skills-category">
+          <h3>Back-end Development</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Django</li>
+            <li>Ruby on Rails</li>
+            <li>Flask</li>
+            <li>Laravel</li>
+          </ul>
         </div>
-      </div>
 
-      <div className="skill-box">
-        <p className="skill-category">Deployments</p>
-        <div className='skills-container'>
-          <div className="skill-item">
-            <FaAws size={40} className="icon" title="AWS" />
-            <span>AWS</span>
-          </div>
-          <div className="skill-item">
-            <SiRender size={40} className="icon" title="Render" />
-            <span>Render</span>
-          </div>
-          <div className="skill-item">
-            <SiVercel size={40} className="icon" title="Vercel" />
-            <span>Vercel</span>
-          </div>
+        {/* Databases */}
+        <div className="skills-category">
+          <h3>Databases</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Firebase</li>
+            <li>GraphQL</li>
+          </ul>
         </div>
-      </div>
 
-      <div className="skill-box">
-        <p className="skill-category">Databases</p>
-        <div className="skills-container">
-          <div className="skill-item">
-            <SiMysql size={40} className="icon" title="MySQL" />
-            <span>MySQL</span>
-          </div>
-          <div className="skill-item">
-            <SiMongodb size={40} className="icon" title="MongoDB" />
-            <span>MongoDB</span>
-          </div>
-          <div className="skill-item">
-            <SiOracle size={40} className="icon" title="Oracle" />
-            <span>Oracle</span>
-          </div>
+        {/* Tools and Technologies */}
+        <div className="skills-category">
+          <h3>Tools & Technologies</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>AWS</li>
+            <li>Azure</li>
+            <li>Google Cloud</li>
+          </ul>
         </div>
+
+        {/* Soft Skills */}
+        <div className="skills-category">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Agile Development</li>
+            <li>Team Management</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+
       </div>
-    </div>
+    </section>
   );
 }
 
