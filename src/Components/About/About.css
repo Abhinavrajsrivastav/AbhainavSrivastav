@@ -23,6 +23,12 @@
     max-width: 650px;
 }
 
+/* .about-body img{
+  max-width: 650px;
+} */
+
+
+
 a{
     text-decoration: none;
     color: var(--text-color);

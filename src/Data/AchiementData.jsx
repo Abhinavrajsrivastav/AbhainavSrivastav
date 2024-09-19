@@ -79,6 +79,15 @@ const AchiementData = () => {
             techs: ["Java", "Advanced Data Structures","Software Architecture", "Relational Database Design", "Data Munging",  "Java", "Python"]
         },
         {
+            src: "./images/Achivements/Accenture.png",
+            gitHub: "",
+            org: "Accenture Virtual Program",
+            name: "Accenture Technology Consulting Job Simulation",
+            about: "Project kickoff | Requirements gathering | Voting application design | Create agile stories",
+            link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Australia/AMZXXaKrixhEK2T72_Accenture%20Australia_h5n9PSyivWSGLrxvf_1722110441603_completion_certificate.pdf",
+            techs: ["Designing", "Researching", "Implementing", "Communicating"]
+        },
+        {
             src: "./images/Achivements/Java_Pw.png",
             gitHub: "",
             org: "iNeuron.ai",

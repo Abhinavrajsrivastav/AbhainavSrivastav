@@ -12,6 +12,7 @@ const Achivements = () => {
    <div className="Achivements-Box">
      <div className="Page-Work-Container">
       <div className="Page-Work">
+        
         <div className="Page-Work-Head">
           <span className="Page-Text">My Achievements<span>.</span></span><br />
           <span className="Page-Text-description">Here are some of my Achievements,<br /> I Proudly 🩵 Have.</span>

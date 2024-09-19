@@ -3,6 +3,7 @@ import './About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaInstagram, FaLinkedin, FaTwitter, FaGithub, FaBezierCurve,FaXRay, FaArrowLeft, FaArrowRight, FaConnectdevelop } from 'react-icons/fa';
+import { Fax } from '@mui/icons-material';
 
 const About = () => {
   return (
@@ -45,9 +46,9 @@ const About = () => {
             <Link to="/Contact" style={{textDecoration: 'none', color: 'white'}}>Get in Touch</Link>
           </span>
           <div className="social-icons">
-            <a href="https://wa.me/919648502976" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://wa.me/919648502976" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp size={30} color="#25D366" />
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/_abhinav_srivastav__/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={30} color="#C13584" />
             </a>
@@ -55,7 +56,7 @@ const About = () => {
               <FaLinkedin size={30} color="#0077B5" />
             </a> */}
             <a href="https://twitter.com/srivast254" target="_blank" rel="noopener noreferrer">
-              <FaTwitter size={30} color="#1DA1F2" />
+              <FaTwitter size={30} />
             </a>
             {/* <a href="https://twitter.com/srivast254" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} color="Black" />
