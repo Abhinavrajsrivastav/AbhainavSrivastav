@@ -36,7 +36,7 @@ const Fotter = () => {
                         <a href="/">Home</a>
                         <Link to="/About"><span>About</span></Link>
                         <a href="https://drive.google.com/file/d/1JjRcko3rAMu08toTWp0-SVjS8o4pSHrG/view?usp=drivesdk">Resume</a>
-                        <Link to="/Contact"><span>Contact</span></Link>
+                        <a href="https://www.codechef.com/users/abhinav_254"><span>CodeChef</span></a>
                         <Link to="/Achievements"><span>Achievements</span></Link>
                     </div>
                     <div className="Fotter-Projects FC">
