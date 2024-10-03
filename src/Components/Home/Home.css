@@ -81,7 +81,7 @@
 .Profession p {
   padding: 5px;
   font-size: 13px;
-  background-color: #1174aa;
+  background-color: #3169f6f7;
   border-radius: 2px;
 }
 
@@ -127,7 +127,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #1174aa;
+  background-color: #3169f6f7;
   transition: all 0.2s ease;
 
 }
@@ -152,13 +152,13 @@
   top: -70%;
   background-image: radial-gradient(circle, rgb(9, 55, 135) 20%, transparent 20%),
     radial-gradient(circle, transparent 20%, rgb(4, 33, 78) 20%, transparent 30%),
-    radial-gradient(circle, rgb(6, 79, 119) 20%, transparent 20%),
-    radial-gradient(circle, rgb(21, 43, 142) 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, rgb(14, 73, 140) 15%, transparent 20%),
-    radial-gradient(circle, rgb(18, 95, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 85, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 89, 202) 20%, transparent 20%),
-    radial-gradient(circle, rgb(18, 85, 202) 20%, transparent 20%);
+    radial-gradient(circle, rgb(34, 65, 223) 20%, transparent 20%),
+    radial-gradient(circle, rgb(13, 36, 140) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, rgb(14, 45, 140) 15%, transparent 20%),
+    radial-gradient(circle, rgb(7, 34, 171) 20%, transparent 20%),
+    radial-gradient(circle, rgb(1, 21, 137) 20%, transparent 20%),
+    radial-gradient(circle, rgb(7, 22, 152) 20%, transparent 20%),
+    radial-gradient(circle, rgb(8, 26, 113) 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
     10% 10%, 18% 18%;
   background-position: 50% 120%;

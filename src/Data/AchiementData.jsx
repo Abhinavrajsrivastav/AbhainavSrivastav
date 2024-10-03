@@ -7,7 +7,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Leetcode",
-            about: "Rating 1516+ ✨",
+            about: "Rating 1564+ ✨",
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
@@ -34,7 +34,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "GeeksForGeeks",
-            about: "🏆 Institution Rank 27 | 1615+ Rating | 3 ⭐",
+            about: "🏆 Institution Rank 27 | 1670+ Rating | 3 ⭐",
             link: "https://auth.geeksforgeeks.org/user/abhirajsrivast254",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
@@ -48,11 +48,11 @@ const AchiementData = () => {
             techs: ["Java", "DSA", "Competitive Programming", "C", "Problem Solving", "SQL", "Python"]
         },
         {
-            src: "./images/Achivements/leetcode100days.png",
+            src: "./images/Achivements/leetcode200days.png",
             gitHub: "",
             org: "",
             name: "Letcode Badge",
-            about: "First 100 Days at Leetcode ✨",
+            about: "First 200 Days at Leetcode ✨",
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "Coding Contest"]
         },

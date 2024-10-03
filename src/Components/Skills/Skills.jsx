@@ -66,15 +66,15 @@ function Skills() {
         </div>
 
         {/* Programming Achievements */}
-        <div className="skills-category">
+        {/* <div className="skills-category">
           <h3>Programming Achievements</h3>
           <ul>
-            <li>LeetCode Max Rating: 1516, 300 Problems Solved</li>
+            <li>LeetCode Max Rating: 1564, 300 Problems Solved</li>
             <li>Geeks for Geeks Rank: 27th, 80+ Days of Challenges</li>
             <li>Open Source Contributions: 1100+ Commits, 49+ Repositories</li>
             <li>800+ Competitive Programming Problems Solved</li>
           </ul>
-        </div>
+        </div> */}
 
       </div>
     </section>

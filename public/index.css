@@ -14,10 +14,10 @@ body{
 }
 
 :root{
-  --bg-color: #0e203af7;
-  --bg-hover-color: #112a42f7;
-  --text-color: #1174aa;
-  --text-hover-color: rgb(14, 83, 149);
-  --card-color: #0b3c5af7;
-  --Achievent-color: #097d2df7;
+  --bg-color: #0d1b4df7;
+  --bg-hover-color: #3169f6f7;
+  --text-color: #3167fb;
+  --text-hover-color: rgb(42, 101, 249);
+  --card-color: #122365f7;
+  --Achievent-color: #092c7df7;
 }

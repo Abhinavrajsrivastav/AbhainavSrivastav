@@ -70,7 +70,7 @@ body {
 
 .Navigation .N p {
   margin: 0;
-  color: #32a6e9;
+  color: #3169f6f7;
   font-size: 20px;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .Navigation .N a:hover {
-  color: #32a6e9;
+  color: #3169f6f7;
 }
 
 /* Theme toggle icon */

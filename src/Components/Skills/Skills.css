@@ -58,7 +58,7 @@
 /* Adding blue tick */
 .skills-category ul li::before {
   content: "✔"; /* Unicode character for check mark */
-  color: rgb(255, 170, 0); /* Blue color for the tick */
+  color: rgb(42, 98, 252); /* Blue color for the tick */
   position: absolute; /* Positioning the tick */
   left: 0; /* Aligns the tick to the left */
   top: 0; /* Aligns the tick with the top of the list item */
