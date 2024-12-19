@@ -42,7 +42,6 @@ const Card = ({
         {gitHub !== "" && (
           <a
             href={gitHub}
-            // target="_blank"
             className="btn btn bg  opacity-5 accordion-collapse"
             style={{ border: '0px solid black',  backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit'}}
           >

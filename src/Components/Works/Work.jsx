@@ -18,7 +18,7 @@ const Work = ({
       origin: 'bottom',
       distance: '20px',
       easing: 'ease-in-out',
-      interval: 200 // Add interval to stagger animations
+      interval: 200
     });
   }, []);
 
