@@ -52,6 +52,7 @@
 .Certificate-techs span:hover {
   background-color: var(--bg-hover-color);
   cursor: pointer;
+  color: black;
 }
 
 .Certificate-Link {
@@ -69,6 +70,7 @@
 
 .Certificate-Link a:hover {
   background-color: var(--bg-hover-color);
+  color: black;
 }
 
 .about-org{
