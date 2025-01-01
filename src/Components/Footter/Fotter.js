@@ -33,7 +33,7 @@ const Fotter = () => {
                     </div>
                     <div className="Fotter-General FC">
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
-                        <a href="/">Home</a>
+                        <a href="/Home">Home</a>
                         <Link to="/About"><span>About</span></Link>
                         <a href="https://drive.google.com/file/d/1r9tIxrkzJyBlMfIYte0E29GAr-58mVdG/view?usp=sharing">Resume</a>
                         {/* <a href="https://www.codechef.com/users/abhinav_254"><span>CodeChef</span></a> */}

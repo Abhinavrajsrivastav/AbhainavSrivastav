@@ -16,7 +16,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Codfolio",
-            about: "Solved 850+ Questions | 300+ Active Days | 1620+ Rating ✨",
+            about: "Solved 800+ Questions | 300+ Active Days | 1620+ Rating ✨",
             link: "https://codolio.com/profile/2llPokxI",
             techs: ["Java", "DSA", "Competitive Programming"]
         },
@@ -34,7 +34,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "GeeksForGeeks",
-            about: "🏆 Institution Rank 27 | 1670+ Rating | 3 ⭐",
+            about: "🏆 Institution Rank 23 | 1670+ Rating | 3 ⭐",
             link: "https://auth.geeksforgeeks.org/user/abhirajsrivast254",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
