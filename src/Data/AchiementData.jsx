@@ -16,7 +16,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Codfolio",
-            about: "Solved 800+ Questions | 300+ Active Days | 1620+ Rating ✨",
+            about: "Solved 900+ Questions | 300+ Active Days | 1620+ Rating ✨",
             link: "https://codolio.com/profile/2llPokxI",
             techs: ["Java", "DSA", "Competitive Programming"]
         },
