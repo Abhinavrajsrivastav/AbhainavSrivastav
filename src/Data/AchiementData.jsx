@@ -11,6 +11,7 @@ const AchiementData = () => {
             link: "https://leetcode.com/Abhinav254/",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
+        
         {
             src: "./images/Achivements/Codfolio.png",
             gitHub: "",
