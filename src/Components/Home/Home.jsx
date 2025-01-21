@@ -61,7 +61,7 @@ const Home = () => {
             <Link to="/Contact">
               <button className="Chat-Btn button">Let's Chat!</button>
             </Link>
-            <Link to="https://drive.google.com/file/d/1r9tIxrkzJyBlMfIYte0E29GAr-58mVdG/view?usp=sharing">
+            <Link to="https://drive.google.com/file/d/1rwYxp-onqHwqDd34Vw1bQ9qtYRPSlFLT/view?usp=sharing">
               <button className="Chat-Btn button">My Resume</button>
             </Link>
           </div>
