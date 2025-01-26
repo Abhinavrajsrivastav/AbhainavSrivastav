@@ -39,6 +39,7 @@ const Home = () => {
 
   return (
     <div className="Home-Container">
+      
       <div className="Home-Head">
         <div className="about-me">
           <div className="Head-About">
