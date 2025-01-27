@@ -11,7 +11,6 @@ const Home = () => {
 
   useEffect(() => {
     const importDeck = async () => {
-      // Dynamic import using the dynamic import() syntax
       const dynamicImport = await import('./skillsCards/DeckCards');
       setDeck(() => dynamicImport.default);
     };
@@ -39,7 +38,7 @@ const Home = () => {
 
   return (
     <div className="Home-Container">
-      
+
       <div className="Home-Head">
         <div className="about-me">
           <div className="Head-About">
