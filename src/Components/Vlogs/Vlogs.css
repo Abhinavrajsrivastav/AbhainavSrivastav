@@ -136,7 +136,7 @@
     flex-direction: column;
     align-items: center;
     width: auto;
-    left: 0px;
+    left: -8px;
     max-width: none;
   }
 

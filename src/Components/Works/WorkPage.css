@@ -89,6 +89,12 @@
   }
 }
 
+@media(max-width: 1005px){
+  .Page-Text-Span{
+    font-size: 27px;
+  }
+}
+
 @media (max-width: 1000px) and (min-width: 800px){
   .Page-Work-Container{
     top: 100px;

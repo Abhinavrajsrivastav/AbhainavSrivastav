@@ -39,10 +39,19 @@
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
+    gap: 3px;
     padding: 10px 0px 10px 0px;
     position: relative;
     top: 0px;
     left: 0px;
+}
+
+.Card-Bottom .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 /* .Card-Container::before{

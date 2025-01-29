@@ -104,7 +104,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        right: 0px;
+        right: 8px;
     }
 
     .OpenSource-Container{

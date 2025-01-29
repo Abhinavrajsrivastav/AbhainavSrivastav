@@ -8,7 +8,7 @@ const WorkPage = () => {
     <div className="Page-Work-Container">
       <div className="Page-Work">
         <div className="Page-Work-Head">
-          <span className="Page-Text">My Recent <span>Works.</span></span><br />
+          <span className="Page-Text">My Recent <span className="Page-Text-Span">Works.</span></span><br />
           <span className="Page-Text-description">Here are some of the projects I've worked on, utilizing a variety of technologies and frameworks.</span>
         </div>
 
