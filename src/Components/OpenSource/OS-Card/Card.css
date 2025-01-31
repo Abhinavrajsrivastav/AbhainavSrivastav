@@ -53,16 +53,6 @@
     justify-content: space-between;
     gap: 10px;
 }
-
-/* .Card-Container::before{
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: rgb(1, 114, 167);
-  border-radius: 50%; 
-} */
-
 .Card-Container::before {
   top: -10px;
   left: -10px;
