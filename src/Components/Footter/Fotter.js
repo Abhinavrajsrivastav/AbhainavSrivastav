@@ -35,7 +35,7 @@ const Fotter = () => {
                         <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
                         <a href="/Home">Home</a>
                         <Link to="/About"><span>About</span></Link>
-                        <a href="https://drive.google.com/file/d/1rwYxp-onqHwqDd34Vw1bQ9qtYRPSlFLT/view?usp=sharing">Resume</a>
+                        <a href="https://drive.google.com/file/d/1kc51C6pbCtJSIstJWkakNYWhzGp2dLWZ/view?usp=sharing">Resume</a>
                         {/* <a href="https://www.codechef.com/users/abhinav_254"><span>CodeChef</span></a> */}
                         <Link to="/Achievements"><span>Achievements</span></Link>
                     </div>

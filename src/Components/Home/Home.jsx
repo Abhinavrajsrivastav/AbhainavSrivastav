@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import './Home.css';
-import Work from '../Works/Work';
-import OpenSource from '../OpenSource/OpenSource'
-import Vlogs from '../Vlogs/Vlogs';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from 'scrollreveal';
+import OpenSource from '../OpenSource/OpenSource';
+import Vlogs from '../Vlogs/Vlogs';
+import Work from '../Works/Work';
+import './Home.css';
 
 const Home = () => {
   const [Deck, setDeck] = useState(null);
@@ -61,7 +61,7 @@ const Home = () => {
             <Link to="/Contact">
               <button className="Chat-Btn button">Let's Chat!</button>
             </Link>
-            <Link to="https://drive.google.com/file/d/1rwYxp-onqHwqDd34Vw1bQ9qtYRPSlFLT/view?usp=sharing">
+            <Link to="https://drive.google.com/file/d/1kc51C6pbCtJSIstJWkakNYWhzGp2dLWZ/view?usp=sharing">
               <button className="Chat-Btn button">My Resume</button>
             </Link>
           </div>
