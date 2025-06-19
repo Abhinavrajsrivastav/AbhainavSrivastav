@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Light and Dark mode background settings */
 body.light-mode {
-  background-color: rgba(255, 255, 255, 0.598);
-  color: rgb(0, 0, 0);
+  background-color: #f8f9fa;
+  color: #333;
 }
 
 body.dark-mode {
   background-color: var(--bg-color);
-  color: white;
+  color: var(--heading-text);
 }
 
 /* Default styles for body */
 body {
   margin: 0;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -23,13 +23,15 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   gap: 50px;
   width: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: var(--bg-color);
-  opacity: 0.7;
-  overflow: hidden;
+  background-color: rgba(10, 25, 47, 0.9); /* Slightly transparent deep navy */
+  backdrop-filter: blur(5px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 /* Name section styling */
@@ -42,10 +44,11 @@ body {
 
 .Name span{
   font-size: 28px;
+  color: var(--heading-text);
 }
 
 .OpenC, .CloseC {
-  color: var(--text-color);
+  color: var(--secondary-accent);
   font-size: 24px;
 }
 
@@ -70,19 +73,37 @@ body {
 
 .Navigation .N p {
   margin: 0;
-  color: #3169f6f7;
+  color: var(--secondary-accent);
   font-size: 20px;
 }
 
 .Navigation .N a {
   text-decoration: none;
-  color: inherit;
-  font-size: 18px;
+  color: var(--body-text);
+  font-size: 16px;
+  font-weight: 500;
   transition: color 0.3s ease;
+  padding: 8px 0;
+  position: relative;
 }
 
 .Navigation .N a:hover {
-  color: #3169f6f7;
+  color: var(--secondary-accent);
+}
+
+.Navigation .N a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--secondary-accent);
+  transition: width 0.3s ease;
+}
+
+.Navigation .N a:hover::after {
+  width: 100%;
 }
 
 /* Theme toggle icon */

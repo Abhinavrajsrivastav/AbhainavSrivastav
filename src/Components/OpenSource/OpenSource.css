@@ -1,138 +1,97 @@
 .OpenSource-Container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    font-family: 'El Messiri', sans-serif;  
-}
-
-
-.Open{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
-    gap: 0px;
-    position: relative;
-    right: 30px;
-}
-
-.Head{
-    position: relative;
-    right: 20px;
-    top: 0px;
-}
-
-.Text{
-  padding-bottom: 10px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.Point{
- color: rgb(8, 22, 103);
-}
-
-
-.cta {
-  position: relative;
-  left: -4px;
-  top: -20px;
-  margin: 45px;
-  padding: 15px 18px;
-  transition: all 0.2s ease;
-  border: none;
-  background: none;
-  cursor: pointer;
-  color: white;
-}
-
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 50px;
-  background: rgb(8, 32, 103);
-  width: 56px;
-  height: 56px;
-  transition: all 0.3s ease;
-}
-
-.cta span {
-  position: relative;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: rgb(8, 44, 103);
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover:before {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  background: rgb(8, 37, 103);
+  position: relative;
+  padding: 60px 0 30px 0;
+  font-family: var(--heading-font, 'Poppins', sans-serif);
 }
 
-.cta:hover svg {
-  transform: translateX(0);
+.Content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
-.cta:active {
-  transform: scale(0.95);
+.Open {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
 }
 
+.Head {
+  margin-bottom: 22px;
+  align-self: flex-start;
+  position: relative;
+  left: 99px;
+}
 
-@media (max-width: 1000px){
-    .Open{
-        margin: 2px;
-        width: auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        right: 8px;
-    }
+.Head span {
+  color: var(--body-text, #8892B0);
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-    .OpenSource-Container{
-        top: 300px;
-        padding: 10px;
-    }
-    .Head{
-        right: 0px;
-        left: 3px;
-        padding-top: 0px;
-        padding-bottom: 10px;
-    }
+.OpenSources-Text {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--heading-text, #E6F1FF);
+  display: block;
+  margin-bottom: 10px;
+}
 
-   .cta{
-    left: 20px;
+.Point {
+  color: var(--primary-accent, #0077FF);
+}
+
+.Btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .OpenSource-Container {
+    padding: 40px 20px;
+  }
+  
+  .Open {
+    gap: 15px;
   }
 }
 
-@media (max-width: 1000px) and (min-width: 800px){
-  .OpenSource-Container{
+@media (max-width: 800px) {
+  .OpenSource-Container {
+    padding: 20px 10px;
+    position: relative;
+    top: 300px;
+  }
+
+  .Head {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .Text {
+    font-size: 28px;
+  }
+
+  .Btn {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  .OpenSource-Container {
     top: 100px;
-    width: auto;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  .Content{
-    padding: 0px;
   }
 }

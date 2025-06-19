@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap');
+
 
 .Vlog-Work-Container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: 'El Messiri', sans-serif;
+  font-family: var(--heading-font, 'Poppins', sans-serif);
   align-items:  center;
   padding: 30px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   position: relative;
   top: 0px;
-  right: 12px;
+  right: 0px;
+  left: 40px;
 }
 
 .Vlog-Work{
@@ -24,8 +26,8 @@
   position: relative;
   justify-content: flex-start;
   align-self: flex-start;
-  right: 10px;
-  padding: 10px 0px 10px 0px;
+  right: 15px;
+  padding: 10px 0px 30px 0px;
 }
 
 .Vlog-Work-Head .Text-description{
@@ -53,62 +55,41 @@
 }
 
 .Vlog-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #E6F1FF;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0077FF, #00B8D9);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 16px rgba(0, 119, 255, 0.25);
+  margin-top: 30px;
   position: relative;
-  left: -4px;
-  top: -20px;
-  margin: 45px;
-  padding: 15px 18px;
-  transition: all 0.2s ease;
-  border: none;
-  background: none;
-  cursor: pointer;
-  color: white;
+  z-index: 1;
 }
 
-.Vlog-cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 50px;
-  background: rgb(8, 41, 103);
-  width: 56px;
-  height: 56px;
-  transition: all 0.3s ease;
-}
-
-.Vlog-cta span {
-  position: relative;
-  font-size: 18px;
-  font-weight: bold;
+.Vlog-cta:hover {
+  background: linear-gradient(135deg, #00B8D9, #0077FF);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 184, 217, 0.35);
 }
 
 .Vlog-cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
+  stroke: #ffffff;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: rgb(8, 32, 103);
   stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-.Vlog-cta:hover:before {
-  width: 100%;
-  background: rgb(8, 44, 103);
+  transition: transform 0.3s ease-in-out;
 }
 
 .Vlog-cta:hover svg {
-  transform: translateX(0);
+  transform: translateX(4px);
 }
 
-.Vlog-cta:active {
-  transform: scale(0.95);
-}
 
 
 

@@ -46,7 +46,7 @@
 .Page-Cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
   position: relative;
   width: auto;

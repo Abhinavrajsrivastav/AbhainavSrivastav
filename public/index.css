@@ -1,23 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 body{
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Inter', sans-serif;
   align-items: center;
   overflow-x: hidden;
   position: relative;
   left: 0px;
   background-color: var(--bg-color);
+  color: var(--body-text);
 }
 
 :root{
-  --bg-color: #0d1b4df7;
-  --bg-hover-color: #3169f6f7;
-  --text-color: #3167fb;
-  --text-hover-color: rgb(42, 101, 249);
-  --card-color: #122365f7;
-  --Achievent-color: #092c7df7;
+  /* Modern Professional Color Scheme */
+  --bg-color: #0A192F; /* Deep Navy Blue */
+  --primary-accent: #0077FF; /* Royal Blue */
+  --secondary-accent: #00B8D9; /* Cyan Blue Tint */
+  --heading-text: #E6F1FF; /* Light Grayish Blue */
+  --body-text: #8892B0; /* Cool Gray / Slate */
+  --card-bg: #112240; /* Slightly Lighter Navy */
+  --divider-border: #233554; /* Muted Blue-Gray */
+  --resume-bg: #0F213A; /* Very Dark Blue Gray */
+  --highlight: #38BDF8; /* Aqua */
+  --tag-bg: rgba(56, 189, 248, 0.15); /* Transparent Aqua */
+  --hover-bg: #172A45; /* Lighter navy for hover states */
+  --cta-gradient: linear-gradient(90deg, #0077FF 0%, #00B8D9 100%);
 }

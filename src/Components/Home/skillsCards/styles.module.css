@@ -1,7 +1,7 @@
 .deck {
   position: absolute;
   width: auto;
-  height: 250px;
+  height: 160px;
   will-change: transform;
   display: flex;
   align-items: center;

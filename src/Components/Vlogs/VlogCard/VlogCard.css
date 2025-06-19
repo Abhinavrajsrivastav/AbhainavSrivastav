@@ -1,137 +1,95 @@
 .Vlog-card {
-  position: relative;
-  border-radius: 6px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: var(--bg-color);
-  backdrop-filter: blur(10px);
-  color: white;
-  /* padding: 12px; */
-  margin: 10px;
-  width: 270px;
-  /* height: auto; */
-  /* min-height: 280px; */
-  height: 350px;
+  background-color: #112240;
+  color: #E6F1FF;
+  border-radius: 8px;
   overflow: hidden;
-  position: relative;
-  max-width: 1000px;
-  min-width: 190px;
-  transition: box-shadow 0.3s ease-in-out;
-  gap: 0px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
 }
 
+.Vlog-card:hover {
+  transform: translateY(-5px);
+}
 
 .Vlog-Work-Img {
-  width: auto;
-  height: 170px;
   position: relative;
+  height: 180px;
   overflow: hidden;
-  background: fixed;
-  padding-bottom: 0px;
 }
 
-.Vlog-Work-Img .Vlog-Projects-img {
+.Vlog-Projects-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.Vlog-Projects-img {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
-  z-index: -1000;
-}
-
-.Vlog-card:hover .Vlog-Projects-img {
-  transform: scale(1.1);
-}
-
 .Vlog-Tools-img {
   position: absolute;
-  top: 34%;
-  right: -22px;
-  margin: 25px;
-  height: 55px;
-  width: 55px;
-  width: 55px;
-  z-index: 1000;
+  bottom: 10px;
+  right: 10px;
+  height: 35px;
+  width: 35px;
+  background: #0a192f;
   border-radius: 50%;
-  padding: 10px;
+  padding: 6px;
 }
 
-.Vlog-card-content{
+.Vlog-card-content {
+  padding: 16px;
+}
+
+.Vlog-Project-Name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Vlog-About {
+  font-size: 14px;
+  color: #8892B0;
+  margin: 8px 0;
+}
+
+.Vlog-Tags {
   display: flex;
-  flex-direction: column;
-  padding: 12px;
-  /* min-height: 0px; */
-  /* padding-top: 20px; */
-  gap: 0px;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
-
-.Vlog-Links{
-  position: relative;
-  /* top: -45px; */
-  padding: 12px;
+.Vlog-Tag {
+  background: #233554;
+  color: #E6F1FF;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
 }
 
-/* .Vlog-card-container::before {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: rgb(1, 106, 167);
-  border-radius: 50%;
-  z-index: 10000;
-} */
-
-.Vlog-card::before {
-  top: -10px;
-  left: -10px;
+.Vlog-Links {
+  display: flex;
+  gap: 12px;
 }
 
-.Vlog-card::after {
-  bottom: -10px;
-  right: -10px;
+.Vlog-Btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  background-color: transparent;
+  border: 1px solid #233554;
+  font-size: 11px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: #0a192f;
+  border-color: #0077ff;
+  color: #acafaf;
 }
 
-.Vlog-card::before,
-.Vlog-card::after {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
-}
-
-@media (max-width: 1005px) {
-  .Vlog-card {
-    width: auto; 
-    max-height: none;
-    min-width: 300px;
-    height: auto;
-    position: relative;
-    left: 0px;
-  }
-
-  .Vlog-Tools-img {
-    margin: 10px; 
-    position: absolute;
-    top: 48%;
-    bottom: 95px;
-    right: -8px;
-    height: 70px;
-    width: 70px;
-  }
-
-  .Vlog-Work-Img {
-    height: 240px;
-    width: auto;
-    object-fit: contain;
-  }
-
-  .Vlog-card-content {
-    padding-top: 10px;
-  }
-
-  span {
-    font-size: 16px;
-  }
+.Vlog-Btn img {
+  height: 11px;
+  width: 11px;
 }

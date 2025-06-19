@@ -1,78 +1,87 @@
-.Card-Container{
+.Card-Container {
   position: relative;
-  left: 0px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: var(--bg-color);
-  color: white;
-  backdrop-filter: blur(10px);
-  padding: 12px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow, 0 10px 30px -15px rgba(2, 12, 27, 0.7));
+  background-color: var(--card-bg, #112240);
+  border: 1px solid var(--divider-border, #233554);
+  padding: 16px;
   margin: 10px;
-  width: 270px;
+  width: 280px;
   min-height: 150px;
-  max-height: 170px;
-  max-height: 200px;
-  max-width: 1000px;
-  min-width: 200px;
-  transition: box-shadow 0.3s ease-in-out;
+  max-height: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--body-text, #8892B0);
+  display: flex;
+  flex-direction: column;
 }
 
-.Card-Container:hover{
-  box-shadow: 0 0 10px var(--text-color);
+.Card-Container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px -15px rgba(0, 0, 0, 0.7);
 }
 
-.Card-Head{
-    padding: 10px 0px 10px 0px;
+.Card-Head {
+  padding: 0 0 8px 0;
 }
 
-.Card-Head span{
-    font-size: 20px;
+.Card-Head span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-text, #E6F1FF);
+  font-family: var(--heading-font, 'Poppins', sans-serif);
 }
 
-.Card-Body{
+.Card-Body {
   min-height: 50px;
+  flex-grow: 1;
+  margin-bottom: 10px;
+  color: var(--body-text, #8892B0);
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-
-.Card-Bottom{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
-    gap: 3px;
-    padding: 10px 0px 10px 0px;
-    position: relative;
-    top: 0px;
-    left: 0px;
+.Card-Bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
 }
 
-.Card-Bottom .btn{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
-    gap: 10px;
-}
-.Card-Container::before {
-  top: -10px;
-  left: -10px;
+.os-card-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background-color: var(--card-bg, #112240);
+  border: 1px solid var(--secondary-accent, #00B8D9);
+  color: var(--body-text, #8892B0);
+  max-width: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.Card-Container::after {
-  bottom: -10px;
-  right: -10px;
+.os-btn-icon {
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  opacity: 0.8;
 }
 
-.Card-Container::before,
-.Card-Container::after {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+.os-card-btn:hover {
+  background-color: var(--hover-bg, #172A45);
+  transform: translateY(-2px);
+  color: var(--secondary-accent, #00B8D9);
 }
 
 .heart-container {
-  --heart-color: rgb(17, 83, 159);
+  --heart-color: var(--primary-accent, #0077FF);
   position: relative;
-  top: -1px;
-  left: -11px;
   width: 20px;
   height: 20px;
   transition: .3s;
@@ -96,7 +105,7 @@
 }
 
 .heart-container .svg-outline,
-        .heart-container .svg-filled {
+.heart-container .svg-filled {
   fill: var(--heart-color);
   position: absolute;
 }
@@ -156,20 +165,22 @@
   }
 }
 
-
-@media (max-width: 1000px){
-    .Card-Container{
-        width: auto;
-        left: 0px;
-        height: auto;
-    }
-
-    .heart-container {
-  top: 0px;
-  width: 20px;
-  height: 20px;
+@media (max-width: 1000px) {
+  .Card-Container {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .heart-container {
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
 }
-.Card-Body{
-  min-height: none;
-}
+
+@media (max-width: 500px) {
+  .Card-Container {
+    width: 100%;
+    max-width: none;
+  }
 }

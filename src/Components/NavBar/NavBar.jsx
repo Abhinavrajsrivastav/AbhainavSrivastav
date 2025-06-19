@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import './NavBar.css';
+import { useEffect, useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
-import { Home, Person, Work, School, Star, Mail } from '@mui/icons-material';
+import './NavBar.css';
 
 const NavBar = () => {
   // Initialize theme based on localStorage or default to dark mode
@@ -84,14 +83,20 @@ const NavBar = () => {
             <div className="Skills N">
               <Link to="/Skills">
                 {/* <School style={iconStyle} /> */}
-                <span>Skills</span>
-              </Link>
+                <span>Skills</span>              </Link>
               <p>.</p>
             </div>
             <div className="Achievements N">
               <Link to="/Achievements">
                 {/* <Star style={iconStyle} /> */}
                 <span>Achievements</span>
+              </Link>
+              <p>.</p>
+            </div>
+            <div className="Experience N">
+              <Link to="/Experience">
+                {/* <BusinessCenter style={iconStyle} /> */}
+                <span>Experience</span>
               </Link>
               <p>.</p>
             </div>
@@ -120,8 +125,7 @@ const NavBar = () => {
               <span>Works</span>
             </Link>
             <p>.</p>
-          </div>
-          <div className="Skills N">
+          </div>          <div className="Skills N">
             <Link to="/Skills">
               {/* <School style={iconStyle} /> */}
               <span>Skills</span>
@@ -132,6 +136,13 @@ const NavBar = () => {
             <Link to="/Achievements">
               {/* <Star style={iconStyle} /> */}
               <span>Achievements</span>
+            </Link>
+            <p>.</p>
+          </div>
+          <div className="Experience N">
+            <Link to="/Experience">
+              {/* <BusinessCenter style={iconStyle} /> */}
+              <span>Experience</span>
             </Link>
             <p>.</p>
           </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Card.css';
 
@@ -8,45 +7,55 @@ const Card = ({
   name,
   about,
   link,
-  toolImg
+  toolImg,
+  tech = []
 }) => {
   return (
     <div className="card dark:bg-dark bg-lighter">
       <div className="Work-Img">
-        <img src={src} alt="ExpressIT" className="Projects-img" />
-        {/* <img src="./images/Tools/java.png" alt="Java" className="Tools-img" /> */}
+        <img src={src} alt={name} className="Projects-img" />
       </div>
       
       <div className="Card-ToolsImg">
-        {toolImg.map((img,index) => (
-  <img key={index} src={`./images/Tools/${img}`} alt={img} className="Card-Tools-img" />
-))}
-       </div>
-
-      <div className="card-content">
-        <span className="Project-Name fs-5">{name}</span><br />
-        <span style={{ fontSize: '13px' }}>{about}</span>
+        {toolImg.map((img, index) => (
+          <img key={index} src={`./images/Tools/${img}`} alt={img} className="Card-Tools-img" />
+        ))}
       </div>
-      <div className="Links d-flex flex-row justify-content-start gap-2 mt-2">
-        {link !== "" && (
+      
+      <div className="card-content">
+        <span className="Project-Name fs-5">{name}</span>
+        <p className="project-description">{about}</p>
+        
+        {tech && tech.length > 0 && (
+          <div className="tech-tags">
+            {tech.map((tag, index) => (
+              <span key={index} className="tag">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+      
+      <div className="Links d-flex flex-row justify-content-start gap-2">
+        {link && (
           <a
             href={link}
             target="_blank"
-            className="btn btn accordion-collapse"
-            style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
+            className="card-btn demo-btn"
+            rel="noopener noreferrer"
           >
-            <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="mx-2"   />
-            Demo
+            <img src="./images/link.png" alt="Link Icon" className="btn-icon" />
+            <span>Demo</span>
           </a>
         )}
-        {gitHub !== "" && (
+        {gitHub && (
           <a
             href={gitHub}
-            className="btn btn bg  opacity-5 accordion-collapse"
-            style={{ border: '0px solid black',  backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit'}}
+            target="_blank"
+            className="card-btn github-btn"
+            rel="noopener noreferrer"
           >
-            <img src="./images/github-logo.png" style={{ height: '16px', width: '16px' }} alt="GitHub Icon" className="mx-2" />
-            GitHub
+            <img src="./images/github-logo.png" alt="GitHub Icon" className="btn-icon" />
+            <span>GitHub</span>
           </a>
         )}
       </div>

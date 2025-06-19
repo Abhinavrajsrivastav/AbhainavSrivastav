@@ -1,4 +1,3 @@
-import React from 'react';
 import './Card.css';
 
 function Card({ name, about, view }) {
@@ -9,16 +8,15 @@ function Card({ name, about, view }) {
       </div>
       <div className="Card-Body">
         <span>{about}</span>
-      </div>
-      <div className="Card-Bottom">
+      </div>      <div className="Card-Bottom">
         <a
           href={view}
           target="_blank"
-          className="btn btn accordion-collapse"
-          style={{ border: '0px solid black', backgroundColor: 'rgba(49, 75, 178, 0.1)', color: 'inherit' }}
+          className="os-card-btn"
+          rel="noopener noreferrer"
         >
-          <img src="./images/link.png" style={{ height: '10px', width: '10px' }} alt="Link Icon" className="" />
-          View
+          <img src="./images/link.png" alt="Link Icon" className="os-btn-icon" />
+          <span>View</span>
         </a>
 
         <div title="Like" className="heart-container">
