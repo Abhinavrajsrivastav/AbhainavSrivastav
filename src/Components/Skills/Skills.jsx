@@ -1,81 +1,129 @@
-import React from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './Skills.css';
 
 function Skills() {
+  const [isVisible, setIsVisible] = useState(false);
+  const skillsRef = useRef(null);
+
+  // Define skill levels for technical skills
+  const technicalSkills = [
+    { name: 'Java', level: 85 },
+    { name: 'JavaScript', level: 80 },
+    { name: 'React', level: 75 },
+    { name: 'Spring Boot', level: 70 },
+    { name: 'HTML & CSS', level: 85 },
+    { name: 'SQL', level: 75 },
+    { name: 'C', level: 70 },
+    { name: 'Data Structures & Algorithms', level: 80 },
+  ];
+
+  // Group other skills by category
+  const skillCategories = [
+    {
+      title: 'Software Engineering',
+      skills: [
+        'Object-Oriented Programming (OOP)',
+        'SOLID Principles',
+        'Design Patterns',
+        'Unit Testing',
+        'Mockito',
+        'Git & Version Control',
+        'REST API Design',
+      ]
+    },
+    {
+      title: 'DevOps & Cloud',
+      skills: [
+        'Microsoft Azure',
+        'Google Cloud Platform (GCP)',
+        'Firebase',
+        'Docker',
+        'Kubernetes',
+        'CI/CD Pipelines',
+      ]
+    },
+    {
+      title: 'Computer Science Fundamentals',
+      skills: [
+        'Operating Systems',
+        'Computer Networking',
+        'Database Management Systems',
+        'System Design',
+        'Problem Solving',
+        'Agile Methodology',
+        'SDLC',
+      ]
+    }
+  ];
+
+  // Set up intersection observer to detect when skills section is in viewport
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1,
+      }
+    );
+
+    if (skillsRef.current) {
+      observer.observe(skillsRef.current);
+    }
+
+    return () => {
+      if (skillsRef.current) {
+        observer.unobserve(skillsRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="skills" ref={skillsRef}>
       <h2 className="skills-title">My <span>Skills</span></h2>
-      <p className="skills-subTitle">These are my expertise in Software Engineering, areas I have worked with!</p>
-      <div className="skills-categories">
+      <p className="skills-subTitle">
+        A showcase of my technical expertise and professional competencies in software engineering
+      </p>
 
-        {/* Technical Skills */}
-        <div className="skills-category">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>C</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Spring Boot</li>
-            <li>SQL</li>
-            <li>Problem-solving</li>
-            <li>Data Structures and Algorithms (DSA)</li>
-            <li>OOPs (Object-Oriented Programming)</li>
-            <li>Computer Networking</li>
-            <li>DBMS (Database Management Systems)</li>
-            <li>Operating Systems</li>
-            <li>GIT & Version Control</li>
-          </ul>
+      <div className="skills-container">
+        {/* Technical Skills with Progress Bars */}
+        <div className="skills-primary">
+          <h3 className="skills-category-title">Core Technical Proficiencies</h3>
+          <div className="skills-progress-container">
+            {technicalSkills.map((skill, index) => (
+              <div className="skill-progress-item" key={index}>
+                <div className="skill-info">
+                  <span className="skill-name">{skill.name}</span>
+                  <span className="skill-percentage">{skill.level}%</span>
+                </div>
+                <div className="skill-progress-bar">                  <div 
+                    className={`skill-progress-fill ${isVisible ? 'animate-progress' : ''}`}
+                    style={{ width: isVisible ? `${skill.level}%` : '0%', '--level': `${skill.level}%` }}
+                  ></div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Soft Skills */}
-        {/* <div className="skills-category">
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Interpersonal Skills</li>
-            <li>Team Collaboration</li>
-            <li>Teamwork</li>
-            <li>Continuous Improvement</li>
-          </ul>
-        </div> */}
-
-        {/* Good Practices */}
-        <div className="skills-category">
-          <h3>Good Practices</h3>
-          <ul>
-            <li>Unit Testing</li>
-            <li>Mockito</li>
-            <li>Microsoft Azure Cloud</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>Agile Methodology</li>
-            <li>SDLC (Software Development Life Cycle)</li>
-          </ul>
+        {/* Other Skill Categories */}
+        <div className="skills-categories">
+          {skillCategories.map((category, categoryIndex) => (
+            <div className={`skills-category ${isVisible ? 'animate-fade-in' : ''}`} key={categoryIndex} style={{ animationDelay: `${categoryIndex * 0.2}s` }}>
+              <h3>{category.title}</h3>
+              <ul>
+                {category.skills.map((skill, skillIndex) => (
+                  <li key={skillIndex} style={{ animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.05)}s` }}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-
-        {/* Cloud Platforms */}
-        <div className="skills-category">
-          <h3>Cloud Platforms</h3>
-          <ul>
-            <li>Google Cloud Platform (GCP)</li>
-            <li>Microsoft Azure</li>
-            <li>Firebase</li>
-          </ul>
-        </div>
-
-        {/* Programming Achievements */}
-        {/* <div className="skills-category">
-          <h3>Programming Achievements</h3>
-          <ul>
-            <li>LeetCode Max Rating: 1564, 300 Problems Solved</li>
-            <li>Geeks for Geeks Rank: 27th, 80+ Days of Challenges</li>
-            <li>Open Source Contributions: 1100+ Commits, 49+ Repositories</li>
-            <li>800+ Competitive Programming Problems Solved</li>
-          </ul>
-        </div> */}
-
       </div>
     </section>
   );
