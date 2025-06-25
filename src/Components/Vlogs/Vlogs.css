@@ -97,20 +97,20 @@
 @media (max-width: 1000px) {
 
   .Vlog-cta{
-    left: 20px;
+    left: -20px;
   }
   .Vlog-Work-Container {
     padding: 10px;
     position: relative;
-    top: 325px;
+    top: 345px;
     align-self: start;
-    left: 0px;
+    left: 20px;
   }
 
   .Vlog-Work-Head {
     margin-bottom: 0px;
     position: relative;
-    right: 0px;
+    right: 10px;
   }
 
   .Vlog-Cards {

@@ -11,7 +11,7 @@ const Work = ({
       <div className="Vlog-Work">
         <div className="Vlog-Work-Head">
         <span className="Vlog-Text">Featured Works<span>.</span></span><br />
-        <span className="Vlog-Text-description">Here are some of the Works I have worked at</span>
+        <span className="Text-description">Here are some of the Works <br/>I have worked at</span>
       </div>
       <div className="Vlog-Cards">
         <Card src={"./images/Vlogs/sd.png"} name={"All About System design"} about={"Understand, the 4 important aspects of designing of an system."} link={"https://medium.com/@abhiraj.srivast254/system-design-what-why-how-when-0bae03b00d27"} vlogImg={"./images/Vlogs/medium.png"}/>
