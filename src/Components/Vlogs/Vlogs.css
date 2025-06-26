@@ -90,12 +90,8 @@
   transform: translateX(4px);
 }
 
-
-
-
 /* Media Query for Mobile View */
 @media (max-width: 1000px) {
-
   .Vlog-cta{
     left: -20px;
   }
