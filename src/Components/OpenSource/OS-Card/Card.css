@@ -168,19 +168,11 @@
 @media (max-width: 1000px) {
   .Card-Container {
     width: 100%;
-    max-width: 320px;
   }
   
   .heart-container {
     top: 0px;
     width: 20px;
     height: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .Card-Container {
-    width: 100%;
-    max-width: none;
   }
 }

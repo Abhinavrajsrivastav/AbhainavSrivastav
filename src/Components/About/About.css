@@ -12,6 +12,10 @@
     font-size: 15px;
 }
 
+.abouts-me span a{
+  text-decoration: none;
+}
+
 .about-body,
 .abouts-me,
 .My-Services,
@@ -59,7 +63,7 @@ h3, h4 {
 }
 
 .Service-Body li {
-  background-color: var(--bg-color);
+  background-color: var(--card-bg);
   color: white;
   padding: 7px;
   margin: 0px;
@@ -75,7 +79,7 @@ h3, h4 {
 
 .Service-Body li:hover {
   transform: scale(1.05);
-  background-color:  var(--text-hover-color);
+  background-color:  var(--resume-bg);
 }
 
 
@@ -126,6 +130,8 @@ h3, h4 {
 @media (max-width: 1005px) {
   .abouts {
     margin: 50px 10px 0 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     padding: 20px;
     font-size: 14px;
   }

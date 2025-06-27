@@ -39,7 +39,7 @@
 
 .Card-Tools-img {
   position: absolute;
-  top: 140px;
+  top: 162px;
   right: 10px;
   height: 35px;
   width: 35px;
@@ -152,8 +152,6 @@
 @media (max-width: 1000px) {
   .card {
     width: 100%;
-    max-width: 320px;
-    min-height: 0;
   }
 
   .Card-Tools-img {
@@ -170,7 +168,6 @@
 @media (max-width: 500px) {
   .card {
     width: 100%;
-    max-width: none;
   }
   
   .Links {

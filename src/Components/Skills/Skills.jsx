@@ -7,51 +7,78 @@ function Skills() {
 
   // Define skill levels for technical skills
   const technicalSkills = [
-    { name: 'Java', level: 85 },
-    { name: 'JavaScript', level: 80 },
-    { name: 'React', level: 75 },
-    { name: 'Spring Boot', level: 70 },
+    { name: 'Java', level: 90 },
+    { name: 'Python', level: 85 },
+    { name: 'JavaScript', level: 85 },
+    { name: 'Spring Boot', level: 85 },
+    { name: 'React', level: 80 },
+    { name: 'SQL', level: 80 },
     { name: 'HTML & CSS', level: 85 },
-    { name: 'SQL', level: 75 },
-    { name: 'C', level: 70 },
-    { name: 'Data Structures & Algorithms', level: 80 },
+    { name: 'Data Structures & Algorithms', level: 85 },
   ];
 
   // Group other skills by category
   const skillCategories = [
     {
-      title: 'Software Engineering',
+      title: 'Backend Technologies',
       skills: [
-        'Object-Oriented Programming (OOP)',
-        'SOLID Principles',
-        'Design Patterns',
-        'Unit Testing',
-        'Mockito',
-        'Git & Version Control',
-        'REST API Design',
+        'Spring Boot',
+        'Node.js',
+        'RESTful APIs',
+        'Microservices Architecture',
+        'Kafka (Event Processing)',
+        'Server-Sent Events (SSE)',
+        'Multi-tenant Architecture',
+        'Real-time Data Processing'
       ]
     },
     {
-      title: 'DevOps & Cloud',
+      title: 'Databases & Storage',
       skills: [
-        'Microsoft Azure',
-        'Google Cloud Platform (GCP)',
+        'MySQL',
+        'Redis',
         'Firebase',
-        'Docker',
-        'Kubernetes',
-        'CI/CD Pipelines',
+        'Database Design',
+        'DBMS Optimization',
+        'Data Modeling',
+        'Query Optimization'
       ]
     },
     {
-      title: 'Computer Science Fundamentals',
+      title: 'Cloud & DevOps',
       skills: [
-        'Operating Systems',
-        'Computer Networking',
-        'Database Management Systems',
-        'System Design',
+        'AWS',
+        'Google Cloud Platform (GCP)',
+        'Docker',
+        'CI/CD Pipelines',
+        'Cloud Deployment',
+        'Scalable Infrastructure',
+        'Performance Monitoring'
+      ]
+    },
+    {
+      title: 'Tools & Frameworks',
+      skills: [
+        'Git & Version Control',
+        'Postman',
+        'Bootstrap',
+        'JUnit Testing',
+        'Model Context Protocol (MCP)',
+        'Visual Studio Code',
+        'Power BI',
+        'System Design'
+      ]
+    },
+    {
+      title: 'Soft Skills',
+      skills: [
         'Problem Solving',
+        'Team Collaboration',
+        'Project Leadership',
+        'Technical Communication',
+        'Code Review',
         'Agile Methodology',
-        'SDLC',
+        'Innovation & Creativity'
       ]
     }
   ];
@@ -85,45 +112,77 @@ function Skills() {
 
   return (
     <section className="skills-section" id="skills" ref={skillsRef}>
-      <h2 className="skills-title">My <span>Skills</span></h2>
-      <p className="skills-subTitle">
-        A showcase of my technical expertise and professional competencies in software engineering
-      </p>
+      <div className="skills-header">
+        <h2>Skills & Expertise</h2>
+        <p>
+          Building scalable solutions with cutting-edge technologies and modern development practices
+        </p>
+      </div>
 
       <div className="skills-container">
-        {/* Technical Skills with Progress Bars */}
-        <div className="skills-primary">
-          <h3 className="skills-category-title">Core Technical Proficiencies</h3>
-          <div className="skills-progress-container">
+        {/* Technical Skills */}
+        <div className="skills-category">
+          <h3 className="category-title">
+            <span>Core Technologies</span>
+          </h3>
+          <div className="skills-grid">
             {technicalSkills.map((skill, index) => (
-              <div className="skill-progress-item" key={index}>
-                <div className="skill-info">
-                  <span className="skill-name">{skill.name}</span>
-                  <span className="skill-percentage">{skill.level}%</span>
+              <div className="skill-card" key={index}>
+                <div className="skill-icon">
+                  {skill.name.charAt(0)}
                 </div>
-                <div className="skill-progress-bar">                  <div 
-                    className={`skill-progress-fill ${isVisible ? 'animate-progress' : ''}`}
-                    style={{ width: isVisible ? `${skill.level}%` : '0%', '--level': `${skill.level}%` }}
-                  ></div>
+                <h4 className="skill-name">{skill.name}</h4>
+                <p className="skill-description">
+                  Proficient in building robust applications
+                </p>
+                <div className="skill-level">
+                  <div className="level-label">
+                    <span>Proficiency</span>
+                    <span>{skill.level}%</span>
+                  </div>
+                  <div className="level-bar">
+                    <div 
+                      className="level-fill"
+                      style={{ width: isVisible ? `${skill.level}%` : '0%' }}
+                    ></div>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Other Skill Categories */}
-        <div className="skills-categories">
-          {skillCategories.map((category, categoryIndex) => (
-            <div className={`skills-category ${isVisible ? 'animate-fade-in' : ''}`} key={categoryIndex} style={{ animationDelay: `${categoryIndex * 0.2}s` }}>
-              <h3>{category.title}</h3>
-              <ul>
-                {category.skills.map((skill, skillIndex) => (
-                  <li key={skillIndex} style={{ animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.05)}s` }}>{skill}</li>
-                ))}
-              </ul>
+        {/* Other Skills by Category */}
+        {skillCategories.map((category, categoryIndex) => (
+          <div className="skills-category" key={categoryIndex}>
+            <h3 className="category-title">
+              <span>{category.title}</span>
+            </h3>
+            <div className="skills-grid">
+              {category.skills.map((skill, skillIndex) => (
+                <div 
+                  className={`skill-card ${
+                    category.title === 'Soft Skills' ? 'soft-skills' : 
+                    category.title === 'Languages' ? 'languages' : ''
+                  }`} 
+                  key={skillIndex}
+                >
+                  <div className="skill-icon">
+                    {skill.charAt(0)}
+                  </div>
+                  <h4 className="skill-name">{skill}</h4>
+                  <p className="skill-description">
+                    {category.title === 'Soft Skills' 
+                      ? 'Essential for effective collaboration'
+                      : category.title === 'Languages'
+                      ? 'Communication and documentation'
+                      : 'Modern development tool'}
+                  </p>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -8,11 +8,10 @@
   font-family: var(--heading-font, 'Poppins', sans-serif);
   align-items:  center;
   padding: 30px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 77px;
   position: relative;
   top: 0px;
   right: 0px;
-  left: 40px;
 }
 
 .Vlog-Work{
@@ -68,7 +67,10 @@
   transition: all 0.3s ease-in-out;
   box-shadow: 0 6px 16px rgba(0, 119, 255, 0.25);
   margin-top: 30px;
+  margin-bottom: 20px;
   position: relative;
+  top: 20px;
+  right: 37px;
   z-index: 1;
 }
 
@@ -94,13 +96,14 @@
 @media (max-width: 1000px) {
   .Vlog-cta{
     left: -20px;
+    margin-bottom: 33px;
   }
   .Vlog-Work-Container {
     padding: 10px;
     position: relative;
     top: 345px;
     align-self: start;
-    left: 20px;
+    margin: 0px 0px 0px 20px;
   }
 
   .Vlog-Work-Head {
@@ -115,6 +118,7 @@
     width: auto;
     left: -8px;
     max-width: none;
+    gap: 40px;
   }
 
   .Vlog-Cards > .Vlog-card {
@@ -131,7 +135,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 100px;
     margin-right: 70px;
+    margin: 0px 0px 0px 20px;
   }
 }

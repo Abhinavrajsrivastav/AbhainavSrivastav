@@ -29,7 +29,7 @@
 
 .Vlog-Tools-img {
   position: absolute;
-  bottom: 10px;
+  bottom: 1px;
   right: 10px;
   height: 35px;
   width: 35px;
@@ -92,4 +92,31 @@
 .Vlog-Btn img {
   height: 11px;
   width: 11px;
+}
+
+@media(max-width: 1005px) {
+  .Vlog-card {
+    width: 100%;
+  }
+
+  .Vlog-Work-Img {
+    height: 150px;
+  }
+
+  .Vlog-Tools-img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .Vlog-card-content {
+    padding: 12px;
+  }
+
+  .Vlog-Project-Name {
+    font-size: 16px;
+  }
+
+  .Vlog-About {
+    font-size: 13px;
+  }
 }
