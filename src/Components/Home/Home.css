@@ -43,6 +43,10 @@
   line-height: 1.2;
 }
 
+.highlights{
+  color: #3169f6f7;
+}
+
 .Profession {
   display: flex;
   flex-direction: column;
@@ -236,7 +240,7 @@
     max-width: 350px;
   }
 
-  .highlight {
+  .highlights {
      font-size: 2.5rem;
   }
 

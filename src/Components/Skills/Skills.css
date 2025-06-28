@@ -1,69 +1,38 @@
-/* Modern Skills Section */
+/* Simple & Fresh Skills Section */
 .skills-section {
-  padding: 100px 40px;
-  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
-  position: relative;
-  overflow: hidden;
+  padding: 80px 40px;
+  background: #0f0f23;
   min-height: 100vh;
-}
-
-.skills-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 30% 60%, rgba(42, 98, 252, 0.1) 0%, transparent 50%),
-              radial-gradient(circle at 70% 30%, rgba(18, 197, 202, 0.1) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-/* Static Background Element */
-.skills-section::after {
-  content: '';
-  position: absolute;
-  top: 15%;
-  right: 10%;
-  width: 150px;
-  height: 150px;
-  background: linear-gradient(45deg, rgba(42, 98, 252, 0.1), rgba(18, 197, 202, 0.1));
-  border-radius: 30% 70% 70% 30%;
-  pointer-events: none;
 }
 
 /* Header Section */
 .skills-header {
   text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-  z-index: 2;
+  margin-bottom: 60px;
 }
 
 .skills-title {
-  font-size: 4rem;
-  font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 700;
   color: #ffffff;
-  margin-bottom: 20px;
-  letter-spacing: -2px;
-  position: relative;
+  margin-bottom: 16px;
   line-height: 1.2;
 }
 
 .skills-title::after {
   content: '';
   position: absolute;
-  bottom: -15px;
+  bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
+  width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #2a62fc, #12c5ca);
+  background: #2a62fc;
   border-radius: 2px;
 }
 
 .skills-subTitle {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.7);
   max-width: 600px;
   margin: 0 auto;
@@ -73,22 +42,20 @@
 
 /* Skills Container */
 .skills-container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  position: relative;
-  z-index: 2;
 }
 
 /* Skills Category */
 .skills-category {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .skills-category-title {
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 600;
   color: #ffffff;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
   position: relative;
 }
@@ -105,7 +72,7 @@
 }
 
 .skills-category-title span {
-  background: linear-gradient(135deg, #0f0f23, #1a1a2e);
+  background: #0f0f23;
   padding: 0 30px;
   position: relative;
   z-index: 1;
@@ -114,166 +81,378 @@
 .skills-category-title::after {
   content: '';
   position: absolute;
-  bottom: -10px;
+  bottom: -8px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
-  height: 3px;
-  background: linear-gradient(90deg, #2a62fc, #12c5ca);
+  width: 40px;
+  height: 2px;
+  background: #2a62fc;
   border-radius: 2px;
 }
 
 /* Skills Grid */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
   padding: 0 20px;
 }
 
 /* Progress Container for Technical Skills */
 .skills-progress-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
   padding: 0 20px;
 }
 
-/* Skill Card */
+/* Simple Skill Card */
 .skill-card {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  padding: 35px 25px;
+  border-radius: 12px;
+  padding: 30px 20px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Progress Item for Technical Skills */
+/* Simple Progress Item */
 .skill-progress-item {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 25px;
 }
 
 .skill-icon {
-  width: 60px;
-  height: 60px;
-  margin: 0 auto 20px;
-  background: linear-gradient(135deg, #2a62fc, #12c5ca);
-  border-radius: 16px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 16px;
+  background: #2a62fc;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
   color: white;
-  box-shadow: 0 8px 24px rgba(42, 98, 252, 0.3);
+}
+
+/* Technology Specific Icon Styles */
+.skill-icon.java {
+  background: linear-gradient(135deg, #f89820, #ed8b00);
+}
+
+.skill-icon.javascript {
+  background: linear-gradient(135deg, #f7df1e, #f0db4f);
+  color: #323330;
+}
+
+.skill-icon.python {
+  background: linear-gradient(135deg, #3776ab, #ffd343);
+  color: white;
+}
+
+.skill-icon.react {
+  background: linear-gradient(135deg, #61dafb, #21232a);
+  color: white;
+}
+
+.skill-icon.nodejs {
+  background: linear-gradient(135deg, #68a063, #83cd29);
+  color: white;
+}
+
+.skill-icon.html {
+  background: linear-gradient(135deg, #e34f26, #f06529);
+  color: white;
+}
+
+.skill-icon.css {
+  background: linear-gradient(135deg, #1572b6, #33a9dc);
+  color: white;
+}
+
+.skill-icon.mongodb {
+  background: linear-gradient(135deg, #47a248, #4db33d);
+  color: white;
+}
+
+.skill-icon.mysql {
+  background: linear-gradient(135deg, #4479a1, #00758f);
+  color: white;
+}
+
+.skill-icon.git {
+  background: linear-gradient(135deg, #f05032, #f1502f);
+  color: white;
+}
+
+.skill-icon.docker {
+  background: linear-gradient(135deg, #2496ed, #0db7ed);
+  color: white;
+}
+
+.skill-icon.aws {
+  background: linear-gradient(135deg, #ff9900, #232f3e);
+  color: white;
+}
+
+.skill-icon.spring {
+  background: linear-gradient(135deg, #6db33f, #68bd45);
+  color: white;
+}
+
+.skill-icon.bootstrap {
+  background: linear-gradient(135deg, #7952b3, #563d7c);
+  color: white;
+}
+
+.skill-icon.typescript {
+  background: linear-gradient(135deg, #3178c6, #235a97);
+  color: white;
+}
+
+.skill-icon.angular {
+  background: linear-gradient(135deg, #dd0031, #c3002f);
+  color: white;
+}
+
+.skill-icon.vue {
+  background: linear-gradient(135deg, #4fc08d, #34495e);
+  color: white;
+}
+
+.skill-icon.php {
+  background: linear-gradient(135deg, #777bb4, #8892bf);
+  color: white;
+}
+
+.skill-icon.laravel {
+  background: linear-gradient(135deg, #ff2d20, #fb503b);
+  color: white;
+}
+
+.skill-icon.express {
+  background: linear-gradient(135deg, #000000, #404040);
+  color: white;
+}
+
+.skill-icon.postgresql {
+  background: linear-gradient(135deg, #336791, #4169a3);
+  color: white;
+}
+
+.skill-icon.redis {
+  background: linear-gradient(135deg, #dc382d, #b12e23);
+  color: white;
+}
+
+.skill-icon.kubernetes {
+  background: linear-gradient(135deg, #326ce5, #3970e4);
+  color: white;
+}
+
+.skill-icon.firebase {
+  background: linear-gradient(135deg, #ffca28, #ffa000);
+  color: #424242;
+}
+
+.skill-icon.graphql {
+  background: linear-gradient(135deg, #e10098, #d6006b);
+  color: white;
+}
+
+.skill-icon.nextjs {
+  background: linear-gradient(135deg, #000000, #404040);
+  color: white;
+}
+
+.skill-icon.flutter {
+  background: linear-gradient(135deg, #02569b, #0553b1);
+  color: white;
+}
+
+.skill-icon.swift {
+  background: linear-gradient(135deg, #fa7343, #fab040);
+  color: white;
+}
+
+.skill-icon.kotlin {
+  background: linear-gradient(135deg, #7f52ff, #a97bff);
+  color: white;
+}
+
+.skill-icon.csharp {
+  background: linear-gradient(135deg, #239120, #68217a);
+  color: white;
+}
+
+.skill-icon.dotnet {
+  background: linear-gradient(135deg, #512bd4, #5c2d91);
+  color: white;
+}
+
+.skill-icon.golang {
+  background: linear-gradient(135deg, #00add8, #29beb0);
+  color: white;
+}
+
+.skill-icon.rust {
+  background: linear-gradient(135deg, #000000, #ce422b);
+  color: white;
+}
+
+.skill-icon.tailwind {
+  background: linear-gradient(135deg, #06b6d4, #0891b2);
+  color: white;
+}
+
+.skill-icon.sass {
+  background: linear-gradient(135deg, #cc6699, #bf4f7a);
+  color: white;
+}
+
+.skill-icon.webpack {
+  background: linear-gradient(135deg, #8dd6f9, #1c78c0);
+  color: white;
+}
+
+.skill-icon.vite {
+  background: linear-gradient(135deg, #646cff, #747bff);
+  color: white;
+}
+
+.skill-icon.figma {
+  background: linear-gradient(135deg, #f24e1e, #a259ff);
+  color: white;
+}
+
+.skill-icon.photoshop {
+  background: linear-gradient(135deg, #31a8ff, #001e36);
+  color: white;
+}
+
+.skill-icon.jenkins {
+  background: linear-gradient(135deg, #d33833, #f0d6cc);
+  color: white;
+}
+
+.skill-icon.terraform {
+  background: linear-gradient(135deg, #623ce4, #7b42f6);
+  color: white;
+}
+
+.skill-icon.elasticsearch {
+  background: linear-gradient(135deg, #005571, #00bfb3);
+  color: white;
+}
+
+.skill-icon.kafka {
+  background: linear-gradient(135deg, #231f20, #000000);
+  color: white;
+}
+
+.skill-icon.rabbitmq {
+  background: linear-gradient(135deg, #ff6600, #ff7518);
+  color: white;
+}
+
+.skill-icon.postman {
+  background: linear-gradient(135deg, #ff6c37, #ff8660);
+  color: white;
+}
+
+.skill-icon.default {
+  background: linear-gradient(135deg, #2a62fc, #4f46e5);
+  color: white;
 }
 
 .skill-name {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .skill-description {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.7);
-  line-height: 1.6;
-  margin-bottom: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .skill-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .skill-percentage {
   color: #2a62fc;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-/* Skill Level Bar */
+/* Simple Skill Level Bar */
 .skill-level {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .level-label {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
-  font-size: 0.9rem;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
 }
 
 .level-bar {
-  height: 8px;
+  height: 6px;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  border-radius: 3px;
   overflow: hidden;
   position: relative;
 }
 
 .skill-progress-bar {
-  height: 8px;
+  height: 6px;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  border-radius: 3px;
   overflow: hidden;
   position: relative;
 }
 
 .level-fill {
   height: 100%;
-  background: linear-gradient(90deg, #2a62fc, #12c5ca);
-  border-radius: 4px;
+  background: #2a62fc;
+  border-radius: 3px;
   transition: width 1s ease-out 0.3s;
   position: relative;
 }
 
 .skill-progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #2a62fc, #12c5ca);
-  border-radius: 4px;
+  background: #2a62fc;
+  border-radius: 3px;
   transition: width 1.5s ease-in-out;
   position: relative;
 }
 
-/* Skills Categories */
+/* Simple Skills Categories */
 .skills-categories {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
   padding: 0 20px;
 }
 
 .skills-category {
   background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 24px;
-  padding: 40px;
+  border-radius: 16px;
+  padding: 30px;
   position: relative;
-  overflow: hidden;
-  box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .skills-category::before {
@@ -281,20 +460,19 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 4px;
+  width: 3px;
   height: 100%;
-  background: linear-gradient(180deg, #2a62fc, #12c5ca);
+  background: #2a62fc;
+  border-radius: 0 0 0 16px;
 }
 
 .skills-category h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #2a62fc;
-  font-weight: 700;
-  margin-bottom: 30px;
-  padding-bottom: 15px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-bottom: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  position: relative;
-  z-index: 2;
 }
 
 .skills-category ul {
@@ -303,20 +481,17 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  position: relative;
-  z-index: 2;
+  gap: 12px;
 }
 
 .skills-category ul li {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.9);
-  padding: 12px 20px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   position: relative;
-  overflow: hidden;
 }
 
 .skills-category ul li::before {
@@ -325,8 +500,9 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 3px;
-  background: linear-gradient(180deg, #2a62fc, #12c5ca);
+  width: 2px;
+  background: #2a62fc;
+  border-radius: 0 8px 8px 0;
 }
 
 /* Animation Styles */
@@ -368,19 +544,19 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   .skills-section {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   
   .skills-title {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   
   .skills-subTitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .skills-category-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   
   .skills-progress-container {
@@ -392,25 +568,25 @@
   }
   
   .skill-progress-item {
-    padding: 25px;
+    padding: 20px;
   }
   
   .skills-category {
-    padding: 30px;
+    padding: 25px;
   }
 }
 
 @media (max-width: 480px) {
   .skills-section {
-    padding: 60px 15px;
+    padding: 50px 15px;
   }
   
   .skills-title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   
   .skills-category-title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   
   .skill-name {
@@ -418,11 +594,11 @@
   }
   
   .skills-category h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   .skills-category ul li {
-    font-size: 1rem;
-    padding: 10px 15px;
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 }

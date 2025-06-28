@@ -48,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   position: relative;
   width: auto;
 }
