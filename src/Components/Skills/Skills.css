@@ -44,11 +44,17 @@
 .skills-container {
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Skills Category */
 .skills-category {
   margin-bottom: 60px;
+  max-width: 1100px;
+  align-items: center;
+  position: relative;
+  left: 50px;
 }
 
 .skills-category-title {
@@ -565,6 +571,7 @@
   
   .skills-categories {
     grid-template-columns: 1fr;
+    left: 0px;
   }
   
   .skill-progress-item {
