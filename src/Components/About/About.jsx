@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import './About.css';
 
 const About = () => {
@@ -42,17 +41,14 @@ const About = () => {
         </div>
        <div className="Get-In-Touch">
           <div className="social-icons">
-            <a href="https://www.instagram.com/_abhinav_srivastav__/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.instagram.com/_abhinav_srivastav__/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={30} color="#C13584" />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn size={30} color="#0077B5" />
             </a>
-            <a href="https://twitter.com/srivast254" target="_blank" rel="noopener noreferrer">
-              <FaTwitter size={30} />
-            </a>
             {/* <a href="https://twitter.com/srivast254" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={30} color="Black" />
+              <FaTwitter size={30} />
             </a> */}
           </div>
         </div>

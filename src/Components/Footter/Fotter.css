@@ -110,12 +110,12 @@
   background-color: transparent;
 }
 
-.button--submit {
+/* .button--submit {
   min-height: 50px;
   padding: .5em 1em;
   border: none;
   border-radius: 0 6px 6px 0;
-  background-color: rgb(56, 100, 171);
+  color: var(--primary-accent, #0077FF);
   color: #fff;
   font-size: 15px;
   cursor: pointer;
@@ -124,6 +124,28 @@
 
 .button--submit:hover {
   background-color: rgb(79, 118, 181);
+} */
+
+.button--submit  {
+  display: inline-flex;
+  align-items: center;
+  min-height: 50px;
+  padding: .5em 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #E6F1FF;
+  background: linear-gradient(135deg, #0077FF, #00B8D9);
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 119, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.button--submit:hover {
+  box-shadow: 0 6px 30px rgba(0, 184, 217, 0.3);
+  background: linear-gradient(135deg, #00B8D9, #0077FF);
 }
 
 .input:focus, .input:focus-visible {

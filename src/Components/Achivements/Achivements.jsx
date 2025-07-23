@@ -51,7 +51,7 @@ const Achivements = () => {
           My <span className="highlight">Achievements</span>
         </h2>
         <p className="achievements-subtitle">
-          Milestones and recognitions that define my journey in technology
+          Milestones and recognitions
         </p>
       </div>
 
@@ -186,6 +186,14 @@ const Achivements = () => {
                       <span key={techIndex} className="tech-badge">{tech}</span>
                     ))}
                   </div>
+                  <a 
+                  href={data.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="certification-verify"
+                >
+                  Verify
+                </a>
                 </div>
               </div>
             ))}

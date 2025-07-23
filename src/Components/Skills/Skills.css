@@ -1,7 +1,7 @@
 /* Simple & Fresh Skills Section */
 .skills-section {
   padding: 80px 40px;
-  background: #0f0f23;
+  background: var(--bg-color, #121212);
   min-height: 100vh;
 }
 
@@ -461,7 +461,7 @@
   position: relative;
 }
 
-.skills-category::before {
+/* .skills-category::before {
   content: '';
   position: absolute;
   top: 0;
@@ -470,7 +470,7 @@
   height: 100%;
   background: #2a62fc;
   border-radius: 0 0 0 16px;
-}
+} */
 
 .skills-category h3 {
   font-size: 1.5rem;
@@ -548,9 +548,16 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 1005px) {
   .skills-section {
     padding: 60px 20px;
+  }
+
+  .skills-container{
+    max-width: 500px;
+    padding: 0px;
+    position: relative;
+    right: 50px;
   }
   
   .skills-title {
@@ -576,6 +583,7 @@
   
   .skill-progress-item {
     padding: 20px;
+    width: 100%;
   }
   
   .skills-category {

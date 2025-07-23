@@ -3,7 +3,6 @@
   border-radius: 8px;
   box-shadow: var(--card-shadow, 0 10px 30px -15px rgba(2, 12, 27, 0.7));
   background-color: var(--card-bg, #112240);
-  border: 1px solid var(--divider-border, #233554);
   margin: 10px;
   width: 280px;
   min-height: 180px;

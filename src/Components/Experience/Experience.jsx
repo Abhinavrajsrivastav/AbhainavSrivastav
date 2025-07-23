@@ -117,7 +117,7 @@ const Experience = () => {
       <div className="experience-container">
         {/* Experience Stats */}
         <div className="experience-stats">
-          <div className="stats-grid">
+          <div className="exp-stats-grid">
             {experienceStats.map((stat, index) => (
               <div 
                 key={index}
@@ -198,7 +198,7 @@ const Experience = () => {
                         </ul>
                       </div>
                       
-                      <div className="achievements-section">
+                      <div className="experience-card-section">
                         <h5>Impact & Achievements</h5>
                         <div className="achievements-tags">
                           {exp.achievements.map((achievement, idx) => (

@@ -1,7 +1,7 @@
 /* Simple & Clean Experience Section */
 .experience-section {
   padding: 80px 40px;
-  background: #0f0f23;
+  background: var(--bg-color, #121212);
   min-height: 100vh;
 }
 
@@ -50,9 +50,10 @@
   margin-bottom: 80px;
 }
 
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.exp-stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -63,6 +64,7 @@
   border-radius: 12px;
   padding: 30px 20px;
   text-align: center;
+  max-width: 350px;;
 }
 
 .stat-icon {
@@ -285,12 +287,13 @@
   height: 100%;
 }
 
-.achievements-section {
+.experience-card-section {
   margin-bottom: 25px;
-  height: 100%;
+  height: auto;
+  max-height: 300px;
 }
 
-.description-section h5, .achievements-section h5, .technologies-section h5 {
+.description-section h5, .experience-card-section h5, .technologies-section h5 {
   font-size: 1.1rem;
   color: #ffffff;
   margin-bottom: 16px;
@@ -300,7 +303,7 @@
 }
 
 .description-section h5::before,
-.achievements-section h5::before,
+.experience-card-section h5::before,
 .technologies-section h5::before {
   content: '';
   width: 3px;
@@ -311,12 +314,14 @@
 }
 
 .description-list {
+  text-align: start;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .description-list li {
+  text-align: start;
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.6;
   margin-bottom: 12px;
@@ -383,7 +388,7 @@
 }
 
 @media (max-width: 768px) {
-  .experience-section {
+  .experience-card-section {
     padding: 60px 20px;
   }
   
@@ -450,7 +455,7 @@
 }
 
 @media (max-width: 480px) {
-  .experience-section {
+  .experience-card-section {
     padding: 50px 15px;
   }
   
