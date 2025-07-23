@@ -45,7 +45,7 @@ const About = () => {
             <a href="https://www.instagram.com/_abhinav_srivastav__/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={30} color="#C13584" />
             </a>
-            <a href="https://www.linkedin.com/in/abhinavraj/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn size={30} color="#0077B5" />
             </a>
             <a href="https://twitter.com/srivast254" target="_blank" rel="noopener noreferrer">
