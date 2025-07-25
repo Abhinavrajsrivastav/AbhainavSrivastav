@@ -44,7 +44,7 @@ body {
 
 .Name span{
   font-size: 28px;
-  color: var(--heading-text);
+  /* color: var(--heading-text); */
 }
 
 .OpenC, .CloseC {
