@@ -24,7 +24,7 @@ const Fotter = () => {
                 </div>
                 <div className="Fotter-Content">
                 <div className="Fotter-General FC">
-                        <p>Coding<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <p>Coding<span style={{color: '#3169f6f7'}}>.</span></p>
                         <a href="https://auth.geeksforgeeks.org/user/abhirajsrivast254">GFG</a>
                         <a href="https://github.com/Abhinavrajsrivastav">GitHub</a>
                         <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/">LinkedIn</a>
@@ -32,15 +32,15 @@ const Fotter = () => {
                         <a href="https://www.hackerrank.com/profile/CSME2A_b1531174">Hackerrank</a>
                     </div>
                     <div className="Fotter-General FC">
-                        <p>General<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <p>General<span style={{color: '#3169f6f7'}}>.</span></p>
                         <a href="/Home">Home</a>
                         <Link to="/About"><span>About</span></Link>
-                        <a href="https://drive.google.com/file/d/1kc51C6pbCtJSIstJWkakNYWhzGp2dLWZ/view?usp=sharing">Resume</a>
+                        <a href="https://drive.google.com/file/d/1tuekxyAMeC9v6dqaHEL7ycZjC6ZfiDfe/view?usp=sharing">Resume</a>
                         {/* <a href="https://www.codechef.com/users/abhinav_254"><span>CodeChef</span></a> */}
                         <Link to="/Achievements"><span>Achievements</span></Link>
                     </div>
                     <div className="Fotter-Projects FC">
-                        <p>Works<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <p>Works<span style={{color: '#3169f6f7'}}>.</span></p>
                         <a href="/">Work</a>
                         {/* <a href="https://qr.ae/ps7o2C">Vlogs</a> */}
                         <a href="https://medium.com/@abhiraj.srivast254/">Blogs</a>
@@ -48,10 +48,10 @@ const Fotter = () => {
                         <a href="https://github.com/Abhinavrajsrivastav">Contributions</a>
                     </div>
                     <div className="Fotter-Social FC">
-                        <p>Socials<span style={{color: 'rgb(18, 197, 202)'}}>.</span></p>
+                        <p>Socials<span style={{color: '#3169f6f7'}}>.</span></p>
                         <a href="https://twitter.com/srivast254">Twitter</a>
                         <a href="https://www.linkedin.com/in/abhinav-raj-srivastava-599aaa1b2/">Portfolio</a>
-                        <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">YouTube</a>
+                        {/* <a href="https://www.youtube.com/channel/UCQbYznJOHsukO50pvrphMUg">YouTube</a> */}
                         <a href="https://www.instagram.com/_abhinav_srivastav__/">Instagram</a>
                     </div>
                 </div>
