@@ -71,7 +71,7 @@ const AchiementData = () => {
             techs: ["Java", "Advanced Data Structures","Software Architecture", "Relational Database Design", "Data Munging",  "Java", "Python"]
         },
         {
-            src: "./images/Achivements/Java_Pw.png",
+            src: "./images/Achivements/walmart.png",
             gitHub: "",
             org: "Walmart USA",
             name: "Advanced Software Engineering Job Simulation",
