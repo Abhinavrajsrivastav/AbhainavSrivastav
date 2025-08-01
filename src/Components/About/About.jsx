@@ -8,8 +8,8 @@ const About = () => {
       <div className="about-body">
         <div className="abouts-me">
           <h3>About Me<span style={{color: 'rgb(18, 197, 202)'}}>.</span></h3>
-          <span>Hey! I'm Abhinav Srivastava, a Software Engineer and Content Creator from Ayodhya, currently living in Ghaziabad, Uttar Pradesh.</span>
-          <span>Recent B.Tech graduate in Computer Science from <a href="https://www.abes.ac.in/" target="_blank" rel="noopener noreferrer">ABES</a> Engineering College Ghaziabad with experience in full-stack development.</span>
+          <span>Hey! I'm Abhinav Raj Srivastava, a Software Engineer and Content Creator from Ayodhya, currently living in Ghaziabad, Uttar Pradesh.</span>
+          <span>Recently graduated in Computer Science Engineering AIML from <a href="https://www.abes.ac.in/" target="_blank" rel="noopener noreferrer">ABES</a> Engineering College Ghaziabad with experience in Java full-stack development.</span>
           <span>I specialize in building scalable multi-tenant architectures, real-time data processing systems, and AI-driven platforms using Java, Python, JavaScript, Spring Boot, and ReactJS.</span>
           <span>Experienced in working with cloud technologies, microservices, and have contributed to financial data systems with AES encryption and Kafka-based event processing.</span>
           <span>Passionate about creating innovative solutions - from interview management systems to AI-powered developer platforms, while actively contributing to open source and educational content.</span>

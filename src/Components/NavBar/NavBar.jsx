@@ -49,7 +49,7 @@ const NavBar = () => {
       <div className="Name">
         <div className="My-Name">
           <span className='OpenC'>{OpenC}</span>
-          <span>{name}</span>
+          <span style={{color:"white"}}>{name}</span>
           <span className='CloseC'>{CloseC}</span>
         </div>
         <div className="ToggleMenu" onClick={toggleMenu}>
