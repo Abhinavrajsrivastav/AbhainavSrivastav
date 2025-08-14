@@ -26,7 +26,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Github Stats",
-            about: "🏆 Achived 15+ Stars | 1100+ Commits",
+            about: "🏆 Achived 15+ Stars | 1500+ Commits",
             link: "https://github.com/Abhinavrajsrivastav",
             techs: ["Core Java", "DSA", "Competitive Programming", "Contribution", "Open Source", "JavaScript", "React.js", "Node.js", "Spring Boot"]
         },
@@ -35,7 +35,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "GeeksForGeeks",
-            about: "🏆 Institution Rank 23 | 1670+ Rating | 3 ⭐",
+            about: "🏆 Institution Rank 16 | 1670+ Rating | 3 ⭐",
             link: "https://auth.geeksforgeeks.org/user/abhirajsrivast254",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Coding Contest"]
         },
@@ -44,7 +44,7 @@ const AchiementData = () => {
             gitHub: "",
             org: "",
             name: "Hackerrank Stats",
-            about: "🏆 Java - 3 🌟| C - 4 🌟| PS - 3 🌟",
+            about: "🏆 Java - 4 🌟| C - 4 🌟| PS - 3 🌟",
             link: "https://www.hackerrank.com/profile/CSME2A_b1531174",
             techs: ["Java", "DSA", "Competitive Programming", "C", "Problem Solving", "SQL", "Python"]
         },
