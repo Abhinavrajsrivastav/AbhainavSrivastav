@@ -24,7 +24,6 @@ const About = () => {
               <li>AI-Powered Platform Development</li>
               <li>Database Design & Optimization</li>
               <li>Cloud Deployment & DevOps</li>
-              <li>Microservices Architecture</li>
               <li>Financial Data Systems</li>
               <li>Interview Management Systems</li>
               <li>API Development & Integration</li>
