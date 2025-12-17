@@ -32,19 +32,23 @@
 }
 
 .highlight {
-  color: var(--primary-accent, #0077FF);
+  color: var(--accent-color);
 }
 
 .Head-About {
   font-size: 42px;
   font-weight: 700;
-  color: var(--heading-text, #E6F1FF);
+  color: var(--text-primary);
   margin-bottom: 16px;
   line-height: 1.2;
 }
 
 .highlights{
-  color: #3169f6f7;
+  color: var(--accent-color);
+  background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .Profession {
@@ -60,32 +64,19 @@
 }
 
 .element-1 p{
-  background-color: rgb(237, 241, 247);
-}
-
-.element-2{
-  display: flex;
-  flex-direction: row;
-  gap: 7px;
-}
-
-.element-2 img{
-  height: 25px;
-  width: 25px;
-}
-
-.Astronomy{
-  font-size: 20px;
-  position: relative;
-  top: 0px;
-  Left: 5px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
 }
 
 .Profession p {
-  padding: 5px;
-  font-size: 13px;
-  background-color: #3169f6f7;
-  border-radius: 2px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .My-Thought {
@@ -115,8 +106,13 @@
 
 .My-Images img {
   max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(15, 86, 178, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 25px var(--shadow-color);
+  transition: transform 0.3s ease;
+}
+
+.My-Images img:hover {
+  transform: scale(1.05);
 }
 
 .wooo{
@@ -131,13 +127,14 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #3169f6f7;
-  transition: all 0.2s ease;
-
+  background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--shadow-color);
 }
 
-.button:active {
-  transform: scale(0.96);
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--shadow-color);
 }
 
 .button:before,
@@ -285,33 +282,42 @@
 }
 
 .Coding-Profile-Button {
-  padding: 5px;
-  background-color: #204053f2; /* Change the color as per your preference */
-  color: rgb(255, 255, 255);
-  border: none;
-  border-radius: 5px;
+  padding: 8px 12px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  border-radius: 8px;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: all 0.3s ease;
   font-size: 12px;
-  margin: 5px 15px 5px -10px;
+  margin: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Coding-Profile-Button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px var(--shadow-color);
 }
 
 .git:hover {
- color:  rgb(135, 48, 143);
- box-shadow: 0 0 10px 0 rgb(192, 73, 251);
+  color: #6e5494;
+  box-shadow: 0 0 15px rgba(110, 84, 148, 0.5);
 }
 
 .hack:hover {
- color:  rgb(7, 147, 42);
- box-shadow: 0 0 10px 0 rgb(32, 255, 61);
+  color: #00ea64;
+  box-shadow: 0 0 15px rgba(0, 234, 100, 0.5);
 }
+
 .leet:hover {
- color:  rgb(247, 221, 23);
- box-shadow: 0 0 10px 0 rgb(255, 235, 53);
+  color: #ffa116;
+  box-shadow: 0 0 15px rgba(255, 161, 22, 0.5);
 }
+
 .gfg:hover {
- color:  rgb(0, 167, 0);
- box-shadow: 0 0 10px 0 rgb(14, 255, 62);
+  color: #0f9d58;
+  box-shadow: 0 0 15px rgba(15, 157, 88, 0.5);
 }
 
 @media (max-width: 870px) and (min-width: 765px){

@@ -37,10 +37,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="Home-Container">
-
+    <div className="Home-Container fade-in">
       <div className="Home-Head">
-        <div className="about-me">
+        <div className="about-me slide-in-left">
           <div className="Head-About">
             <span className="highlights">Coding</span> &amp;
             {/* <br className="break-line" /> */}
@@ -57,7 +56,7 @@ const Home = () => {
           <div className="My-Thought">
             <span>I turn ideas into reality with the help of software engineering, and I share my stories as a content creator.</span>
           </div>
-<div className="Chat">
+          <div className="Chat">
             <Link to="/Contact">
               <button className="Chat-Btn button">Let's Chat!</button>
             </Link>
@@ -66,7 +65,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="My-Profile">
+        <div className="My-Profile slide-in-right">
           <p className="wooo">🎉🎉</p>
           {Deck && <Deck />}
         </div>
